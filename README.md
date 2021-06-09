@@ -1,2 +1,4 @@
 # OBC_PCB_hardware
-design files for the onboard computer pcb
+Design files for the onboard computer pcb, currently on V1.0 IP
+
+Contact James Chen (OBC lead) at james.chen3@ucalgary.ca for more info
