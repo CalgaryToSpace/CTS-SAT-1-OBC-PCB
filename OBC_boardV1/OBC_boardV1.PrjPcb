@@ -108,7 +108,7 @@ GenerateClassCluster=0
 DocumentUniqueId=FTMDGWZI
 
 [Document5]
-DocumentPath=PcbLib1.PcbLib
+DocumentPath=OBC_boardV1.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
