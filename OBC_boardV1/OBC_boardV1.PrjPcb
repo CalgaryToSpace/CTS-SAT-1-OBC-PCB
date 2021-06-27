@@ -124,6 +124,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SNAESTUL
 
+[Document6]
+DocumentPath=Top Sheet.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ZSAEMUSU
+
 [DeviceSheetFolder1]
 Path=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC_boardV1\
 IncludeSubFolders=1
