@@ -29,7 +29,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-IsProjectConflictPreventionWarningsEnabled=1
+IsProjectConflictPreventionWarningsEnabled=0
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
@@ -40,13 +40,13 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=STM32.SchDoc
+DocumentPath=Microcontroller.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -54,10 +54,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=OGOZRCSQ
+DocumentUniqueId=AEVXXUCP
 
 [Document2]
-DocumentPath=PC104_headers_and_storage.SchDoc
+DocumentPath=OBC Development Board.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -71,10 +71,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=MUEBOOWW
+DocumentUniqueId=ZHZZAPYG
 
 [Document3]
-DocumentPath=CalgaryToSpace.LibPkg
+DocumentPath=OBC Development Board.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -88,45 +88,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document4]
-DocumentPath=OBC_boardV1.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=FTMDGWZI
-
-[Document5]
-DocumentPath=OBC_boardV1.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=SNAESTUL
-
-[DeviceSheetFolder1]
-Path=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC_boardV1\
-IncludeSubFolders=1
+DocumentUniqueId=NJUIEJAO
 
 [Configuration1]
 Name=Sources
@@ -315,8 +277,6 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-Configuration10_Name1=OutputConfigurationParameter1
-Configuration10_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC_boardV1\OBCboardSheet1V1.0.0.SchDoc
 OutputType11=SimView Print
 OutputName11=SimView Prints
 OutputDocumentPath11=
@@ -879,7 +839,7 @@ Type5=2
 Type6=2
 Type7=0
 Type8=1
-Type9=1
+Type9=2
 Type10=1
 Type11=2
 Type12=0
@@ -998,23 +958,23 @@ Type124=1
 Type125=1
 
 [ERC Connection Matrix]
-L1=NNNNNNNNNNNWNNNWW
-L2=NNWNNNNWWWNWNWNWN
-L3=NWEENEEEENEWNEEWN
-L4=NNENNNWEENNWNENWN
-L5=NNNNNNNNNNNNNNNNN
-L6=NNENNNNEENNWNENWN
-L7=NNEWNNWEENNWNENWN
-L8=NWEENEENEEENNEENN
-L9=NWEENEEEENEWNEEWW
-L10=NWNNNNNENNEWNNEWN
-L11=NNENNNNEEENWNENWN
-L12=WWWWNWWNWWWNWWWNN
-L13=NNNNNNNNNNNWNNNWW
-L14=NWEENEEEENEWNEEWW
-L15=NNENNNNEEENWNENWW
-L16=WWWWNWWNWWWNWWWNW
-L17=WNNNNNNNWNNNWWWWN
+L1=NNNNNNNNNNNWNNNWE
+L2=NNWNNNNWWWNWNWNWE
+L3=NWEENEEEENEWNEEWE
+L4=NNENNNWEENNWNENWE
+L5=NNNNNNNNNNNNNNNNE
+L6=NNENNNNEENNWNENWE
+L7=NNEWNNWEENNWNENWE
+L8=NWEENEENEEENNEENE
+L9=NWEENEEEENEWNEEWE
+L10=NWNNNNNENNEWNNEWE
+L11=NNENNNNEEENWNENWE
+L12=WWWWNWWNWWWNWWWNE
+L13=NNNNNNNNNNNWNNNWE
+L14=NWEENEEEENEWNEEWE
+L15=NNENNNNEEENWNENWE
+L16=WWWWNWWNWWWNWWWNE
+L17=EEEEEEEEEEEEEEEEE
 
 [Annotate]
 SortOrder=3
@@ -1038,10 +998,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=OBC Development Board.SchLib
+ComponentDesignItemID0=U-STM32L412CBT6P
+ComponentSymbolReference0=U-STM32L412CBT6P
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1055,6 +1021,27 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Comment
+ParameterUpdate0=1
+ParameterName1=Component Kind
+ParameterUpdate1=1
+ParameterName2=Description
+ParameterUpdate2=1
+ParameterName3=Distributor
+ParameterUpdate3=1
+ParameterName4=Distributor Part #
+ParameterUpdate4=1
+ParameterName5=Library Reference
+ParameterUpdate5=1
+ParameterName6=Manufacturer
+ParameterUpdate6=1
+ParameterName7=Manufacturer Part #
+ParameterUpdate7=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=U-STM32L412CBT6P
+ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
