@@ -127,19 +127,32 @@ DocumentUniqueId=ZZJEWDAV
 
 [ProjectVariant1]
 UniqueID=75CCA10C-F0E7-4652-A099-8AD565C6ADB5
-Description=Development
+Description=STM32L5
 AllowFabrication=0
 ParameterCount=0
-VariationCount=9
+VariationCount=11
 Variation1=Designator=R10|UniqueId=\RBTUUKSG|Kind=1|AlternatePart= 
 Variation2=Designator=R11|UniqueId=\PCBTTJCT|Kind=1|AlternatePart= 
-Variation3=Designator=R12|UniqueId=\TXADBHIQ|Kind=1|AlternatePart= 
+Variation3=Designator=R13|UniqueId=\TXADBHIQ|Kind=1|AlternatePart= 
 Variation4=Designator=R9|UniqueId=\ACWSUQAI|Kind=1|AlternatePart= 
 Variation5=Designator=R8|UniqueId=\OLXRJAPI|Kind=1|AlternatePart= 
 Variation6=Designator=R6|UniqueId=\WEVYOUKH|Kind=1|AlternatePart= 
 Variation7=Designator=R5|UniqueId=\VODPNTAQ|Kind=1|AlternatePart= 
 Variation8=Designator=R4|UniqueId=\VDRISBTL|Kind=1|AlternatePart= 
 Variation9=Designator=R3|UniqueId=\KMFPMCRE|Kind=1|AlternatePart= 
+Variation10=Designator=R?|UniqueId=\RRRYNKCT|Kind=1|AlternatePart= 
+Variation11=Designator=R?|UniqueId=\TVKOJKXT|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueID=7EA85D23-C64D-4F15-B2C8-2EB3787C17B6
+Description=STM32L4
+AllowFabrication=0
+ParameterCount=0
+VariationCount=3
+Variation1=Designator=C?|UniqueId=\ZJSWPLKF|Kind=1|AlternatePart= 
+Variation2=Designator=L?|UniqueId=\WEULSCMS|Kind=1|AlternatePart= 
+Variation3=Designator=R89|UniqueId=\HTDHUYGH|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
