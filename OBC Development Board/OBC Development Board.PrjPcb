@@ -126,13 +126,13 @@ GenerateClassCluster=0
 DocumentUniqueId=ZZJEWDAV
 
 [Document6]
-DocumentPath=Motor Controller.SchDoc
+DocumentPath=Motor Control.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -144,32 +144,148 @@ DocumentUniqueId=CRGZREDL
 
 [ProjectVariant1]
 UniqueID=75CCA10C-F0E7-4652-A099-8AD565C6ADB5
-Description=STM32L5
+Description=Build
 AllowFabrication=0
 ParameterCount=0
-VariationCount=11
-Variation1=Designator=R10|UniqueId=\RBTUUKSG|Kind=1|AlternatePart= 
-Variation2=Designator=R11|UniqueId=\PCBTTJCT|Kind=1|AlternatePart= 
-Variation3=Designator=R13|UniqueId=\TXADBHIQ|Kind=1|AlternatePart= 
-Variation4=Designator=R9|UniqueId=\ACWSUQAI|Kind=1|AlternatePart= 
-Variation5=Designator=R8|UniqueId=\OLXRJAPI|Kind=1|AlternatePart= 
-Variation6=Designator=R6|UniqueId=\WEVYOUKH|Kind=1|AlternatePart= 
-Variation7=Designator=R5|UniqueId=\VODPNTAQ|Kind=1|AlternatePart= 
-Variation8=Designator=R4|UniqueId=\VDRISBTL|Kind=1|AlternatePart= 
-Variation9=Designator=R3|UniqueId=\KMFPMCRE|Kind=1|AlternatePart= 
-Variation10=Designator=R?|UniqueId=\RRRYNKCT|Kind=1|AlternatePart= 
-Variation11=Designator=R?|UniqueId=\TVKOJKXT|Kind=1|AlternatePart= 
-ParamVariationCount=0
-
-[ProjectVariant2]
-UniqueID=7EA85D23-C64D-4F15-B2C8-2EB3787C17B6
-Description=STM32L4
-AllowFabrication=0
-ParameterCount=0
-VariationCount=3
-Variation1=Designator=C?|UniqueId=\ZJSWPLKF|Kind=1|AlternatePart= 
-Variation2=Designator=L?|UniqueId=\WEULSCMS|Kind=1|AlternatePart= 
-Variation3=Designator=R89|UniqueId=\HTDHUYGH|Kind=1|AlternatePart= 
+VariationCount=138
+Variation1=Designator=R11|UniqueId=\MEOAJOVO|Kind=1|AlternatePart= 
+Variation2=Designator=R13|UniqueId=\QNEIGCIK|Kind=1|AlternatePart= 
+Variation3=Designator=R8|UniqueId=\LPBBEUMZ|Kind=1|AlternatePart= 
+Variation4=Designator=R6|UniqueId=\BOUORYBI|Kind=1|AlternatePart= 
+Variation5=Designator=R12|UniqueId=\TIYDOGOD|Kind=1|AlternatePart= 
+Variation6=Designator=R17|UniqueId=\LFAWVKTT|Kind=1|AlternatePart= 
+Variation7=Designator=R21|UniqueId=\PMVZBGCD|Kind=1|AlternatePart= 
+Variation8=Designator=R25|UniqueId=\JSXSTMES|Kind=1|AlternatePart= 
+Variation9=Designator=R27|UniqueId=\NNRKZJXH|Kind=1|AlternatePart= 
+Variation10=Designator=R28|UniqueId=\UZZCWCQH|Kind=1|AlternatePart= 
+Variation11=Designator=R31|UniqueId=\NXSFNGQU|Kind=1|AlternatePart= 
+Variation12=Designator=R33|UniqueId=\NOBTXMTN|Kind=1|AlternatePart= 
+Variation13=Designator=R35|UniqueId=\XUMXQSHR|Kind=1|AlternatePart= 
+Variation14=Designator=R37|UniqueId=\CTEUXDGP|Kind=1|AlternatePart= 
+Variation15=Designator=R39|UniqueId=\IRUUVMAY|Kind=1|AlternatePart= 
+Variation16=Designator=R42|UniqueId=\PIIZIHIP|Kind=1|AlternatePart= 
+Variation17=Designator=R41|UniqueId=\CRCIWDHY|Kind=1|AlternatePart= 
+Variation18=Designator=R40|UniqueId=\OUECTLIE|Kind=1|AlternatePart= 
+Variation19=Designator=R38|UniqueId=\HYETRJOZ|Kind=1|AlternatePart= 
+Variation20=Designator=R36|UniqueId=\JEECYFML|Kind=1|AlternatePart= 
+Variation21=Designator=R26|UniqueId=\ZAPUZFDB|Kind=1|AlternatePart= 
+Variation22=Designator=R22|UniqueId=\SDLMLBXP|Kind=1|AlternatePart= 
+Variation23=Designator=R20|UniqueId=\XEVCRATQ|Kind=1|AlternatePart= 
+Variation24=Designator=R19|UniqueId=\XXATLHOX|Kind=1|AlternatePart= 
+Variation25=Designator=R64|UniqueId=\IFAKTKWO|Kind=1|AlternatePart= 
+Variation26=Designator=R66|UniqueId=\KPLUMNTX|Kind=1|AlternatePart= 
+Variation27=Designator=R68|UniqueId=\YSAMEGMG|Kind=1|AlternatePart= 
+Variation28=Designator=R70|UniqueId=\TABXQKDH|Kind=1|AlternatePart= 
+Variation29=Designator=R74|UniqueId=\QAIMKINF|Kind=1|AlternatePart= 
+Variation30=Designator=R76|UniqueId=\ITQLICTW|Kind=1|AlternatePart= 
+Variation31=Designator=R77|UniqueId=\NKYFTVHO|Kind=1|AlternatePart= 
+Variation32=Designator=R78|UniqueId=\BALSIRAB|Kind=1|AlternatePart= 
+Variation33=Designator=R82|UniqueId=\YVWHZPVC|Kind=1|AlternatePart= 
+Variation34=Designator=R90|UniqueId=\QAFQONCK|Kind=1|AlternatePart= 
+Variation35=Designator=R91|UniqueId=\PDBIOZWG|Kind=1|AlternatePart= 
+Variation36=Designator=R92|UniqueId=\PMRNPGBP|Kind=1|AlternatePart= 
+Variation37=Designator=R93|UniqueId=\DRFXVTSB|Kind=1|AlternatePart= 
+Variation38=Designator=R96|UniqueId=\LRSSHBAI|Kind=1|AlternatePart= 
+Variation39=Designator=R108|UniqueId=\QNPXMPUR|Kind=1|AlternatePart= 
+Variation40=Designator=R109|UniqueId=\EQOEMOJC|Kind=1|AlternatePart= 
+Variation41=Designator=R113|UniqueId=\KLZTMJFP|Kind=1|AlternatePart= 
+Variation42=Designator=R101|UniqueId=\PDGARYIF|Kind=1|AlternatePart= 
+Variation43=Designator=R99|UniqueId=\ZKERJGPL|Kind=1|AlternatePart= 
+Variation44=Designator=R98|UniqueId=\NGRMESMA|Kind=1|AlternatePart= 
+Variation45=Designator=R97|UniqueId=\PDHOQINJ|Kind=1|AlternatePart= 
+Variation46=Designator=R89|UniqueId=\QAGVAFXI|Kind=1|AlternatePart= 
+Variation47=Designator=R81|UniqueId=\GXBDVAWY|Kind=1|AlternatePart= 
+Variation48=Designator=R79|UniqueId=\RQWXBJKB|Kind=1|AlternatePart= 
+Variation49=Designator=R75|UniqueId=\OJAMQKQD|Kind=1|AlternatePart= 
+Variation50=Designator=R73|UniqueId=\MKQATHGQ|Kind=1|AlternatePart= 
+Variation51=Designator=R71|UniqueId=\GSTRZLKE|Kind=1|AlternatePart= 
+Variation52=Designator=R69|UniqueId=\SQKNSWDA|Kind=1|AlternatePart= 
+Variation53=Designator=R67|UniqueId=\QLOFGYWS|Kind=1|AlternatePart= 
+Variation54=Designator=R65|UniqueId=\YYMZCCJR|Kind=1|AlternatePart= 
+Variation55=Designator=R63|UniqueId=\CFNZRITN|Kind=1|AlternatePart= 
+Variation56=Designator=R62|UniqueId=\SRYCRFDZ|Kind=1|AlternatePart= 
+Variation57=Designator=R61|UniqueId=\XCWCGJAD|Kind=1|AlternatePart= 
+Variation58=Designator=R149|UniqueId=\TFJDOZMM|Kind=1|AlternatePart= 
+Variation59=Designator=R224|UniqueId=\LIWFXSZI|Kind=1|AlternatePart= 
+Variation60=Designator=R223|UniqueId=\XLGOOWYP|Kind=1|AlternatePart= 
+Variation61=Designator=R222|UniqueId=\BEUUUWET|Kind=1|AlternatePart= 
+Variation62=Designator=R221|UniqueId=\MTSASDDM|Kind=1|AlternatePart= 
+Variation63=Designator=R220|UniqueId=\CWHRTMDR|Kind=1|AlternatePart= 
+Variation64=Designator=R219|UniqueId=\TIODEHWB|Kind=1|AlternatePart= 
+Variation65=Designator=R218|UniqueId=\NPJKUMTP|Kind=1|AlternatePart= 
+Variation66=Designator=R217|UniqueId=\MGBIOUDW|Kind=1|AlternatePart= 
+Variation67=Designator=R216|UniqueId=\EMVWGFLP|Kind=1|AlternatePart= 
+Variation68=Designator=R215|UniqueId=\JBNBYWXL|Kind=1|AlternatePart= 
+Variation69=Designator=R214|UniqueId=\ZXUOMTKU|Kind=1|AlternatePart= 
+Variation70=Designator=R213|UniqueId=\PNXSRSYF|Kind=1|AlternatePart= 
+Variation71=Designator=R212|UniqueId=\NCFBNTXX|Kind=1|AlternatePart= 
+Variation72=Designator=R211|UniqueId=\PHJEQVKE|Kind=1|AlternatePart= 
+Variation73=Designator=R210|UniqueId=\HODNXKLR|Kind=1|AlternatePart= 
+Variation74=Designator=R209|UniqueId=\COJDKKNI|Kind=1|AlternatePart= 
+Variation75=Designator=R208|UniqueId=\VJUXQWZO|Kind=1|AlternatePart= 
+Variation76=Designator=R207|UniqueId=\STCJKIKW|Kind=1|AlternatePart= 
+Variation77=Designator=R206|UniqueId=\HAMTJPUS|Kind=1|AlternatePart= 
+Variation78=Designator=R205|UniqueId=\DMNZHIKP|Kind=1|AlternatePart= 
+Variation79=Designator=R204|UniqueId=\BICCPFSX|Kind=1|AlternatePart= 
+Variation80=Designator=R203|UniqueId=\LLEIQSKO|Kind=1|AlternatePart= 
+Variation81=Designator=R202|UniqueId=\CXVNOFCK|Kind=1|AlternatePart= 
+Variation82=Designator=R201|UniqueId=\UYBCJXXF|Kind=1|AlternatePart= 
+Variation83=Designator=R200|UniqueId=\QESAOGTI|Kind=1|AlternatePart= 
+Variation84=Designator=R199|UniqueId=\XWJURMRI|Kind=1|AlternatePart= 
+Variation85=Designator=R198|UniqueId=\XYLZVERE|Kind=1|AlternatePart= 
+Variation86=Designator=R197|UniqueId=\BJQHNQFH|Kind=1|AlternatePart= 
+Variation87=Designator=R196|UniqueId=\WUMCRCWC|Kind=1|AlternatePart= 
+Variation88=Designator=R195|UniqueId=\EBYMAFHQ|Kind=1|AlternatePart= 
+Variation89=Designator=R194|UniqueId=\HZDIZTWV|Kind=1|AlternatePart= 
+Variation90=Designator=R193|UniqueId=\CIZESZMK|Kind=1|AlternatePart= 
+Variation91=Designator=R192|UniqueId=\DYVHXVDB|Kind=1|AlternatePart= 
+Variation92=Designator=R191|UniqueId=\ZKRZVDNT|Kind=1|AlternatePart= 
+Variation93=Designator=R190|UniqueId=\SMHEEXWG|Kind=1|AlternatePart= 
+Variation94=Designator=R189|UniqueId=\DEQQEBXK|Kind=1|AlternatePart= 
+Variation95=Designator=R188|UniqueId=\PCGAAVND|Kind=1|AlternatePart= 
+Variation96=Designator=R187|UniqueId=\ZHDKFJTD|Kind=1|AlternatePart= 
+Variation97=Designator=R186|UniqueId=\WVYIJTDL|Kind=1|AlternatePart= 
+Variation98=Designator=R185|UniqueId=\QPTORATT|Kind=1|AlternatePart= 
+Variation99=Designator=R184|UniqueId=\JIHYPOBT|Kind=1|AlternatePart= 
+Variation100=Designator=R183|UniqueId=\DZCIRSEL|Kind=1|AlternatePart= 
+Variation101=Designator=R182|UniqueId=\BZONFWNP|Kind=1|AlternatePart= 
+Variation102=Designator=R181|UniqueId=\DYXSFTKO|Kind=1|AlternatePart= 
+Variation103=Designator=R180|UniqueId=\BZQCTCQP|Kind=1|AlternatePart= 
+Variation104=Designator=R179|UniqueId=\GACSAZDP|Kind=1|AlternatePart= 
+Variation105=Designator=R178|UniqueId=\ZVETNSBW|Kind=1|AlternatePart= 
+Variation106=Designator=R177|UniqueId=\QYLCMGYV|Kind=1|AlternatePart= 
+Variation107=Designator=R176|UniqueId=\WLRVVCCD|Kind=1|AlternatePart= 
+Variation108=Designator=R175|UniqueId=\FQDLJPRM|Kind=1|AlternatePart= 
+Variation109=Designator=R174|UniqueId=\BUNFIQAI|Kind=1|AlternatePart= 
+Variation110=Designator=R173|UniqueId=\POTEUKWR|Kind=1|AlternatePart= 
+Variation111=Designator=R172|UniqueId=\ILVRTABW|Kind=1|AlternatePart= 
+Variation112=Designator=R171|UniqueId=\YHQDGCUE|Kind=1|AlternatePart= 
+Variation113=Designator=R170|UniqueId=\SHRNDSGO|Kind=1|AlternatePart= 
+Variation114=Designator=R169|UniqueId=\NFMKLCNO|Kind=1|AlternatePart= 
+Variation115=Designator=R168|UniqueId=\GQBSRMIG|Kind=1|AlternatePart= 
+Variation116=Designator=R167|UniqueId=\BPLKFNEE|Kind=1|AlternatePart= 
+Variation117=Designator=R166|UniqueId=\UUKCIDSG|Kind=1|AlternatePart= 
+Variation118=Designator=R165|UniqueId=\KMYWHPXV|Kind=1|AlternatePart= 
+Variation119=Designator=R164|UniqueId=\FJJCVLVC|Kind=1|AlternatePart= 
+Variation120=Designator=R163|UniqueId=\LUZFWOGB|Kind=1|AlternatePart= 
+Variation121=Designator=R162|UniqueId=\UVDLGLWX|Kind=1|AlternatePart= 
+Variation122=Designator=R161|UniqueId=\YFCQAHPI|Kind=1|AlternatePart= 
+Variation123=Designator=R160|UniqueId=\LTEZCNYR|Kind=1|AlternatePart= 
+Variation124=Designator=R159|UniqueId=\VMWJJWXB|Kind=1|AlternatePart= 
+Variation125=Designator=R158|UniqueId=\JQQBXHNO|Kind=1|AlternatePart= 
+Variation126=Designator=R157|UniqueId=\HFOTZHUA|Kind=1|AlternatePart= 
+Variation127=Designator=R156|UniqueId=\EMKOLNZM|Kind=1|AlternatePart= 
+Variation128=Designator=R155|UniqueId=\XIHRRANF|Kind=1|AlternatePart= 
+Variation129=Designator=R154|UniqueId=\UKGRGHLH|Kind=1|AlternatePart= 
+Variation130=Designator=R153|UniqueId=\MIJFAZHX|Kind=1|AlternatePart= 
+Variation131=Designator=R152|UniqueId=\ANLOCRWU|Kind=1|AlternatePart= 
+Variation132=Designator=R151|UniqueId=\SLGEPYUJ|Kind=1|AlternatePart= 
+Variation133=Designator=R150|UniqueId=\EQBEAGWK|Kind=1|AlternatePart= 
+Variation134=Designator=R145|UniqueId=\UPBGYNBP|Kind=0|AlternatePart= 
+Variation135=Designator=R143|UniqueId=\PZBETEYI|Kind=1|AlternatePart= 
+Variation136=Designator=R146|UniqueId=\KGGFMBFL|Kind=1|AlternatePart= 
+Variation137=Designator=R137|UniqueId=\VUODYTUZ|Kind=1|AlternatePart= 
+Variation138=Designator=C42|UniqueId=\UAKBHDSE|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
@@ -291,7 +407,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Samsung SCX-3400 Series (USB001)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1104,16 +1220,196 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=1
+SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=OBC Development Board.SchLib
-ComponentDesignItemID0=U-STM32L412CBT6P
-ComponentSymbolReference0=U-STM32L412CBT6P
+ComponentDesignItemID0=CC-104-K-25V-X7R-0402
+ComponentSymbolReference0=CC-104-K-25V-X7R-0402
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=OBC Development Board.SchLib
+ComponentDesignItemID1=CC-105-K-25V-X7R-0603
+ComponentSymbolReference1=CC-105-K-25V-X7R-0603
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=OBC Development Board.SchLib
+ComponentDesignItemID2=CC-159-J-50V-C0G-0402
+ComponentSymbolReference2=CC-159-J-50V-C0G-0402
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=OBC Development Board.SchLib
+ComponentDesignItemID3=CC-228-J-50V-C0G-0402
+ComponentSymbolReference3=CC-228-J-50V-C0G-0402
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=OBC Development Board.SchLib
+ComponentDesignItemID4=CC-475-K-25V-X5R-0402
+ComponentSymbolReference4=CC-475-K-25V-X5R-0402
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=OBC Development Board.SchLib
+ComponentDesignItemID5=CT-225-M-20V-OTH-1206
+ComponentSymbolReference5=CT-225-M-20V-OTH-1206
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=OBC Development Board.SchLib
+ComponentDesignItemID6=CT-474-M-20V-OTH-1206
+ComponentSymbolReference6=CT-474-M-20V-OTH-1206
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=OBC Development Board.SchLib
+ComponentDesignItemID7=D-SML-D12U1WT86
+ComponentSymbolReference7=D-SML-D12U1WT86
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=OBC Development Board.SchLib
+ComponentDesignItemID8=J-629105150521
+ComponentSymbolReference8=J-629105150521
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=OBC Development Board.SchLib
+ComponentDesignItemID9=J-ESQ-126-14-G-D
+ComponentSymbolReference9=J-ESQ-126-14-G-D
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=OBC Development Board.SchLib
+ComponentDesignItemID10=J-LD09S13A4GX00LF
+ComponentSymbolReference10=J-LD09S13A4GX00LF
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=OBC Development Board.SchLib
+ComponentDesignItemID11=J-TSM-105-01-F-DV
+ComponentSymbolReference11=J-TSM-105-01-F-DV
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=OBC Development Board.SchLib
+ComponentDesignItemID12=L-MLP2016H4R7MT0S1
+ComponentSymbolReference12=L-MLP2016H4R7MT0S1
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=OBC Development Board.SchLib
+ComponentDesignItemID13=RT-0R00-F-1/10W-0402
+ComponentSymbolReference13=RT-0R00-F-1/10W-0402
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=OBC Development Board.SchLib
+ComponentDesignItemID14=RT-0R1-3W-2512
+ComponentSymbolReference14=RT-0R1-3W-2512
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=OBC Development Board.SchLib
+ComponentDesignItemID15=RT-100R-F-1/16W-0402
+ComponentSymbolReference15=RT-100R-F-1/16W-0402
+ComponentUpdate15=1
+ComponentIsDeviceSheet15=0
+ComponentLibIdentifierKind16=Library Name And Type
+ComponentLibraryIdentifier16=OBC Development Board.SchLib
+ComponentDesignItemID16=RT-10K0-F-1/16W-0402
+ComponentSymbolReference16=RT-10K0-F-1/16W-0402
+ComponentUpdate16=1
+ComponentIsDeviceSheet16=0
+ComponentLibIdentifierKind17=Library Name And Type
+ComponentLibraryIdentifier17=OBC Development Board.SchLib
+ComponentDesignItemID17=RT-220R-F-1/16W-0402
+ComponentSymbolReference17=RT-220R-F-1/16W-0402
+ComponentUpdate17=1
+ComponentIsDeviceSheet17=0
+ComponentLibIdentifierKind18=Library Name And Type
+ComponentLibraryIdentifier18=OBC Development Board.SchLib
+ComponentDesignItemID18=RT-22R0-F-1/16W-0402
+ComponentSymbolReference18=RT-22R0-F-1/16W-0402
+ComponentUpdate18=1
+ComponentIsDeviceSheet18=0
+ComponentLibIdentifierKind19=Library Name And Type
+ComponentLibraryIdentifier19=OBC Development Board.SchLib
+ComponentDesignItemID19=U-74LCX138MTC
+ComponentSymbolReference19=U-74LCX138MTC
+ComponentUpdate19=1
+ComponentIsDeviceSheet19=0
+ComponentLibIdentifierKind20=Library Name And Type
+ComponentLibraryIdentifier20=OBC Development Board.SchLib
+ComponentDesignItemID20=U-CY15B108QN-40SXI
+ComponentSymbolReference20=U-CY15B108QN-40SXI
+ComponentUpdate20=1
+ComponentIsDeviceSheet20=0
+ComponentLibIdentifierKind21=Library Name And Type
+ComponentLibraryIdentifier21=OBC Development Board.SchLib
+ComponentDesignItemID21=U-MAX14871EUE+T
+ComponentSymbolReference21=U-MAX14871EUE+T
+ComponentUpdate21=1
+ComponentIsDeviceSheet21=0
+ComponentLibIdentifierKind22=Library Name And Type
+ComponentLibraryIdentifier22=OBC Development Board.SchLib
+ComponentDesignItemID22=U-MAX3086EESD+T
+ComponentSymbolReference22=U-MAX3086EESD+T
+ComponentUpdate22=1
+ComponentIsDeviceSheet22=0
+ComponentLibIdentifierKind23=Library Name And Type
+ComponentLibraryIdentifier23=OBC Development Board.SchLib
+ComponentDesignItemID23=U-MAX3095CSE+T
+ComponentSymbolReference23=U-MAX3095CSE+T
+ComponentUpdate23=1
+ComponentIsDeviceSheet23=0
+ComponentLibIdentifierKind24=Library Name And Type
+ComponentLibraryIdentifier24=OBC Development Board.SchLib
+ComponentDesignItemID24=U-MAX3378EEUD+T
+ComponentSymbolReference24=U-MAX3378EEUD+T
+ComponentUpdate24=1
+ComponentIsDeviceSheet24=0
+ComponentLibIdentifierKind25=Library Name And Type
+ComponentLibraryIdentifier25=OBC Development Board.SchLib
+ComponentDesignItemID25=U-S70FL01GSAGMFI011
+ComponentSymbolReference25=U-S70FL01GSAGMFI011
+ComponentUpdate25=1
+ComponentIsDeviceSheet25=0
+ComponentLibIdentifierKind26=Library Name And Type
+ComponentLibraryIdentifier26=OBC Development Board.SchLib
+ComponentDesignItemID26=U-STM32L552ZET6Q
+ComponentSymbolReference26=U-STM32L552ZET6Q
+ComponentUpdate26=1
+ComponentIsDeviceSheet26=0
+ComponentLibIdentifierKind27=Library Name And Type
+ComponentLibraryIdentifier27=OBC Development Board.SchLib
+ComponentDesignItemID27=U-TLV7111812DSER
+ComponentSymbolReference27=U-TLV7111812DSER
+ComponentUpdate27=1
+ComponentIsDeviceSheet27=0
+ComponentLibIdentifierKind28=Library Name And Type
+ComponentLibraryIdentifier28=OBC Development Board.SchLib
+ComponentDesignItemID28=U-TPS2055AD
+ComponentSymbolReference28=U-TPS2055AD
+ComponentUpdate28=1
+ComponentIsDeviceSheet28=0
+ComponentLibIdentifierKind29=Library Name And Type
+ComponentLibraryIdentifier29=OBC Development Board.SchLib
+ComponentDesignItemID29=Y-ASFL1-25.000MHZ-L-T
+ComponentSymbolReference29=Y-ASFL1-25.000MHZ-L-T
+ComponentUpdate29=1
+ComponentIsDeviceSheet29=0
+ComponentLibIdentifierKind30=Library Name And Type
+ComponentLibraryIdentifier30=OBC_boardV1.SchLib
+ComponentDesignItemID30=RT-4K70-F-1/16W-0402
+ComponentSymbolReference30=RT-4K70-F-1/16W-0402
+ComponentUpdate30=1
+ComponentIsDeviceSheet30=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1127,27 +1423,137 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Comment
+ParameterName0=Alternate Distributor Part #
 ParameterUpdate0=1
-ParameterName1=Component Kind
+ParameterName1=Alternate Manufacturer
 ParameterUpdate1=1
-ParameterName2=Description
+ParameterName2=Alternate Manufacturer Part #
 ParameterUpdate2=1
-ParameterName3=Distributor
+ParameterName3=Checked By
 ParameterUpdate3=1
-ParameterName4=Distributor Part #
+ParameterName4=Comment
 ParameterUpdate4=1
-ParameterName5=Library Reference
+ParameterName5=Component Kind
 ParameterUpdate5=1
-ParameterName6=Manufacturer
+ParameterName6=ComponentLink1description
 ParameterUpdate6=1
-ParameterName7=Manufacturer Part #
+ParameterName7=ComponentLink1URL
 ParameterUpdate7=1
+ParameterName8=ComponentLink2description
+ParameterUpdate8=1
+ParameterName9=ComponentLink2URL
+ParameterUpdate9=1
+ParameterName10=Created By
+ParameterUpdate10=1
+ParameterName11=Description
+ParameterUpdate11=1
+ParameterName12=Digi-Key_Part_Number_3
+ParameterUpdate12=1
+ParameterName13=Digi-Key_Part_Number_4
+ParameterUpdate13=1
+ParameterName14=Distrbutor Part #
+ParameterUpdate14=1
+ParameterName15=Distributor
+ParameterUpdate15=1
+ParameterName16=Distributor Part #
+ParameterUpdate16=1
+ParameterName17=History
+ParameterUpdate17=1
+ParameterName18=Library Reference
+ParameterUpdate18=1
+ParameterName19=Manufacturer
+ParameterUpdate19=1
+ParameterName20=Manufacturer Part #
+ParameterUpdate20=1
+ParameterName21=Manufacturer Part Number
+ParameterUpdate21=1
+ParameterName22=Manufacturer Product #
+ParameterUpdate22=1
+ParameterName23=Notes
+ParameterUpdate23=1
+ParameterName24=Part Description
+ParameterUpdate24=1
+ParameterName25=Population
+ParameterUpdate25=1
+ParameterName26=RefDes
+ParameterUpdate26=1
+ParameterName27=ROHS
+ParameterUpdate27=1
+ParameterName28=RS2D ID
+ParameterUpdate28=1
+ParameterName29=SignalCraft Part #
+ParameterUpdate29=1
+ParameterName30=SourceLibrary
+ParameterUpdate30=1
+ParameterName31=Type
+ParameterUpdate31=1
+ParameterName32=Value
+ParameterUpdate32=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=U-STM32L412CBT6P
+ModelName0=0402
 ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=0603
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=0806
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=2512
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=CAP TANT 1206 (A) TCJ
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=D8
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=D-SML-D12U1WT86
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=J-629105150521
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=J-ESQ-126-14-G-D
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=J-LD09S13A4GX00LF
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=J-TSM-105-01-F-DV
+ModelUpdate10=1
+ModelType11=PCBLIB
+ModelName11=LQFP-144
+ModelUpdate11=1
+ModelType12=PCBLIB
+ModelName12=U-74LCX138MTC
+ModelUpdate12=1
+ModelType13=PCBLIB
+ModelName13=U-CY15B108QN-40SXI
+ModelUpdate13=1
+ModelType14=PCBLIB
+ModelName14=U-MAX14871EUE+T
+ModelUpdate14=1
+ModelType15=PCBLIB
+ModelName15=U-MAX3086EESD+T
+ModelUpdate15=1
+ModelType16=PCBLIB
+ModelName16=U-MAX3095CSE+T
+ModelUpdate16=1
+ModelType17=PCBLIB
+ModelName17=U-MAX3378EEUD+T
+ModelUpdate17=1
+ModelType18=PCBLIB
+ModelName18=U-S70FL01GSAGMFI011
+ModelUpdate18=1
+ModelType19=PCBLIB
+ModelName19=U-TLV7111812DSER
+ModelUpdate19=1
+ModelType20=PCBLIB
+ModelName20=Y-ASFL125000MHZLT
+ModelUpdate20=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
