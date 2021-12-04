@@ -1,4 +1,5 @@
-Record=TopLevelDocument|FileName=External Connectors.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=External Connectors.SchDoc|FileName=Memory.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=External Connectors.SchDoc|FileName=Motor Control.SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=External Connectors.SchDoc|FileName=STM32.SchDoc|SheetNumber=1
+Record=TopLevelDocument|FileName=Camera.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=Camera.SchDoc|FileName=External Connectors.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=Camera.SchDoc|FileName=Memory.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=Camera.SchDoc|FileName=Motor Control.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=Camera.SchDoc|FileName=STM32.SchDoc|SheetNumber=1
