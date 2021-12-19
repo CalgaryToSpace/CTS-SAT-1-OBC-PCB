@@ -1,0 +1,31 @@
+Added Component: Designator=J5(J-ESQ-126-14-G-D)
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part #"; Value = "SAM11114-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samtec Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "ESQ-126-14-G-D"; VariantName = "[No Variations]"
+Added Component: Designator=J6(J-ESQ-126-14-G-D)
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part #"; Value = "SAM11114-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samtec Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "ESQ-126-14-G-D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=J5-25
+Added Pin To Net: NetName=5V Pin=J5-26
+Added Pin To Net: NetName=3V3 Pin=J5-27
+Added Pin To Net: NetName=3V3 Pin=J5-28
+Added Pin To Net: NetName=GND Pin=J5-29
+Added Pin To Net: NetName=GND Pin=J5-30
+Added Pin To Net: NetName=GND Pin=J5-31
+Added Pin To Net: NetName=GND Pin=J5-32
+Added Pin To Net: NetName=V_BAT Pin=J5-45
+Added Pin To Net: NetName=V_BAT Pin=J5-46
+Added Pin To Net: NetName=I2C1_SDA Pin=J6-41
+Added Pin To Net: NetName=I2C1_SCL Pin=J6-43
+Added Pin To Net: NetName=GPS_3V3 Pin=J6-47
+Added Pin To Net: NetName=GPS_3V3 Pin=J6-48
+Added Pin To Net: NetName=PS_OUT2 Pin=J6-49
+Added Pin To Net: NetName=PS_OUT5 Pin=J6-50
+Added Pin To Net: NetName=PS_OUT3 Pin=J6-51
+Added Pin To Net: NetName=PS_OUT6 Pin=J6-52
+Added Member To Class: ClassName=External Connectors Member=Component J5 J-ESQ-126-14-G-D
+Added Member To Class: ClassName=External Connectors Member=Component J6 J-ESQ-126-14-G-D
+Added Room: Name=External Connectors
