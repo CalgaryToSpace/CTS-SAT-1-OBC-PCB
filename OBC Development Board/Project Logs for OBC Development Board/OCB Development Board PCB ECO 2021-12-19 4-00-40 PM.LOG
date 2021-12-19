@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=C? NewDesignator=C11
+Added Room: Name=Camera
+Added Room: Name=Memory
+Added Room: Name=Motor Control
+Added Room: Name=STM32

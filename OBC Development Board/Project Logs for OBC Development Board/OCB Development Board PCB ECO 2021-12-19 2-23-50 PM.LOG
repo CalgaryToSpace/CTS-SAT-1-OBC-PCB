@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=GND Pin=C21-1
+Removed Pin From Net: NetName=OSC_IN Pin=C21-2
+Change Component Footprint: Designator=C21 Old Footprint=0603 New Footprint=0402
+Added Pin To Net: NetName=OSC_IN Pin=C21-1
+Added Pin To Net: NetName=GND Pin=C21-2
+Added Room: Name=Camera
+Added Room: Name=External Connectors
+Added Room: Name=Memory
+Added Room: Name=Motor Control
+Added Room: Name=STM32

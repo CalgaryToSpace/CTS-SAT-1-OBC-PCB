@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=GND Pin=D2-C
+Removed Member From Class: ClassName=STM32 Member=D2
+Removed Member From Class: ClassName=STM32 Member=R42
+Removed Member From Class: ClassName=STM32 Member=R44
+Removed Member From Class: ClassName=STM32 Member=R45
+Added Room: Name=Camera
+Added Room: Name=External Connectors
+Added Room: Name=Memory
+Added Room: Name=Motor Control
+Added Room: Name=STM32

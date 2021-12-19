@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=3V3 Pin=C33-1
+Removed Pin From Net: NetName=GND Pin=C33-2
+Removed Pin From Net: NetName=GND Pin=C34-1
+Removed Pin From Net: NetName=GND Pin=C35-1
+Removed Pin From Net: NetName=LDO_1V8_EN Pin=R132-1
+Removed Pin From Net: NetName=GND Pin=R132-2
+Removed Pin From Net: NetName=GND Pin=R133-1
+Removed Pin From Net: NetName=LDO_1V2_EN Pin=R133-2
+Removed Pin From Net: NetName=LDO_1V8_EN Pin=U12-1
+Removed Pin From Net: NetName=3V3 Pin=U12-2
+Removed Pin From Net: NetName=LDO_1V2_EN Pin=U12-3
+Removed Pin From Net: NetName=GND Pin=U12-4
+Removed Member From Class: ClassName=External Connectors Member=C33
+Removed Member From Class: ClassName=External Connectors Member=C34
+Removed Member From Class: ClassName=External Connectors Member=C35
+Removed Member From Class: ClassName=External Connectors Member=R132
+Removed Member From Class: ClassName=External Connectors Member=R133
+Removed Member From Class: ClassName=External Connectors Member=U12
+Added Room: Name=Camera
+Added Room: Name=External Connectors
+Added Room: Name=Memory
+Added Room: Name=Motor Control
+Added Room: Name=STM32
