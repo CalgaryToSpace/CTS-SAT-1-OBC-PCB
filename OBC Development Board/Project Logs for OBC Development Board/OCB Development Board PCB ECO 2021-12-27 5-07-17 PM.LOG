@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=GPS_PPS Pin=U1-100
+Added Pin To Net: NetName=GPS_PPS Pin=U1-37
+Added Room: Name=Camera
+Added Room: Name=External Connectors
+Added Room: Name=Memory
+Added Room: Name=Motor Control
+Added Room: Name=STM32

@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=CAMERA_OE Pin=U1-7
+Removed Pin From Net: NetName=CAMERA_TRIG Pin=U1-8
+Removed Pin From Net: NetName=CAMERA_NRST Pin=U1-34
+Removed Pin From Net: NetName=CAMERA_NSTANDBY Pin=U1-35
+Removed Pin From Net: NetName=CAMERA_STROBE Pin=U1-36
+Added Pin To Net: NetName=CAMERA_NRST Pin=U1-135
+Added Pin To Net: NetName=CAMERA_NSTANDBY Pin=U1-139
+Added Pin To Net: NetName=CAMERA_STROBE Pin=U1-140
+Added Pin To Net: NetName=CAMERA_OE Pin=U1-141
+Added Pin To Net: NetName=CAMERA_TRIG Pin=U1-142
+Added Room: Name=Camera
+Added Room: Name=External Connectors
+Added Room: Name=Memory
+Added Room: Name=Motor Control
+Added Room: Name=STM32

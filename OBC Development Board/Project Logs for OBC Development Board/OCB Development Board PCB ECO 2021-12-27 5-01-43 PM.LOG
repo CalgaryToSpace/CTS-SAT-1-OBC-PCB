@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=USART1_RX Pin=J4-03
+Removed Pin From Net: NetName=USART1_TX Pin=J4-04
+Removed Pin From Net: NetName=USART3_RX Pin=U9-2
+Removed Pin From Net: NetName=USART3_TX Pin=U9-5
+Added Pin To Net: NetName=USART3_RX Pin=J4-03
+Added Pin To Net: NetName=USART3_TX Pin=J4-04
+Added Pin To Net: NetName=USART1_RX Pin=U9-2
+Added Pin To Net: NetName=USART1_TX Pin=U9-5
+Added Room: Name=Camera
+Added Room: Name=External Connectors
+Added Room: Name=Memory
+Added Room: Name=Motor Control
+Added Room: Name=STM32
