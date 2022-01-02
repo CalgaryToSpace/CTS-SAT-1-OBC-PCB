@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=NetR46_1 Pin=U1-46
+Removed Pin From Net: NetName=NetR43_1 Pin=U1-47
+Added Pin To Net: NetName=NetR46_1 Pin=U1-89
+Added Pin To Net: NetName=NetR43_1 Pin=U1-90
+Added Member To Class: ClassName=Motor Control Member=Component U16 MAX3095CSE+T
+Added Room: Name=Camera
+Added Room: Name=External Connectors
+Added Room: Name=Memory
+Added Room: Name=Motor Control
+Added Room: Name=STM32

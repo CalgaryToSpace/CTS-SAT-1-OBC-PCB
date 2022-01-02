@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=GPS_PWR_NEN Pin=U1-87
+Removed Pin From Net: NetName=GPS_PWR_NOC Pin=U1-88
+Added Pin To Net: NetName=GPS_PWR_NEN Pin=U1-35
+Added Pin To Net: NetName=GPS_PWR_NOC Pin=U1-36
+Added Room: Name=Camera
+Added Room: Name=External Connectors
+Added Room: Name=Memory
+Added Room: Name=Motor Control
+Added Room: Name=STM32
