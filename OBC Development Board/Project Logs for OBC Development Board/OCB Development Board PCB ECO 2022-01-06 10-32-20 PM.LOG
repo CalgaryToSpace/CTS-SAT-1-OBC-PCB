@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=ENCODER_A_N Pin=J8-05
+Removed Pin From Net: NetName=ENCODER_A_P Pin=J8-06
+Removed Pin From Net: NetName=ENCODER_B_N Pin=J8-07
+Removed Pin From Net: NetName=ENCODER_B_P Pin=J8-08
+Added Pin To Net: NetName=ENCODER_B_N Pin=J8-05
+Added Pin To Net: NetName=ENCODER_B_P Pin=J8-06
+Added Pin To Net: NetName=ENCODER_A_N Pin=J8-07
+Added Pin To Net: NetName=ENCODER_A_P Pin=J8-08
+Change Net Name : Old Net Name=ENCODER_A_N New Net Name=ENCODER_B_N
+Change Net Name : Old Net Name=ENCODER_A_P New Net Name=ENCODER_B_P
+Change Net Name : Old Net Name=ENCODER_B_N New Net Name=ENCODER_A_N
+Change Net Name : Old Net Name=ENCODER_B_P New Net Name=ENCODER_A_P
+Added Member To Class: ClassName=Motor Control Member=Component U12 U-MAX3378EEUD+T
+Added Room: Name=Camera
+Added Room: Name=External Connectors
+Added Room: Name=Memory
+Added Room: Name=Motor Control
+Added Room: Name=STM32
