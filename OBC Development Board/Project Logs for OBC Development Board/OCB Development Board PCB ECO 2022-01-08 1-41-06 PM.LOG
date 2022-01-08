@@ -1,0 +1,7 @@
+Change Component Designator: OldDesignator=U11 NewDesignator=J10
+Added Member To Class: ClassName=External Connectors Member=Component J10 LD09S13A4GX00LF
+Added Room: Name=Camera
+Added Room: Name=External Connectors
+Added Room: Name=Memory
+Added Room: Name=Motor Control
+Added Room: Name=STM32
