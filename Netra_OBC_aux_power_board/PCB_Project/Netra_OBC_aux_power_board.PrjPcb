@@ -58,6 +58,23 @@ GenerateClassCluster=0
 DocumentUniqueId=YPVVOGFA
 
 [Document2]
+DocumentPath=..\..\..\..\..\..\Public\Documents\Altium\New\TPSD107K016S0125\TPSD107K016S0125.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YQUGEXNP
+
+[Document3]
 DocumentPath=..\..\..\..\..\..\Public\Documents\Altium\New\PDQE15-Q24-S5-D\Netra_OBC_aux_power_board.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -74,7 +91,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JVHTISAB
 
-[Document3]
+[Document4]
 DocumentPath=..\..\..\..\..\..\Public\Documents\Altium\New\PDQE15-Q24-S5-D\Netra_OBC_aux_power_board.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -90,6 +107,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GMIVLSFD
+
+[Document5]
+DocumentPath=..\..\..\..\..\..\Public\Documents\Altium\New\TPSD107K016S0125\CAPPM7343X310N.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=GCKHLDBB
 
 [Configuration1]
 Name=Sources
