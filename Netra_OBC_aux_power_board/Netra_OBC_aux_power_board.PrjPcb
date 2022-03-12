@@ -41,13 +41,13 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=main.SchDoc
+DocumentPath=..\PCB1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -55,10 +55,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=YPVVOGFA
+DocumentUniqueId=JFLLGNFB
 
 [Document2]
-DocumentPath=..\..\..\..\..\..\Public\Documents\Altium\New\PDQE15-Q24-S5-D\Netra_OBC_aux_power_board.SchLib
+DocumentPath=..\..\..\..\..\..\Public\Documents\Altium\Libraries\PDQE15-Q24-S5-D\Netra_OBC_aux_power_board.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -75,7 +75,24 @@ GenerateClassCluster=0
 DocumentUniqueId=JVHTISAB
 
 [Document3]
-DocumentPath=..\..\..\..\..\..\Public\Documents\Altium\New\PDQE15-Q24-S5-D\Netra_OBC_aux_power_board.PcbLib
+DocumentPath=main.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YPVVOGFA
+
+[Document4]
+DocumentPath=..\..\..\..\..\..\Public\Documents\Altium\Libraries\PDQE15-Q24-S5-D\Netra_OBC_aux_power_board.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
