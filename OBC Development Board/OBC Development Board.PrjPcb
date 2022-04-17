@@ -126,6 +126,23 @@ GenerateClassCluster=0
 DocumentUniqueId=ZZJEWDAV
 
 [Document6]
+DocumentPath=Antenna Deployment.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=4
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ELOQPJJS
+
+[Document7]
 DocumentPath=Motor Control.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -142,7 +159,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CRGZREDL
 
-[Document7]
+[Document8]
 DocumentPath=OBC Development Board.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -159,7 +176,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OYNIPJPN
 
-[Document8]
+[Document9]
 DocumentPath=OBC Development Board.PvLib
 AnnotationEnabled=1
 AnnotateStartValue=1
