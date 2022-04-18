@@ -4,6 +4,6 @@ Design files for the onboard computer PCB and supporting boards with full histor
 All wires should be concidered for outgassing characteristicsm, PTFE insulation has been selected as a standard insulation materal. Part Number 26 AWG: 5853 BK005
 1 amp per conductor should be max. 
 
-Space Grade PCB's should be constructed fro rogers (low outgassing properties)
+Space Grade PCB's should be constructed from rogers (low outgassing properties)
 
 Contact James Chen (Electrical lead) at james.chen3@ucalgary.ca for more info
