@@ -1,0 +1,311 @@
+Removed Pin From Net: NetName=5V Pin=C12-1
+Removed Pin From Net: NetName=GND Pin=C12-2
+Removed Pin From Net: NetName=3V3 Pin=C33-1
+Removed Pin From Net: NetName=GND Pin=C33-2
+Removed Pin From Net: NetName=GND Pin=C34-1
+Removed Pin From Net: NetName=5V Pin=C34-2
+Removed Pin From Net: NetName=NRST Pin=J1-03
+Removed Pin From Net: NetName=GND Pin=J1-04
+Removed Pin From Net: NetName=SWDIO Pin=J2-02
+Removed Pin From Net: NetName=SWCLK Pin=J2-04
+Removed Pin From Net: NetName=GND Pin=J2-05
+Removed Pin From Net: NetName=GND Pin=J2-09
+Removed Pin From Net: NetName=NRST Pin=J2-10
+Removed Pin From Net: NetName=MOTOR_1 Pin=J8-01
+Removed Pin From Net: NetName=MOTOR_1 Pin=J8-02
+Removed Pin From Net: NetName=MOTOR_1 Pin=J8-03
+Removed Pin From Net: NetName=MOTOR_1 Pin=J8-04
+Removed Pin From Net: NetName=GND Pin=J8-05
+Removed Pin From Net: NetName=GND Pin=J8-06
+Removed Pin From Net: NetName=GND Pin=J8-07
+Removed Pin From Net: NetName=GND Pin=J8-08
+Removed Pin From Net: NetName=MOTOR_2 Pin=J8-09
+Removed Pin From Net: NetName=MOTOR_2 Pin=J8-10
+Removed Pin From Net: NetName=MOTOR_2 Pin=J8-11
+Removed Pin From Net: NetName=MOTOR_2 Pin=J8-12
+Removed Pin From Net: NetName=GND Pin=J8-13
+Removed Pin From Net: NetName=GND Pin=J8-14
+Removed Pin From Net: NetName=5V Pin=J8-16
+Removed Pin From Net: NetName=GND Pin=J8-17
+Removed Pin From Net: NetName=GND Pin=J8-19
+Removed Pin From Net: NetName=GND Pin=J8-20
+Removed Pin From Net: NetName=ENCODER_A_N Pin=J8-21
+Removed Pin From Net: NetName=ENCODER_A_P Pin=J8-22
+Removed Pin From Net: NetName=ENCODER_B_N Pin=J8-23
+Removed Pin From Net: NetName=ENCODER_B_P Pin=J8-24
+Removed Pin From Net: NetName=GND Pin=J8-25
+Removed Pin From Net: NetName=GND Pin=J8-26
+Removed Pin From Net: NetName=ENCODER_I_P Pin=J8-28
+Removed Pin From Net: NetName=ENCODER_I_N Pin=J8-30
+Removed Pin From Net: NetName=V_BAT Pin=J10-1
+Removed Pin From Net: NetName=GND Pin=J11-05
+Removed Pin From Net: NetName=GND Pin=J11-06
+Removed Pin From Net: NetName=GND Pin=J11-10
+Removed Pin From Net: NetName=GND Pin=J11-11
+Removed Pin From Net: NetName=GND Pin=J11-14
+Removed Pin From Net: NetName=GND Pin=J11-17
+Removed Pin From Net: NetName=GND Pin=J11-21
+Removed Pin From Net: NetName=GND Pin=J11-25
+Removed Pin From Net: NetName=GND Pin=J11-26
+Removed Pin From Net: NetName=GND Pin=J11-29
+Removed Pin From Net: NetName=GND Pin=J11-S3
+Removed Pin From Net: NetName=GND Pin=J11-S4
+Removed Pin From Net: NetName=NetR1_2 Pin=R2-1
+Removed Pin From Net: NetName=NetR1_2 Pin=R3-1
+Removed Pin From Net: NetName=I2C2_SCL Pin=R38-1
+Removed Pin From Net: NetName=I2C2_SDA Pin=R41-1
+Removed Pin From Net: NetName=GPS_PPS Pin=R49-1
+Removed Pin From Net: NetName=BOOT0 Pin=R54-1
+Removed Pin From Net: NetName=I2C3_SCL Pin=R96-1
+Removed Pin From Net: NetName=3V3 Pin=R96-2
+Removed Pin From Net: NetName=3V3 Pin=R97-1
+Removed Pin From Net: NetName=I2C3_SDA Pin=R97-2
+Removed Pin From Net: NetName=I2C2_SDA Pin=R145-2
+Removed Pin From Net: NetName=I2C2_SCL Pin=R148-2
+Removed Pin From Net: NetName=NetR2_2 Pin=U1-1
+Removed Pin From Net: NetName=NetR3_2 Pin=U1-2
+Removed Pin From Net: NetName=3V3 Pin=U12-1
+Removed Pin From Net: NetName=GND Pin=U12-7
+Removed Pin From Net: NetName=3V3 Pin=U12-8
+Removed Pin From Net: NetName=5V Pin=U12-14
+Removed Member From Class: ClassName=Motor Control Member=C12
+Removed Member From Class: ClassName=Motor Control Member=C33
+Removed Member From Class: ClassName=Motor Control Member=C34
+Removed Member From Class: ClassName=STM32 Member=R32
+Removed Member From Class: ClassName=External Connectors Member=R49
+Removed Member From Class: ClassName=External Connectors Member=R54
+Removed Member From Class: ClassName=External Connectors Member=R56
+Removed Member From Class: ClassName=External Connectors Member=R57
+Removed Member From Class: ClassName=STM32 Member=R90
+Removed Member From Class: ClassName=STM32 Member=R93
+Removed Member From Class: ClassName=STM32 Member=R94
+Removed Member From Class: ClassName=STM32 Member=R96
+Removed Member From Class: ClassName=STM32 Member=R97
+Removed Member From Class: ClassName=Motor Control Member=R145
+Removed Member From Class: ClassName=Motor Control Member=R147
+Removed Member From Class: ClassName=Motor Control Member=R148
+Removed Member From Class: ClassName=Motor Control Member=R150
+Removed Member From Class: ClassName=Motor Control Member=U12
+Change Component Footprint: Designator=J10 Old Footprint=J-LD09S13A4GX00LF New Footprint=J-0530471010
+Change Component Footprint: Designator=J11 Old Footprint=J-T2M-115-01-L-D-RA-WT New Footprint=J-0532610671
+Change Component Footprint: Designator=J1 Old Footprint=J-TSM-105-01-F-DV New Footprint=J-TSM-106-01-F-SV
+Change Component Footprint: Designator=J2 Old Footprint=J-TSM-105-01-F-DV New Footprint=J-TSM-106-01-F-SV
+Change Component Footprint: Designator=J8 Old Footprint=T2M-115-01-X-D-SM-WT New Footprint=J-0530471460
+Change Component Comment : Designator=R49 Old Comment=0R New Comment=4K7
+Change Component Comment : Designator=R54 Old Comment=0R New Comment=4K7
+Change Component Comment : Designator=R2 Old Comment=0R New Comment=220R
+Change Component Comment : Designator=R3 Old Comment=0R New Comment=220R
+Change Component Comment : Designator=J10 Old Comment=LD09S13A4GX00LF New Comment=J-0530471010
+Change Component Comment : Designator=J11 Old Comment=T2M-115-01-L-D-RA-WT New Comment=J-0532610671
+Change Component Comment : Designator=J8 Old Comment=T2M-115-01-X-D-SM-WT New Comment=J-0530471460
+Change Component Comment : Designator=J1 Old Comment=TSM-105-01-F-DV New Comment=J-TSM-106-01-F-SV
+Change Component Comment : Designator=J2 Old Comment=TSM-105-01-F-DV New Comment=J-TSM-106-01-F-SV
+Change component parameters: Designator = "J10" ("J10"); Footprint = "J-LD09S13A4GX00LF"; UniqueID = "\HUTNXEAK" ("\HUTNXEAK")
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part #"; Value = "WM1739-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Molex"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part #"; Value = "0530471010"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J1" ("J1"); Footprint = "J-TSM-105-01-F-DV"; UniqueID = "\EAIWTZCT" ("\EAIWTZCT")
+Change component parameters (AddParameter): Name = "Distrbutor Part #"; Value = "SAM12239-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Samtec Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part #"; Value = "TSM-106-01-F-SV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "J2" ("J2"); Footprint = "J-TSM-105-01-F-DV"; UniqueID = "\OZWCOUAE" ("\OZWCOUAE")
+Change component parameters (AddParameter): Name = "Distrbutor Part #"; Value = "SAM12239-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Samtec Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part #"; Value = "TSM-106-01-F-SV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "J8" ("J8"); Footprint = "T2M-115-01-X-D-SM-WT"; UniqueID = "\CIKARZWL" ("\CIKARZWL")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part #"; Value = "900-0530471460-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Molex"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part #"; Value = "0530471460"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R49" ("R49"); Footprint = "0603"; UniqueID = "\TGMLFATJ" ("\TGMLFATJ")
+Change component parameters (AddParameter): Name = "ComponentLink1description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.vishay.com/docs/20035/dcrcwe3.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2description"; Value = "Manufacturer Website"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.vishay.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part #"; Value = "CR0603-FX-4701ELFCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part #"; Value = "CR0603-FX-4701ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Description"; Value = "RES SMD 4.7K OHM 1% 1/10W 0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R54" ("R54"); Footprint = "0603"; UniqueID = "\RSPGHXUT" ("\RSPGHXUT")
+Change component parameters (AddParameter): Name = "ComponentLink1description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.vishay.com/docs/20035/dcrcwe3.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2description"; Value = "Manufacturer Website"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.vishay.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part #"; Value = "CR0603-FX-4701ELFCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part #"; Value = "CR0603-FX-4701ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Description"; Value = "RES SMD 4.7K OHM 1% 1/10W 0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J11" ("J11"); Footprint = "J-T2M-115-01-L-D-RA-WT"; UniqueID = "\MHUMCTOB" ("\MHUMCTOB")
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part #"; Value = "WM7624CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manfacturer"; Value = "Molex"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manfacturer Part #"; Value = "0532610671"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2" ("R2"); Footprint = "0603"; UniqueID = "\HHVCPIMD" ("\HHVCPIMD")
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part #"; Value = "RR08P220DCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Susumu"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part #"; Value = "RR0816P-221-D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Description"; Value = "220 Ohms ±0.5% 0.063W, 1/16W Chip Resistor 0603 (1608 Metric) - Thin Film"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "220R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R3" ("R3"); Footprint = "0603"; UniqueID = "\GPCCBDMQ" ("\GPCCBDMQ")
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part #"; Value = "RR08P220DCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Susumu"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part #"; Value = "RR0816P-221-D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Description"; Value = "220 Ohms ±0.5% 0.063W, 1/16W Chip Resistor 0603 (1608 Metric) - Thin Film"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "220R"; VariantName = "[No Variations]"
+Added Component: Designator=D2(D-SML-D12U1WT86)
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part #"; Value = "SML-D12U1WT86CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Rohm Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "SML-D12U1WT86"; VariantName = "[No Variations]"
+Added Component: Designator=D6(D-SML-D12U1WT86)
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part #"; Value = "SML-D12U1WT86CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Rohm Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "SML-D12U1WT86"; VariantName = "[No Variations]"
+Added Component: Designator=J12(J-532617014)
+Add component (AddParameter): Name = "2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part #"; Value = "900-0532617014CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "0532617014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/532617014/Molex/view-part/5064407/?ref=snap"; VariantName = "[No Variations]"
+Added Component: Designator=J13(J-0530471010)
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part #"; Value = "WM1739-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "0530471010"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D2-C
+Added Pin To Net: NetName=GND Pin=D6-C
+Added Pin To Net: NetName=GND Pin=J1-05
+Added Pin To Net: NetName=NRST Pin=J1-06
+Added Pin To Net: NetName=SWCLK Pin=J2-02
+Added Pin To Net: NetName=SWDIO Pin=J2-04
+Added Pin To Net: NetName=NRST Pin=J2-05
+Added Pin To Net: NetName=MOTOR_1 Pin=J8-1
+Added Pin To Net: NetName=MOTOR_1 Pin=J8-2
+Added Pin To Net: NetName=MOTOR_2 Pin=J8-3
+Added Pin To Net: NetName=MOTOR_2 Pin=J8-4
+Added Pin To Net: NetName=GND Pin=J8-5
+Added Pin To Net: NetName=5V Pin=J8-6
+Added Pin To Net: NetName=ENCODER_A_N Pin=J8-7
+Added Pin To Net: NetName=ENCODER_B_N Pin=J8-8
+Added Pin To Net: NetName=GND Pin=J8-9
+Added Pin To Net: NetName=ENCODER_A_P Pin=J8-10
+Added Pin To Net: NetName=ENCODER_B_P Pin=J8-11
+Added Pin To Net: NetName=GND Pin=J8-12
+Added Pin To Net: NetName=ENCODER_I_P Pin=J8-13
+Added Pin To Net: NetName=ENCODER_I_N Pin=J8-14
+Added Pin To Net: NetName=3V3 Pin=J11-1
+Added Pin To Net: NetName=GND Pin=J11-3
+Added Pin To Net: NetName=GND Pin=J12-14
+Added Pin To Net: NetName=GND Pin=J12-S1
+Added Pin To Net: NetName=GND Pin=J12-S2
+Added Pin To Net: NetName=I2C2_SDA Pin=J13-2
+Added Pin To Net: NetName=GND Pin=J13-3
+Added Pin To Net: NetName=I2C3_SDA Pin=J13-4
+Added Pin To Net: NetName=GND Pin=J13-5
+Added Pin To Net: NetName=I2C2_SCL Pin=J13-7
+Added Pin To Net: NetName=I2C3_SCL Pin=J13-8
+Added Pin To Net: NetName=GND Pin=J13-9
+Added Pin To Net: NetName=SPI1_SCLK Pin=R32-1
+Added Pin To Net: NetName=SPI1_MISO Pin=R34-2
+Added Pin To Net: NetName=SPI1_MOSI Pin=R36-2
+Added Pin To Net: NetName=I2C2_SCL Pin=R38-2
+Added Pin To Net: NetName=I2C2_SDA Pin=R41-2
+Added Pin To Net: NetName=3V3 Pin=R49-1
+Added Pin To Net: NetName=I2C3_SDA Pin=R49-2
+Added Pin To Net: NetName=3V3 Pin=R54-1
+Added Pin To Net: NetName=I2C3_SCL Pin=R54-2
+Added Pin To Net: NetName=NetR1_2 Pin=U1-1
+Added Pin To Net: NetName=NetR2_2 Pin=U1-2
+Added Pin To Net: NetName=NetR3_2 Pin=U1-3
+Added Pin To Net: NetName=12V Pin=J6-47
+Added Pin To Net: NetName=12V Pin=J10-1
+Added Net: Name=12V
+Added Pin To Net: NetName=ANT_3V3 Pin=J6-48
+Added Pin To Net: NetName=ANT_3V3 Pin=J13-1
+Added Pin To Net: NetName=ANT_3V3 Pin=J13-6
+Added Net: Name=ANT_3V3
+Added Pin To Net: NetName=NetD2_A Pin=D2-A
+Added Pin To Net: NetName=NetD2_A Pin=R2-1
+Added Net: Name=NetD2_A
+Added Pin To Net: NetName=NetD6_A Pin=D6-A
+Added Pin To Net: NetName=NetD6_A Pin=R3-1
+Added Net: Name=NetD6_A
+Added Pin To Net: NetName=NetJ11_2 Pin=J11-2
+Added Pin To Net: NetName=NetJ11_2 Pin=R47-2
+Added Net: Name=NetJ11_2
+Added Pin To Net: NetName=NetJ11_4 Pin=J11-4
+Added Pin To Net: NetName=NetJ11_4 Pin=R45-2
+Added Net: Name=NetJ11_4
+Added Pin To Net: NetName=NetJ11_5 Pin=J11-5
+Added Pin To Net: NetName=NetJ11_5 Pin=R52-2
+Added Net: Name=NetJ11_5
+Added Pin To Net: NetName=NetJ11_6 Pin=J11-6
+Added Pin To Net: NetName=NetJ11_6 Pin=R51-2
+Added Net: Name=NetJ11_6
+Added Pin To Net: NetName=NetJ12_1 Pin=J12-1
+Added Pin To Net: NetName=NetJ12_1 Pin=R33-2
+Added Net: Name=NetJ12_1
+Added Pin To Net: NetName=NetJ12_2 Pin=J12-2
+Added Pin To Net: NetName=NetJ12_2 Pin=R35-2
+Added Net: Name=NetJ12_2
+Added Pin To Net: NetName=NetJ12_3 Pin=J12-3
+Added Pin To Net: NetName=NetJ12_3 Pin=R37-2
+Added Net: Name=NetJ12_3
+Added Pin To Net: NetName=NetJ12_4 Pin=J12-4
+Added Pin To Net: NetName=NetJ12_4 Pin=R39-2
+Added Net: Name=NetJ12_4
+Added Pin To Net: NetName=NetJ12_5 Pin=J12-5
+Added Pin To Net: NetName=NetJ12_5 Pin=R42-2
+Added Net: Name=NetJ12_5
+Added Pin To Net: NetName=NetJ12_6 Pin=J12-6
+Added Pin To Net: NetName=NetJ12_6 Pin=R44-2
+Added Net: Name=NetJ12_6
+Added Pin To Net: NetName=NetJ12_7 Pin=J12-7
+Added Pin To Net: NetName=NetJ12_7 Pin=R53-2
+Added Net: Name=NetJ12_7
+Added Pin To Net: NetName=NetJ12_8 Pin=J12-8
+Added Pin To Net: NetName=NetJ12_8 Pin=R55-2
+Added Net: Name=NetJ12_8
+Added Pin To Net: NetName=NetJ12_9 Pin=J12-9
+Added Pin To Net: NetName=NetJ12_9 Pin=R38-1
+Added Net: Name=NetJ12_9
+Added Pin To Net: NetName=NetJ12_10 Pin=J12-10
+Added Pin To Net: NetName=NetJ12_10 Pin=R41-1
+Added Net: Name=NetJ12_10
+Added Pin To Net: NetName=NetJ12_11 Pin=J12-11
+Added Pin To Net: NetName=NetJ12_11 Pin=R32-2
+Added Net: Name=NetJ12_11
+Added Pin To Net: NetName=NetJ12_12 Pin=J12-12
+Added Pin To Net: NetName=NetJ12_12 Pin=R34-1
+Added Net: Name=NetJ12_12
+Added Pin To Net: NetName=NetJ12_13 Pin=J12-13
+Added Pin To Net: NetName=NetJ12_13 Pin=R36-1
+Added Net: Name=NetJ12_13
+Added Class: Name=Antenna Deployment
+Added Member To Class: ClassName=STM32 Member=Component D2 D-SML-D12U1WT86
+Added Member To Class: ClassName=STM32 Member=Component D6 D-SML-D12U1WT86
+Added Member To Class: ClassName=External Connectors Member=Component J12 J-0532617014
+Added Member To Class: ClassName=External Connectors Member=Component R32 0R
+Added Member To Class: ClassName=STM32 Member=Component R49 4K7
+Added Member To Class: ClassName=STM32 Member=Component R54 4K7
+Added Room: Name=Antenna Deployment
+Added Room: Name=External Connectors
+Added Room: Name=Memory
+Added Room: Name=Motor Control
+Added Room: Name=STM32

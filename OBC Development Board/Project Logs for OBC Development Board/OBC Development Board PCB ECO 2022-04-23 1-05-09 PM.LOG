@@ -1,0 +1,17 @@
+Change Component Footprint: Designator=J8 Old Footprint=J-0530471460 New Footprint=J-532617014
+Change Component Comment : Designator=J8 Old Comment=J-0530471460 New Comment=J-0532617014
+Change component parameters: Designator = "J8" ("J8"); Footprint = "J-0530471460"; UniqueID = "\PDIYIZPQ" ("\PDIYIZPQ")
+Change component parameters (AddParameter): Name = "2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part #"; Value = "900-0532617014CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Molex"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part #"; Value = "0532617014"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/532617014/Molex/view-part/5064407/?ref=snap"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J8-S1
+Added Pin To Net: NetName=GND Pin=J8-S2
+Added Room: Name=Antenna Deployment
+Added Room: Name=External Connectors
+Added Room: Name=Memory
+Added Room: Name=Motor Control
+Added Room: Name=STM32

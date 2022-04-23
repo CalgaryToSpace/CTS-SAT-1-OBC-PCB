@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=ENCODER_A_N Pin=J8-7
+Removed Pin From Net: NetName=ENCODER_B_N Pin=J8-8
+Removed Pin From Net: NetName=ENCODER_A_P Pin=J8-10
+Removed Pin From Net: NetName=ENCODER_B_P Pin=J8-11
+Added Pin To Net: NetName=ENCODER_A_P Pin=J8-7
+Added Pin To Net: NetName=ENCODER_A_N Pin=J8-8
+Added Pin To Net: NetName=ENCODER_B_P Pin=J8-10
+Added Pin To Net: NetName=ENCODER_B_N Pin=J8-11
+Added Member To Class: ClassName=Motor Control Member=Component U14 MAX14871EUE+T
+Added Room: Name=Antenna Deployment
+Added Room: Name=External Connectors
+Added Room: Name=Memory
+Added Room: Name=Motor Control
+Added Room: Name=STM32
