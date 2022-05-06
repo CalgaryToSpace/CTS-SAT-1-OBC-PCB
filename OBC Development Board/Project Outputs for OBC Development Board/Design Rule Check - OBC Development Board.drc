@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\James Chen\Documents\CalgaryToSpace\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc
 Date     : 2022-05-05
-Time     : 8:23:33 PM
+Time     : 8:55:32 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -45,4 +45,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
