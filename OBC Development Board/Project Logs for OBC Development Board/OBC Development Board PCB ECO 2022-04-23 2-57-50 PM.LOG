@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=SWO Pin=R78-2
-Removed Member From Class: ClassName=STM32 Member=R78
-Added Pin To Net: NetName=SWO Pin=U1-133
-Added Room: Name=Antenna Deployment
-Added Room: Name=External Connectors
-Added Room: Name=Memory
-Added Room: Name=Motor Control
-Added Room: Name=STM32

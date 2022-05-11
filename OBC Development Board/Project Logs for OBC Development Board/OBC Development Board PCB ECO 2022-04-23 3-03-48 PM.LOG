@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=NRST Pin=R40-1
-Removed Member From Class: ClassName=STM32 Member=R40
-Added Pin To Net: NetName=NRST Pin=U1-25
-Added Room: Name=Antenna Deployment
-Added Room: Name=External Connectors
-Added Room: Name=Memory
-Added Room: Name=Motor Control
-Added Room: Name=STM32

@@ -1,7 +1,0 @@
-Added Pin To Net: NetName=V_BAT Pin=R136-2
-Added Pin To Net: NetName=V_BAT Pin=U11-1
-Added Room: Name=Camera
-Added Room: Name=External Connectors
-Added Room: Name=Memory
-Added Room: Name=Motor Control
-Added Room: Name=STM32
