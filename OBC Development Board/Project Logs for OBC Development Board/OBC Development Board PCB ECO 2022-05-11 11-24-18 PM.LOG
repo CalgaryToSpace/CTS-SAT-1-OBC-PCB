@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=ENCODER_A Pin=U15-2
-Removed Pin From Net: NetName=ENCODER_B Pin=U15-3
-Added Pin To Net: NetName=ENCODER_B Pin=U15-2
-Added Pin To Net: NetName=ENCODER_A Pin=U15-3

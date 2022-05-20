@@ -1,0 +1,10 @@
+Output: OBC rev1.1
+Type  : ExportSTEP
+From  : Variant [Build] of PCB Document [OBC Development Board.PcbDoc]
+   Generated File[OBC Development Board(Build).step]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 8:24:37 PM On 2022-05-19
