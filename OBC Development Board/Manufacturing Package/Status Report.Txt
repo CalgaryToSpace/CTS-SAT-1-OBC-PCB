@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [Build] of Project [OBC Development Board.PrjPcb]
+   Generated File[Bill of Materials-OBC Development Board(Build).xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 8:25:07 PM On 2022-05-19

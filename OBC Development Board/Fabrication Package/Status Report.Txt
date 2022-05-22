@@ -1,0 +1,24 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [Build] of PCB Document [OBC Development Board.PcbDoc]
+   Generated File[OBC Development Board.GTO]
+   Generated File[OBC Development Board.GTP]
+   Generated File[OBC Development Board.GTS]
+   Generated File[OBC Development Board.GTL]
+   Generated File[OBC Development Board.GP1]
+   Generated File[OBC Development Board.GP2]
+   Generated File[OBC Development Board.GBL]
+   Generated File[OBC Development Board.GBS]
+   Generated File[OBC Development Board.GBP]
+   Generated File[OBC Development Board.GBO]
+   Generated File[OBC Development Board.GM1]
+   Generated File[OBC Development Board.GG1]
+   Generated File[OBC Development Board.RUL]
+   Generated File[OBC Development Board.EXTREP]
+   Generated File[OBC Development Board.REP]
+
+
+Files Generated   : 15
+Documents Printed : 0
+
+Finished Output Generation At 3:01:54 PM On 2022-05-22
