@@ -31,7 +31,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
-OutputPath=Project Outputs for OBC Development Board
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -244,15 +244,15 @@ DocumentPath=Manufacturing Package\BOM\Bill of Materials-OBC Development Board(B
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for OBC Development Board\Design Rule Check - OBC Development Board.html
-DItemRevisionGUID=
-
-[GeneratedDocument4]
 DocumentPath=.\Fabrication Package\ExportSTEP\OBC Development Board(Build).step
 DItemRevisionGUID=
 
+[GeneratedDocument4]
+DocumentPath=Fabrication Package\ExportSTEP\OBC Development Board(Build).step
+DItemRevisionGUID=
+
 [GeneratedDocument5]
-DocumentPath=.\Manufacturing Package\ExportSTEP\OBC Development Board(Build).step
+DocumentPath=Manufacturing Package\ExportSTEP\OBC Development Board(Build).step
 DItemRevisionGUID=
 
 [GeneratedDocument6]
@@ -260,67 +260,167 @@ DocumentPath=.\Fabrication Package\NC Drill\OBC Development Board.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=.\Fabrication Package\GerberX2\OBC Development Board.EXTREP
+DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=.\Fabrication Package\NC Drill\OBC Development Board.LDP
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=.\Fabrication Package\GerberX2\OBC Development Board.REP
+DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=.\Fabrication Package\GerberX2\OBC Development Board.RUL
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=.\Fabrication Package\NC Drill\OBC Development Board.TXT
+DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=.\Fabrication Package\GerberX2\OBC Development Board_Copper_Plane_1.gbr
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=.\Fabrication Package\GerberX2\OBC Development Board_Copper_Plane_2.gbr
+DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=.\Fabrication Package\GerberX2\OBC Development Board_Copper_Signal_Bot.gbr
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=.\Fabrication Package\GerberX2\OBC Development Board_Copper_Signal_Top.gbr
+DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=.\Fabrication Package\GerberX2\OBC Development Board_Legend_Bot.gbr
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=.\Fabrication Package\GerberX2\OBC Development Board_Legend_Top.gbr
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=.\Fabrication Package\GerberX2\OBC Development Board_Paste_Top.gbr
+DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=.\Fabrication Package\GerberX2\OBC Development Board_Soldermask_Bot.gbr
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=.\Fabrication Package\GerberX2\OBC Development Board_Soldermask_Top.gbr
+DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=.\Fabrication Package\Pick Place\Pick Place for OBC Development Board(Build).csv
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=.\Fabrication Package\Pick Place\Pick Place for OBC Development Board(Build).txt
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GM5
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GM7
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.GP2
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GP2
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=.\Fabrication Package\NC Drill\OBC Development Board.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.REP
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.REP
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=.\Fabrication Package\NC Drill\OBC Development Board.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=.\Fabrication Package\Pick Place\Pick Place for OBC Development Board(Build).csv
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Fabrication Package\Pick Place\Pick Place for OBC Development Board(Build).csv
 DItemRevisionGUID=
 
 [Configuration1]
@@ -370,7 +470,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=Project Outputs for OBC Development Board
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -481,7 +581,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=EPSON56C29A (WF-2530 Series)
+TargetPrinter=Samsung SCX-3400 Series (USB001)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -559,7 +659,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=EPSON56C29A (WF-2530 Series)
+TargetPrinter=Samsung SCX-3400 Series (USB001)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -585,73 +685,73 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=EPSON56C29A (WF-2530 Series)
+TargetPrinter=Samsung SCX-3400 Series (USB001)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=CompositeDrill
-OutputName1=Composite Drill Drawing
+OutputType1=NC Drill
+OutputName1=NC Drill Files
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType2=Drill
-OutputName2=Drill Drawing/Guides
+OutputType2=Mask
+OutputName2=Solder/Paste Mask Prints
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType3=Board Stack Report
-OutputName3=Report Board Stack
+OutputType3=IPC2581
+OutputName3=IPC-2581 Files
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType4=Final
-OutputName4=Final Artwork Prints
+OutputType4=Test Points
+OutputName4=Test Point Report
 OutputDocumentPath4=
-OutputVariantName4=[No Variations]
+OutputVariantName4=
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType5=Gerber X2
-OutputName5=Gerber X2 Files
+OutputType5=Plane
+OutputName5=Power-Plane Prints
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-Configuration5_Name1=ForceUpdateSettings
-Configuration5_Item1=False
-Configuration5_Name2=OutputConfigurationParameter1
-Configuration5_Item2=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GerberUnit=Metric|MinusApertureTolerance=39|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16842753~1,16777217~1,16842754~1,16973848~1,16973831~1,16973849~1,16973835~1,16973833~1,16973830~1,16973832~1,16842751~1,16973834~1,16973837~1|PlusApertureTolerance=39|Record=GerberX2View|Sorted=False|DocumentPath=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType6=ODB
 OutputName6=ODB++ Files
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=Mask
-OutputName7=Solder/Paste Mask Prints
+OutputType7=Drill
+OutputName7=Drill Drawing/Guides
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType8=NC Drill
-OutputName8=NC Drill Files
+OutputType8=CompositeDrill
+OutputName8=Composite Drill Drawing
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-OutputType9=IPC2581
-OutputName9=IPC-2581 Files
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=Board Stack Report
+OutputName9=Report Board Stack
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Plane
-OutputName10=Power-Plane Prints
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType10=Gerber X2
+OutputName10=Gerber X2 Files
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType11=Test Points
-OutputName11=Test Point Report
+Configuration10_Name1=ForceUpdateSettings
+Configuration10_Item1=False
+Configuration10_Name2=OutputConfigurationParameter1
+Configuration10_Item2=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GerberUnit=Metric|MinusApertureTolerance=39|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16842753~1,16777217~1,16842754~1,16973848~1,16973831~1,16973849~1,16973835~1,16973833~1,16973830~1,16973832~1,16842751~1,16973834~1,16973837~1|PlusApertureTolerance=39|Record=GerberX2View|Sorted=False|DocumentPath=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc
+OutputType11=Final
+OutputName11=Final Artwork Prints
 OutputDocumentPath11=
-OutputVariantName11=
+OutputVariantName11=[No Variations]
 OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType12=Gerber
 OutputName12=Gerber Files
 OutputDocumentPath12=
@@ -660,7 +760,7 @@ OutputDefault12=0
 Configuration12_Name1=ForceUpdateSettings
 Configuration12_Item1=False
 Configuration12_Name2=OutputConfigurationParameter1
-Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16842753~1,16842754~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16908293~1,16908295~1,16908301~1,16908303~1,16973837~1,16973848~1,16973849~1|PlotDrillDrawingLayerPair0_Backdrill=False|PlotDrillDrawingLayerPair0_DrillType=Regular|PlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|PlotDrillDrawingLayerPair0_LowLayer=Top Layer|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OCB Development Board.PcbDoc
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16908289~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16842753~1,16842754~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16908293~1,16908295~1,16908301~1,16908303~1,16973837~1,16973848~1,16973849~1|PlotDrillDrawingLayerPair0_Backdrill=False|PlotDrillDrawingLayerPair0_DrillType=Regular|PlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|PlotDrillDrawingLayerPair0_LowLayer=Top Layer|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc
 
 [OutputGroup6]
 Name=Report Outputs
