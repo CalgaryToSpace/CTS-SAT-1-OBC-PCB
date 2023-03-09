@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=BURN_POS Pin=J3-1
+Removed Pin From Net: NetName=BURN_POS Pin=J3-2
+Removed Pin From Net: NetName=BURN_POS Pin=J3-3
+Removed Pin From Net: NetName=BURN_POS Pin=R5-1
+Removed Pin From Net: NetName=NetR2_1 Pin=R5-2
+Added Component: Designator=R6(0603)
+Add component (AddParameter): Name = "ComponentLink1description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2description"; Value = "Manufacturer Website"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part #"; Value = "RMCF0603ZT0R00CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stackpole Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "RMCF0603ZT0R00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Description"; Value = "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR2_1 Pin=R5-1
+Added Pin To Net: NetName=GND Pin=R6-1
+Added Pin To Net: NetName=NetR2_1 Pin=R6-2
+Change Net Name : Old Net Name=BURN_POS New Net Name=NetC2_1
+Added Pin To Net: NetName=BURN_POS Pin=J3-1
+Added Pin To Net: NetName=BURN_POS Pin=J3-2
+Added Pin To Net: NetName=BURN_POS Pin=J3-3
+Added Pin To Net: NetName=BURN_POS Pin=R5-2
+Added Net: Name=BURN_POS
+Added Member To Class: ClassName=Burn Wire Dev Board Member=Component *2 M2 Mounting
+Added Member To Class: ClassName=Burn Wire Dev Board Member=Component R6 0R
+Added Member To Class: ClassName=Burn Wire Dev Board Member=Component TP5 TP
