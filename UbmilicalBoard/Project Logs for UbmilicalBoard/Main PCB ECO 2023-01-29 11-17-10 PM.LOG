@@ -1,0 +1,2 @@
+Added Pin To Net: NetName=I2C2_SDA Pin=U1-10
+Added Pin To Net: NetName=I2C2_SCL Pin=U1-11

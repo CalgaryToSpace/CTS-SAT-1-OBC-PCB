@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=NetD5_A Pin=C36-2
+Removed Pin From Net: NetName=SWDIO Pin=J4-04
+Removed Pin From Net: NetName=NetD5_A Pin=Y1-3
+Added Pin To Net: NetName=NetC36_2 Pin=C36-2
+Added Pin To Net: NetName=NetC36_2 Pin=Y1-3
+Change Net Name : Old Net Name=SWDIO New Net Name=NetJ1_4
+Added Pin To Net: NetName=Boot0 Pin=U1-137
+Added Net: Name=Boot0
+Add Net: Net with name "NRST" already exists
+Added Pin To Net: NetName=OSC IN Pin=U1-23
+Added Net: Name=OSC IN
+Add Net: Net with name "SWCLK" already exists
+Added Pin To Net: NetName=SWDIO Pin=J4-04
+Added Net: Name=SWDIO
+Add Net: Net with name "SWDIO" already exists
+Added Pin To Net: NetName=USB DM Pin=U1-103
+Added Net: Name=USB DM
+Added Pin To Net: NetName=USB DP Pin=U1-104
+Added Net: Name=USB DP
