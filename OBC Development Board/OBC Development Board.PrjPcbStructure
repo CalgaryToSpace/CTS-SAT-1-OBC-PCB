@@ -1,5 +1,5 @@
 Record=TopLevelDocument|FileName=Antenna and LoRa.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=Antenna and LoRa.SchDoc|FileName=Boom Deployment.SchDoc|SheetNumber=5
 Record=NoMainPathDocument|SourceDocument=Antenna and LoRa.SchDoc|FileName=External Connectors.SchDoc|SheetNumber=3
 Record=NoMainPathDocument|SourceDocument=Antenna and LoRa.SchDoc|FileName=Memory.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=Antenna and LoRa.SchDoc|FileName=Motor Control.SchDoc|SheetNumber=5
 Record=NoMainPathDocument|SourceDocument=Antenna and LoRa.SchDoc|FileName=STM32.SchDoc|SheetNumber=1
