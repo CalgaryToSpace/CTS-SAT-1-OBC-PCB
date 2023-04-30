@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=U NewDesignator=U1
+Change Component Designator: OldDesignator=U? NewDesignator=U2
+Add Pin To Net: Unknown Pin: Pin U1-2
+Add Pin To Net: Unknown Pin: Pin U2-2
+Added Room: Name=Main

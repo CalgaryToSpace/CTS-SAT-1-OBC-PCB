@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=GND Pin=R13-1
+Removed Pin From Net: NetName=SWDIO Pin=R13-2
+Removed Pin From Net: NetName=GND Pin=R19-1
+Removed Pin From Net: NetName=SPI1_MOSI Pin=R19-2
+Removed Pin From Net: NetName=GND Pin=R20-1
+Removed Pin From Net: NetName=SPI1_SCLK Pin=R20-2
+Removed Pin From Net: NetName=GND Pin=R24-1
+Removed Pin From Net: NetName=SPI1_MISO Pin=R24-2
+Removed Member From Class: ClassName=Main Member=R13
+Removed Member From Class: ClassName=Main Member=R19
+Removed Member From Class: ClassName=Main Member=R20
+Removed Member From Class: ClassName=Main Member=R24
+Added Room: Name=Main

@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=UART4_OBC_RX Pin=U1-34
+Removed Pin From Net: NetName=UART3_OBC_RX Pin=U1-67
+Removed Pin From Net: NetName=UART1_OBC_RX Pin=U1-102
+Removed Pin From Net: NetName=UART4_OBC_TX Pin=U1-116
+Added Pin To Net: NetName=UART3_OBC_RX Pin=U1-34
+Added Pin To Net: NetName=UART4_OBC_RX Pin=U1-67
+Added Pin To Net: NetName=UART4_OBC_TX Pin=U1-102
+Added Pin To Net: NetName=UART1_OBC_RX Pin=U1-116
+Change Net Name : Old Net Name=LPUART1_Umb_RX New Net Name=UART1_OBC_TX
+Add Net: Net with name "NRST" already exists
+Add Net: Net with name "SWCLK" already exists
+Add Net: Net with name "SWDIO" already exists
+Add Net: Net with name "SWO" already exists

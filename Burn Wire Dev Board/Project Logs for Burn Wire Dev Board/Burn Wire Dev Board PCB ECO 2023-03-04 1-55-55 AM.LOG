@@ -1,0 +1,36 @@
+Added Component: Designator=TP?(TP)
+Add component (AddParameter): Name = "ComponentLink1description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2description"; Value = "Manufacturer Website"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X"; VariantName = "[No Variations]"
+Added Component: Designator=TP?(TP)
+Add component (AddParameter): Name = "ComponentLink1description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2description"; Value = "Manufacturer Website"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X"; VariantName = "[No Variations]"
+Added Component: Designator=TP?(TP)
+Add component (AddParameter): Name = "ComponentLink1description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2description"; Value = "Manufacturer Website"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X"; VariantName = "[No Variations]"
+Added Component: Designator=TP?(TP)
+Add component (AddParameter): Name = "ComponentLink1description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2description"; Value = "Manufacturer Website"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X"; VariantName = "[No Variations]"
+Added Component: Designator=TP?(TP)
+Add component (AddParameter): Name = "ComponentLink1description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2description"; Value = "Manufacturer Website"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+12 Pin=TP?-1
+Added Pin To Net: NetName=BURN_NEG Pin=TP?-1
+Added Pin To Net: NetName=BURN_POS Pin=TP?-1
+Added Pin To Net: NetName=GND Pin=TP?-1
+Added Pin To Net: NetName=GND Pin=TP?-1
+Added Member To Class: ClassName=Burn Wire Dev Board Member=Component TP? TP
+Added Member To Class: ClassName=Burn Wire Dev Board Member=Component TP? TP
+Added Member To Class: ClassName=Burn Wire Dev Board Member=Component TP? TP
+Added Member To Class: ClassName=Burn Wire Dev Board Member=Component TP? TP
+Added Member To Class: ClassName=Burn Wire Dev Board Member=Component TP? TP
+Added Room: Name=Burn Wire Dev Board
