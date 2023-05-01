@@ -1,0 +1,13 @@
+Added Component: Designator=J4(J-53261-0471)
+Add component (AddParameter): Name = "Distributor"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part #"; Value = "WM7622CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manfacturer"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manfacturer Part #"; Value = "0532610471"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=12V_MPI Pin=J4-1
+Added Pin To Net: NetName=12V_MPI Pin=J4-2
+Added Pin To Net: NetName=GND Pin=J4-3
+Added Pin To Net: NetName=GND Pin=J4-4
+Added Pin To Net: NetName=GND Pin=J4-S1
+Added Pin To Net: NetName=GND Pin=J4-S2
+Added Member To Class: ClassName=External Connectors Member=Component J4 J-0532610471
+Added Member To Class: ClassName=Boom Deployment Member=Component L1 6.8 UH

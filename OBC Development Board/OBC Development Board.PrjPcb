@@ -215,24 +215,7 @@ UniqueID=75CCA10C-F0E7-4652-A099-8AD565C6ADB5
 Description=Build
 AllowFabrication=0
 ParameterCount=0
-VariationCount=17
-Variation1=Designator=R6|UniqueId=\ZNHJMMKT|Kind=1|AlternatePart= 
-Variation2=Designator=R12|UniqueId=\ZEEAYDUU|Kind=1|AlternatePart= 
-Variation3=Designator=R40|UniqueId=\CAOQXBRL|Kind=1|AlternatePart= 
-Variation4=Designator=R26|UniqueId=\PXDPZIYT|Kind=1|AlternatePart= 
-Variation5=Designator=R22|UniqueId=\RGOMNVBU|Kind=1|AlternatePart= 
-Variation6=Designator=R20|UniqueId=\WJVICFUL|Kind=1|AlternatePart= 
-Variation7=Designator=R19|UniqueId=\HRPGSJJY|Kind=1|AlternatePart= 
-Variation8=Designator=R78|UniqueId=\WFAFRZLC|Kind=1|AlternatePart= 
-Variation9=Designator=R91|UniqueId=\ZHWPBTWJ|Kind=1|AlternatePart= 
-Variation10=Designator=R92|UniqueId=\CNSWSKPP|Kind=1|AlternatePart= 
-Variation11=Designator=R109|UniqueId=\UFUGEKDG|Kind=1|AlternatePart= 
-Variation12=Designator=R149|UniqueId=\YUBMCWAX|Kind=1|AlternatePart= 
-Variation13=Designator=R139|UniqueId=\VUODYTUZ|Kind=1|AlternatePart= 
-Variation14=Designator=C41|UniqueId=\UAKBHDSE|Kind=1|AlternatePart= 
-Variation15=Designator=R3|UniqueId=\GPCCBDMQ|Kind=1|AlternatePart= 
-Variation16=Designator=R7|UniqueId=\SUCESWSU|Kind=1|AlternatePart= 
-Variation17=Designator=R5|UniqueId=\HBCBZDPP|Kind=1|AlternatePart= 
+VariationCount=0
 ParamVariationCount=0
 
 [GeneratedDocument1]

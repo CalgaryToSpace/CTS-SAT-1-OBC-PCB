@@ -1,0 +1,30 @@
+Change Component Footprint: Designator=U4 Old Footprint=U-74LCX138MTC New Footprint=U-ADP2303ARDZ
+Added Component: Designator=L1(L-IHLP4040DZER6R8M01)
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part #"; Value = "541-1303-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "IHLP4040DZER6R8M01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "6.8 uH"; VariantName = "[No Variations]"
+Added Component: Designator=R62(2010)
+Add component (AddParameter): Name = "ComponentLink1description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.vishay.com/docs/20035/dcrcwe3.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2description"; Value = "Manufacturer Website"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.vishay.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Distributor Part #"; Value = "541-10112-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part #"; Value = "WSLT2010R5000FEA18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Description"; Value = "RES 0.5 OHM 1% 1W 2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.5R"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=BURN_POS Pin=L1-1
+Added Pin To Net: NetName=NetC24_1 Pin=L1-2
+Added Pin To Net: NetName=BOOM_PGOOD Pin=R60-1
+Added Pin To Net: NetName=GND Pin=R62-1
+Added Pin To Net: NetName=BURN_NEG Pin=R62-2
+Added Member To Class: ClassName=Boom Deployment Member=Component L1 6.8 UH
+Added Member To Class: ClassName=Boom Deployment Member=Component R62 0.5R
+Added Room: Name=Antenna and LoRa
+Added Room: Name=Boom Deployment
+Added Room: Name=External Connectors
+Added Room: Name=Memory
+Added Room: Name=STM32

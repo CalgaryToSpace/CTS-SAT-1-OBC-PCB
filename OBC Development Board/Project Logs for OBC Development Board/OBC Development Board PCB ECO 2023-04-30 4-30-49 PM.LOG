@@ -1,0 +1,40 @@
+Change Component Footprint: Designator=J14 Old Footprint=J-252129 New Footprint=J-252105
+Change Component Footprint: Designator=J16 Old Footprint=J-252129 New Footprint=J-252105
+Change Component Footprint: Designator=J17 Old Footprint=J-252129 New Footprint=J-252105
+Change Component Footprint: Designator=J18 Old Footprint=J-252129 New Footprint=J-252105
+Change Component Footprint: Designator=J20 Old Footprint=J-252129 New Footprint=J-252105
+Change Component Comment : Designator=J14 Old Comment=252129 New Comment=252105
+Change Component Comment : Designator=J16 Old Comment=252129 New Comment=252105
+Change Component Comment : Designator=J17 Old Comment=252129 New Comment=252105
+Change Component Comment : Designator=J18 Old Comment=252129 New Comment=252105
+Change Component Comment : Designator=J20 Old Comment=252129 New Comment=252105
+Change component parameters: Designator = "J14" ("J14"); Footprint = "J-252129"; UniqueID = "\NVVZGFKH" ("\NVVZGFKH")
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part #"; Value = "ACX1262-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Amphenol RF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part #"; Value = "252105"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J16" ("J16"); Footprint = "J-252129"; UniqueID = "\BFMARIYW" ("\BFMARIYW")
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part #"; Value = "ACX1262-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Amphenol RF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part #"; Value = "252105"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J17" ("J17"); Footprint = "J-252129"; UniqueID = "\YPAPRKJT" ("\YPAPRKJT")
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part #"; Value = "ACX1262-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Amphenol RF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part #"; Value = "252105"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J18" ("J18"); Footprint = "J-252129"; UniqueID = "\VMUHHTMN" ("\VMUHHTMN")
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part #"; Value = "ACX1262-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Amphenol RF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part #"; Value = "252105"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J20" ("J20"); Footprint = "J-252129"; UniqueID = "\JEEIWUBO" ("\JEEIWUBO")
+Change component parameters (AddParameter): Name = "Distributor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Distributor Part #"; Value = "ACX1262-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Amphenol RF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part #"; Value = "252105"; VariantName = "[No Variations]"
+Added Room: Name=Antenna and LoRa
+Added Room: Name=Boom Deployment
+Added Room: Name=External Connectors
+Added Room: Name=Memory
+Added Room: Name=STM32
