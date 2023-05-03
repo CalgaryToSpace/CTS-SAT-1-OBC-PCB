@@ -1,0 +1,609 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD21\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2023-05-03</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2:44:28 AM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc" class="file"><acronym title="C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc">C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">87</td></tr>
+</table>
+</td>
+</table><a name="IDULIHC4VQNEJLCZQF2ASLMK0ZWD32G025HTZAWEES0SUETTIE50DJ"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDGLRJV5P0WZEMN5AZYOUGOQKOJFSTHKDSJNMT5FQNG05Y5ENDZJI">Clearance Constraint (Gap=10mil) (All),(All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDFDGQ0FUYYF42D3J4LMSTNRRFQLGQYBMFVO2DNPES3AE00JBVB2BG">Clearance Constraint (Gap=30mil) (InNetClass('50Ohms')),(All)</a></td>
+<td class="column2">27</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZ3F4V1ELNJK2DJBDHS2TVW5XUB33EVLWLQFID5GUKNQYVP1AB35I">Clearance Constraint (Gap=30mil) (InNetClass('DIF 100 OHMS')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDH5RBBFACITSIBJF2YN2RNPOMXGZHXBMQPPXDI3P4WMX0AMRGZS0M">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDUDK4UNK2YZR4GY5CHZVDZYXKLBNA4CUHEDGWYRZMC25ZDBZD5YL">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDUXIMHE54SBP2EOUAH3IC1DF4EDWLJHWR44IO3JIWH2E13U3QZRUH">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDBW1LUSDF0WTMDPUKEISG15X5PX1TBBIEG5SUCDW4WZ243IOLCCP">Width Constraint (Min=7mil) (Max=10mil) (Preferred=10mil) (InNetClass('50Ohms'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDI2TT0DYC2YHONPKRHQDED0FZEHFI1CQGQCB1AEENI3ZLEDJXSUUB">Width Constraint (Min=4mil) (Max=50mil) (Preferred=10mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDQAZ0MWQLL3K5FAYWB5VJF2Q3HFQAATCPV3PHKIKAA1XHBCVFXMLD">Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDG3TDG2YZCXZ0O2HTW31LXZGL5LC5PBUERKMO5HG3TWP3CUC1U4DB">Hole Size Constraint (Min=0.984mil) (Max=248.031mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID1KKDJOVAXVHYI5QZRSGXGJ5S2R0W5MYV21IBSC1TKP54M3RSG4H">Hole To Hole Clearance (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDMYKFLXZSGIU5E3PZICQHK55FOLTS53351SI03CXLYLXZIQXQVOC">Minimum Solder Mask Sliver (Gap=1.5mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDYLYUYUYK5CJIKTRBHV5ZVSDW2JPHWC05CQ2CBHDMB4UI4SMKWLQG">Silk To Solder Mask (Clearance=5.906mil) (IsPad),(All)</a></td>
+<td class="column2">56</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDBX0KJQGNEPJJKLMRPTRICAVFF3TJWHYDIKCAHCOPU3FD4P3DF1I">Silk to Silk (Clearance=0mil) (Disabled)(All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDQM2HY03A4YN3PW4CPEIGPOQH5LBXJJIIG1Q2HVGJPTILNC12E11C">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDMOUUUYEJLOKYE0OPI4VHAPXXVP3KTFDLL243Q3EPFEZHKYY2V2NC">Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">87</td>
+</tr>
+</table><br><a name="IDGLRJV5P0WZEMN5AZYOUGOQKOJFSTHKDSJNMT5FQNG05Y5ENDZJI"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=10mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2563.148mil|Location2.X=2575.049mil|Location1.Y=985.226mil|Location2.Y=996.476mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2563.148mil|Location2.X=2575.049mil|Location1.Y=985.226mil|Location2.Y=996.476mil|Absolute=True">Clearance Constraint: (8.361mil &lt; 10mil) Between Pad U13-4(2080.709mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2567.8mil|Location2.X=2579.05mil|Location1.Y=984.434mil|Location2.Y=995.684mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2567.8mil|Location2.X=2579.05mil|Location1.Y=984.434mil|Location2.Y=995.684mil|Absolute=True">Clearance Constraint: (9.646mil &lt; 10mil) Between Pad U13-4(2080.709mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2543.712mil|Location2.X=2555.575mil|Location1.Y=985.226mil|Location2.Y=996.476mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2543.712mil|Location2.X=2555.575mil|Location1.Y=985.226mil|Location2.Y=996.476mil|Absolute=True">Clearance Constraint: (8.361mil &lt; 10mil) Between Pad U13-6(2053.15mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2536.698mil|Location2.X=2547.948mil|Location1.Y=984.434mil|Location2.Y=995.684mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2536.698mil|Location2.X=2547.948mil|Location1.Y=984.434mil|Location2.Y=995.684mil|Absolute=True">Clearance Constraint: (9.646mil &lt; 10mil) Between Pad U13-6(2053.15mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDFDGQ0FUYYF42D3J4LMSTNRRFQLGQYBMFVO2DNPES3AE00JBVB2BG"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=30mil) (InNetClass('50Ohms')),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2545.202mil|Location2.X=2576.452mil|Location1.Y=952.139mil|Location2.Y=990.133mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2545.202mil|Location2.X=2576.452mil|Location1.Y=952.139mil|Location2.Y=990.133mil|Absolute=True">Clearance Constraint: (26.98mil &lt; 30mil) Between Pad U13-1(2053.15mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2535.262mil|Location2.X=2568.194mil|Location1.Y=955.257mil|Location2.Y=987.967mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2535.262mil|Location2.X=2568.194mil|Location1.Y=955.257mil|Location2.Y=987.967mil|Absolute=True">Clearance Constraint: (7.518mil &lt; 30mil) Between Pad U13-1(2053.15mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2536.54mil|Location2.X=2567.79mil|Location1.Y=933.578mil|Location2.Y=972.318mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2536.54mil|Location2.X=2567.79mil|Location1.Y=933.578mil|Location2.Y=972.318mil|Absolute=True">Clearance Constraint: (7.874mil &lt; 30mil) Between Pad U13-1(2053.15mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2532.603mil|Location2.X=2571.343mil|Location1.Y=958.883mil|Location2.Y=990.133mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2532.603mil|Location2.X=2571.343mil|Location1.Y=958.883mil|Location2.Y=990.133mil|Absolute=True">Clearance Constraint: (9.646mil &lt; 30mil) Between Pad U13-1(2053.15mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2543.922mil|Location2.X=2575.172mil|Location1.Y=958.883mil|Location2.Y=996.44mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2543.922mil|Location2.X=2575.172mil|Location1.Y=958.883mil|Location2.Y=996.44mil|Absolute=True">Clearance Constraint: (22.809mil &lt; 30mil) Between Pad U13-3(2080.709mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2551.599mil|Location2.X=2584.304mil|Location1.Y=956.717mil|Location2.Y=989.655mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2551.599mil|Location2.X=2584.304mil|Location1.Y=956.717mil|Location2.Y=989.655mil|Absolute=True">Clearance Constraint: (7.516mil &lt; 30mil) Between Pad U13-3(2080.709mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2550.32mil|Location2.X=2581.57mil|Location1.Y=933.578mil|Location2.Y=972.318mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2550.32mil|Location2.X=2581.57mil|Location1.Y=933.578mil|Location2.Y=972.318mil|Absolute=True">Clearance Constraint: (7.874mil &lt; 30mil) Between Pad U13-3(2080.709mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2560.162mil|Location2.X=2598.902mil|Location1.Y=958.883mil|Location2.Y=990.133mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2560.162mil|Location2.X=2598.902mil|Location1.Y=958.883mil|Location2.Y=990.133mil|Absolute=True">Clearance Constraint: (9.646mil &lt; 30mil) Between Pad U13-3(2080.709mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2534.769mil|Location2.X=2566.165mil|Location1.Y=971.575mil|Location2.Y=1005.684mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2534.769mil|Location2.X=2566.165mil|Location1.Y=971.575mil|Location2.Y=1005.684mil|Absolute=True">Clearance Constraint: (14.946mil &lt; 30mil) Between Pad U13-5(2066.929mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2552.091mil|Location2.X=2583.341mil|Location1.Y=974.434mil|Location2.Y=1008.756mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2552.091mil|Location2.X=2583.341mil|Location1.Y=974.434mil|Location2.Y=1008.756mil|Absolute=True">Clearance Constraint: (14.946mil &lt; 30mil) Between Pad U13-5(2066.929mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2540.477mil|Location2.X=2579.217mil|Location1.Y=968.036mil|Location2.Y=999.286mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2540.477mil|Location2.X=2579.217mil|Location1.Y=968.036mil|Location2.Y=999.286mil|Absolute=True">Clearance Constraint: (22.441mil &lt; 30mil) Between Pad U13-5(2066.929mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2540.477mil|Location2.X=2579.217mil|Location1.Y=975.517mil|Location2.Y=1006.767mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2540.477mil|Location2.X=2579.217mil|Location1.Y=975.517mil|Location2.Y=1006.767mil|Absolute=True">Clearance Constraint: (7.48mil &lt; 30mil) Between Pad U13-5(2066.929mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2509.231mil|Location2.X=2544.086mil|Location1.Y=952.751mil|Location2.Y=984.001mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2509.231mil|Location2.X=2544.086mil|Location1.Y=952.751mil|Location2.Y=984.001mil|Absolute=True">Clearance Constraint: (27.864mil &lt; 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (1986.167mil,413.332mil)(2021.958mil,413.332mil) on L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2513.385mil|Location2.X=2549.256mil|Location1.Y=957.087mil|Location2.Y=988.337mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2513.385mil|Location2.X=2549.256mil|Location1.Y=957.087mil|Location2.Y=988.337mil|Absolute=True">Clearance Constraint: (15.956mil &lt; 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2021.958mil,413.332mil)(2030.476mil,421.85mil) on L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2520.643mil|Location2.X=2551.893mil|Location1.Y=954.461mil|Location2.Y=989.291mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2520.643mil|Location2.X=2551.893mil|Location1.Y=954.461mil|Location2.Y=989.291mil|Absolute=True">Clearance Constraint: (27.439mil &lt; 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2021.958mil,413.332mil)(2030.476mil,421.85mil) on L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2535.499mil|Location2.X=2568.431mil|Location1.Y=952.495mil|Location2.Y=985.206mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2535.499mil|Location2.X=2568.431mil|Location1.Y=952.495mil|Location2.Y=985.206mil|Absolute=True">Clearance Constraint: (11.085mil &lt; 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2030.476mil,421.85mil)(2052.602mil,421.85mil) on L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2517.84mil|Location2.X=2556.579mil|Location1.Y=957.385mil|Location2.Y=988.635mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2517.84mil|Location2.X=2556.579mil|Location1.Y=957.385mil|Location2.Y=988.635mil|Absolute=True">Clearance Constraint: (12.642mil &lt; 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2030.476mil,421.85mil)(2052.602mil,421.85mil) on L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2544.977mil|Location2.X=2576.227mil|Location1.Y=951.089mil|Location2.Y=987.743mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2544.977mil|Location2.X=2576.227mil|Location1.Y=951.089mil|Location2.Y=987.743mil|Absolute=True">Clearance Constraint: (29.425mil &lt; 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2030.476mil,421.85mil)(2052.602mil,421.85mil) on L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2536.54mil|Location2.X=2567.79mil|Location1.Y=940.074mil|Location2.Y=978.814mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2536.54mil|Location2.X=2567.79mil|Location1.Y=940.074mil|Location2.Y=978.814mil|Absolute=True">Clearance Constraint: (7.874mil &lt; 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2030.476mil,421.85mil)(2052.602mil,421.85mil) on L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2543.43mil|Location2.X=2582.17mil|Location1.Y=977.015mil|Location2.Y=1008.265mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2543.43mil|Location2.X=2582.17mil|Location1.Y=977.015mil|Location2.Y=1008.265mil|Absolute=True">Clearance Constraint: (10.476mil &lt; 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2066.929mil,460.039mil)(2066.929mil,536.417mil) on L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2551.779mil|Location2.X=2585.471mil|Location1.Y=976.375mil|Location2.Y=1008.264mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2551.779mil|Location2.X=2585.471mil|Location1.Y=976.375mil|Location2.Y=1008.264mil|Absolute=True">Clearance Constraint: (18.111mil &lt; 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2066.929mil,460.039mil)(2066.929mil,536.417mil) on L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2535.081mil|Location2.X=2568.993mil|Location1.Y=975.983mil|Location2.Y=1007.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2535.081mil|Location2.X=2568.993mil|Location1.Y=975.983mil|Location2.Y=1007.625mil|Absolute=True">Clearance Constraint: (18.111mil &lt; 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2066.929mil,460.039mil)(2066.929mil,536.417mil) on L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2543.43mil|Location2.X=2582.17mil|Location1.Y=969.534mil|Location2.Y=1000.784mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2543.43mil|Location2.X=2582.17mil|Location1.Y=969.534mil|Location2.Y=1000.784mil|Absolute=True">Clearance Constraint: (25.437mil &lt; 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2066.929mil,460.039mil)(2066.929mil,536.417mil) on L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2550.952mil|Location2.X=2583.657mil|Location1.Y=953.821mil|Location2.Y=986.759mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2550.952mil|Location2.X=2583.657mil|Location1.Y=953.821mil|Location2.Y=986.759mil|Absolute=True">Clearance Constraint: (10.698mil &lt; 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2080.709mil,421.85mil)(2131.299mil,421.85mil) on L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2569.021mil|Location2.X=2607.761mil|Location1.Y=957.385mil|Location2.Y=988.635mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2569.021mil|Location2.X=2607.761mil|Location1.Y=957.385mil|Location2.Y=988.635mil|Absolute=True">Clearance Constraint: (12.642mil &lt; 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2080.709mil,421.85mil)(2131.299mil,421.85mil) on L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2543.954mil|Location2.X=2575.204mil|Location1.Y=956.622mil|Location2.Y=992.401mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2543.954mil|Location2.X=2575.204mil|Location1.Y=956.622mil|Location2.Y=992.401mil|Absolute=True">Clearance Constraint: (25.11mil &lt; 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2080.709mil,421.85mil)(2131.299mil,421.85mil) on L1 Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2550.046mil|Location2.X=2581.296mil|Location1.Y=940.074mil|Location2.Y=978.814mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2550.046mil|Location2.X=2581.296mil|Location1.Y=940.074mil|Location2.Y=978.814mil|Absolute=True">Clearance Constraint: (7.327mil &lt; 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2080.709mil,421.85mil)(2131.299mil,421.85mil) on L1 Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDYLYUYUYK5CJIKTRBHV5ZVSDW2JPHWC05CQ2CBHDMB4UI4SMKWLQG"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=5.906mil) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1870.788mil|Location2.X=1875.725mil|Location1.Y=1352.171mil|Location2.Y=1357.108mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1870.788mil|Location2.X=1875.725mil|Location1.Y=1352.171mil|Location2.Y=1357.108mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 5.906mil) Between Pad C32-1(1363.189mil,826.772mil) on L6 Bottom Layer And Text "C32" (1441.111mil,773.314mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1906.53mil|Location2.X=1911.467mil|Location1.Y=1347.925mil|Location2.Y=1352.862mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1906.53mil|Location2.X=1911.467mil|Location1.Y=1347.925mil|Location2.Y=1352.862mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 5.906mil) Between Pad C32-2(1418.307mil,826.772mil) on L6 Bottom Layer And Text "C32" (1441.111mil,773.314mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3629.361mil|Location2.X=3637.304mil|Location1.Y=787.309mil|Location2.Y=795.881mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3629.361mil|Location2.X=3637.304mil|Location1.Y=787.309mil|Location2.Y=795.881mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.393mil &lt; 5.906mil) Between Pad J14-0(3180mil,285mil) on Multi-Layer And Track (3137.205mil,122.042mil)(3137.205mil,247.958mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.393mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3702.344mil|Location2.X=3710.98mil|Location1.Y=861.44mil|Location2.Y=869.306mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3702.344mil|Location2.X=3710.98mil|Location1.Y=861.44mil|Location2.Y=869.306mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.398mil &lt; 5.906mil) Between Pad J14-0(3180mil,285mil) on Multi-Layer And Track (3216.804mil,328mil)(3343.196mil,328mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.398mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3629.361mil|Location2.X=3637.228mil|Location1.Y=656.796mil|Location2.Y=665.432mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3629.361mil|Location2.X=3637.228mil|Location1.Y=656.796mil|Location2.Y=665.432mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.393mil &lt; 5.906mil) Between Pad J14-0(3180mil,85mil) on Multi-Layer And Track (3137.205mil,122.042mil)(3137.205mil,247.958mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.393mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3702.344mil|Location2.X=3710.916mil|Location1.Y=583.371mil|Location2.Y=591.314mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3702.344mil|Location2.X=3710.916mil|Location1.Y=583.371mil|Location2.Y=591.314mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.398mil &lt; 5.906mil) Between Pad J14-0(3180mil,85mil) on Multi-Layer And Track (3216.804mil,42mil)(3343.196mil,42mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.398mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3834.752mil|Location2.X=3843.325mil|Location1.Y=862.151mil|Location2.Y=870.094mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3834.752mil|Location2.X=3843.325mil|Location1.Y=862.151mil|Location2.Y=870.094mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.398mil &lt; 5.906mil) Between Pad J14-0(3380mil,285mil) on Multi-Layer And Track (3216.804mil,328mil)(3343.196mil,328mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.398mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3907.735mil|Location2.X=3915.602mil|Location1.Y=788.725mil|Location2.Y=797.362mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3907.735mil|Location2.X=3915.602mil|Location1.Y=788.725mil|Location2.Y=797.362mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.393mil &lt; 5.906mil) Between Pad J14-0(3380mil,285mil) on Multi-Layer And Track (3422.795mil,122.042mil)(3422.795mil,247.958mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.393mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3834.752mil|Location2.X=3843.389mil|Location1.Y=582.66mil|Location2.Y=590.526mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3834.752mil|Location2.X=3843.389mil|Location1.Y=582.66mil|Location2.Y=590.526mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.398mil &lt; 5.906mil) Between Pad J14-0(3380mil,85mil) on Multi-Layer And Track (3216.804mil,42mil)(3343.196mil,42mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.398mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3907.735mil|Location2.X=3915.679mil|Location1.Y=655.379mil|Location2.Y=663.952mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3907.735mil|Location2.X=3915.679mil|Location1.Y=655.379mil|Location2.Y=663.952mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.393mil &lt; 5.906mil) Between Pad J14-0(3380mil,85mil) on Multi-Layer And Track (3422.795mil,122.042mil)(3422.795mil,247.958mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.393mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3006.361mil|Location2.X=3014.304mil|Location1.Y=787.309mil|Location2.Y=795.881mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3006.361mil|Location2.X=3014.304mil|Location1.Y=787.309mil|Location2.Y=795.881mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.393mil &lt; 5.906mil) Between Pad J16-0(2557mil,285mil) on Multi-Layer And Track (2514.205mil,122.042mil)(2514.205mil,247.958mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.393mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3079.344mil|Location2.X=3087.98mil|Location1.Y=861.44mil|Location2.Y=869.306mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3079.344mil|Location2.X=3087.98mil|Location1.Y=861.44mil|Location2.Y=869.306mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.398mil &lt; 5.906mil) Between Pad J16-0(2557mil,285mil) on Multi-Layer And Track (2593.804mil,328mil)(2720.196mil,328mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.398mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3006.361mil|Location2.X=3014.228mil|Location1.Y=656.796mil|Location2.Y=665.432mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3006.361mil|Location2.X=3014.228mil|Location1.Y=656.796mil|Location2.Y=665.432mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.393mil &lt; 5.906mil) Between Pad J16-0(2557mil,85mil) on Multi-Layer And Track (2514.205mil,122.042mil)(2514.205mil,247.958mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.393mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3079.344mil|Location2.X=3087.916mil|Location1.Y=583.371mil|Location2.Y=591.314mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3079.344mil|Location2.X=3087.916mil|Location1.Y=583.371mil|Location2.Y=591.314mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.398mil &lt; 5.906mil) Between Pad J16-0(2557mil,85mil) on Multi-Layer And Track (2593.804mil,42mil)(2720.196mil,42mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.398mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3211.752mil|Location2.X=3220.325mil|Location1.Y=862.151mil|Location2.Y=870.094mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3211.752mil|Location2.X=3220.325mil|Location1.Y=862.151mil|Location2.Y=870.094mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.398mil &lt; 5.906mil) Between Pad J16-0(2757mil,285mil) on Multi-Layer And Track (2593.804mil,328mil)(2720.196mil,328mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.398mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3284.735mil|Location2.X=3292.602mil|Location1.Y=788.725mil|Location2.Y=797.362mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3284.735mil|Location2.X=3292.602mil|Location1.Y=788.725mil|Location2.Y=797.362mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.393mil &lt; 5.906mil) Between Pad J16-0(2757mil,285mil) on Multi-Layer And Track (2799.795mil,122.042mil)(2799.795mil,247.958mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.393mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3211.752mil|Location2.X=3220.389mil|Location1.Y=582.66mil|Location2.Y=590.526mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3211.752mil|Location2.X=3220.389mil|Location1.Y=582.66mil|Location2.Y=590.526mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.398mil &lt; 5.906mil) Between Pad J16-0(2757mil,85mil) on Multi-Layer And Track (2593.804mil,42mil)(2720.196mil,42mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.398mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3284.735mil|Location2.X=3292.679mil|Location1.Y=655.379mil|Location2.Y=663.952mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3284.735mil|Location2.X=3292.679mil|Location1.Y=655.379mil|Location2.Y=663.952mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.393mil &lt; 5.906mil) Between Pad J16-0(2757mil,85mil) on Multi-Layer And Track (2799.795mil,122.042mil)(2799.795mil,247.958mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.393mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2203.489mil|Location2.X=2211.432mil|Location1.Y=787.588mil|Location2.Y=796.16mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2203.489mil|Location2.X=2211.432mil|Location1.Y=787.588mil|Location2.Y=796.16mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.398mil &lt; 5.906mil) Between Pad J17-0(1754.331mil,285.039mil) on Multi-Layer And Track (1711.331mil,121.844mil)(1711.331mil,248.235mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.398mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2276.914mil|Location2.X=2285.55mil|Location1.Y=861.276mil|Location2.Y=869.143mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2276.914mil|Location2.X=2285.55mil|Location1.Y=861.276mil|Location2.Y=869.143mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.393mil &lt; 5.906mil) Between Pad J17-0(1754.331mil,285.039mil) on Multi-Layer And Track (1791.373mil,327.835mil)(1917.289mil,327.835mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.393mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2203.489mil|Location2.X=2211.355mil|Location1.Y=656.596mil|Location2.Y=665.232mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2203.489mil|Location2.X=2211.355mil|Location1.Y=656.596mil|Location2.Y=665.232mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.398mil &lt; 5.906mil) Between Pad J17-0(1754.331mil,85.039mil) on Multi-Layer And Track (1711.331mil,121.844mil)(1711.331mil,248.235mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.398mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2276.914mil|Location2.X=2285.486mil|Location1.Y=583.613mil|Location2.Y=591.556mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2276.914mil|Location2.X=2285.486mil|Location1.Y=583.613mil|Location2.Y=591.556mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.393mil &lt; 5.906mil) Between Pad J17-0(1754.331mil,85.039mil) on Multi-Layer And Track (1791.373mil,42.244mil)(1917.289mil,42.244mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.393mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2408.844mil|Location2.X=2417.416mil|Location1.Y=861.987mil|Location2.Y=869.931mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2408.844mil|Location2.X=2417.416mil|Location1.Y=861.987mil|Location2.Y=869.931mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.393mil &lt; 5.906mil) Between Pad J17-0(1954.331mil,285.039mil) on Multi-Layer And Track (1791.373mil,327.835mil)(1917.289mil,327.835mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.393mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2482.269mil|Location2.X=2490.135mil|Location1.Y=789.004mil|Location2.Y=797.64mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2482.269mil|Location2.X=2490.135mil|Location1.Y=789.004mil|Location2.Y=797.64mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.398mil &lt; 5.906mil) Between Pad J17-0(1954.331mil,285.039mil) on Multi-Layer And Track (1997.331mil,121.844mil)(1997.331mil,248.235mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.398mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2408.844mil|Location2.X=2417.48mil|Location1.Y=582.902mil|Location2.Y=590.768mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2408.844mil|Location2.X=2417.48mil|Location1.Y=582.902mil|Location2.Y=590.768mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.393mil &lt; 5.906mil) Between Pad J17-0(1954.331mil,85.039mil) on Multi-Layer And Track (1791.373mil,42.244mil)(1917.289mil,42.244mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.393mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2482.269mil|Location2.X=2490.212mil|Location1.Y=655.179mil|Location2.Y=663.751mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2482.269mil|Location2.X=2490.212mil|Location1.Y=655.179mil|Location2.Y=663.751mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.398mil &lt; 5.906mil) Between Pad J17-0(1954.331mil,85.039mil) on Multi-Layer And Track (1997.331mil,121.844mil)(1997.331mil,248.235mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.398mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2471.753mil|Location2.X=2482.366mil|Location1.Y=1157.539mil|Location2.Y=1165.255mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2471.753mil|Location2.X=2482.366mil|Location1.Y=1157.539mil|Location2.Y=1165.255mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (5.418mil &lt; 5.906mil) Between Pad J18-0(1968.063mil,670.48mil) on Multi-Layer And Text "C45" (2024.993mil,506.684mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.418mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2417.221mil|Location2.X=2425.088mil|Location1.Y=1242.037mil|Location2.Y=1250.673mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2417.221mil|Location2.X=2425.088mil|Location1.Y=1242.037mil|Location2.Y=1250.673mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.398mil &lt; 5.906mil) Between Pad J18-0(1968.063mil,670.48mil) on Multi-Layer And Track (1925.063mil,707.285mil)(1925.063mil,833.676mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.398mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2490.647mil|Location2.X=2499.219mil|Location1.Y=1169.054mil|Location2.Y=1176.997mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2490.647mil|Location2.X=2499.219mil|Location1.Y=1169.054mil|Location2.Y=1176.997mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.393mil &lt; 5.906mil) Between Pad J18-0(1968.063mil,670.48mil) on Multi-Layer And Track (2005.105mil,627.685mil)(2131.021mil,627.685mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.393mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2417.221mil|Location2.X=2425.164mil|Location1.Y=1373.029mil|Location2.Y=1381.601mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2417.221mil|Location2.X=2425.164mil|Location1.Y=1373.029mil|Location2.Y=1381.601mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.398mil &lt; 5.906mil) Between Pad J18-0(1968.063mil,870.48mil) on Multi-Layer And Track (1925.063mil,707.285mil)(1925.063mil,833.676mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.398mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2490.647mil|Location2.X=2499.283mil|Location1.Y=1446.717mil|Location2.Y=1454.584mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2490.647mil|Location2.X=2499.283mil|Location1.Y=1446.717mil|Location2.Y=1454.584mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.393mil &lt; 5.906mil) Between Pad J18-0(1968.063mil,870.48mil) on Multi-Layer And Track (2005.105mil,913.276mil)(2131.021mil,913.276mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.393mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2622.576mil|Location2.X=2631.212mil|Location1.Y=1168.343mil|Location2.Y=1176.209mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2622.576mil|Location2.X=2631.212mil|Location1.Y=1168.343mil|Location2.Y=1176.209mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.393mil &lt; 5.906mil) Between Pad J18-0(2168.063mil,670.48mil) on Multi-Layer And Track (2005.105mil,627.685mil)(2131.021mil,627.685mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.393mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2696.001mil|Location2.X=2703.945mil|Location1.Y=1240.62mil|Location2.Y=1249.192mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2696.001mil|Location2.X=2703.945mil|Location1.Y=1240.62mil|Location2.Y=1249.192mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.398mil &lt; 5.906mil) Between Pad J18-0(2168.063mil,670.48mil) on Multi-Layer And Track (2211.063mil,707.285mil)(2211.063mil,833.676mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.398mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2622.576mil|Location2.X=2631.148mil|Location1.Y=1447.428mil|Location2.Y=1455.372mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2622.576mil|Location2.X=2631.148mil|Location1.Y=1447.428mil|Location2.Y=1455.372mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.393mil &lt; 5.906mil) Between Pad J18-0(2168.063mil,870.48mil) on Multi-Layer And Track (2005.105mil,913.276mil)(2131.021mil,913.276mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.393mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2696.001mil|Location2.X=2703.868mil|Location1.Y=1374.445mil|Location2.Y=1383.081mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2696.001mil|Location2.X=2703.868mil|Location1.Y=1374.445mil|Location2.Y=1383.081mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.398mil &lt; 5.906mil) Between Pad J18-0(2168.063mil,870.48mil) on Multi-Layer And Track (2211.063mil,707.285mil)(2211.063mil,833.676mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.398mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2612.938mil|Location2.X=2620.881mil|Location1.Y=787.588mil|Location2.Y=796.16mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2612.938mil|Location2.X=2620.881mil|Location1.Y=787.588mil|Location2.Y=796.16mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.398mil &lt; 5.906mil) Between Pad J20-0(2163.78mil,285.039mil) on Multi-Layer And Track (2120.78mil,121.844mil)(2120.78mil,248.235mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.398mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2686.363mil|Location2.X=2694.999mil|Location1.Y=861.276mil|Location2.Y=869.143mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2686.363mil|Location2.X=2694.999mil|Location1.Y=861.276mil|Location2.Y=869.143mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.393mil &lt; 5.906mil) Between Pad J20-0(2163.78mil,285.039mil) on Multi-Layer And Track (2200.822mil,327.835mil)(2326.737mil,327.835mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.393mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2599.943mil|Location2.X=2607.098mil|Location1.Y=627.887mil|Location2.Y=635.043mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2599.943mil|Location2.X=2607.098mil|Location1.Y=627.887mil|Location2.Y=635.043mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (4.867mil &lt; 5.906mil) Between Pad J20-0(2163.78mil,85.039mil) on Multi-Layer And Text "ANT1" (2102mil,31mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.867mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2612.938mil|Location2.X=2620.804mil|Location1.Y=656.596mil|Location2.Y=665.232mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2612.938mil|Location2.X=2620.804mil|Location1.Y=656.596mil|Location2.Y=665.232mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.398mil &lt; 5.906mil) Between Pad J20-0(2163.78mil,85.039mil) on Multi-Layer And Track (2120.78mil,121.844mil)(2120.78mil,248.235mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.398mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2686.363mil|Location2.X=2694.935mil|Location1.Y=583.613mil|Location2.Y=591.556mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2686.363mil|Location2.X=2694.935mil|Location1.Y=583.613mil|Location2.Y=591.556mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.393mil &lt; 5.906mil) Between Pad J20-0(2163.78mil,85.039mil) on Multi-Layer And Track (2200.822mil,42.244mil)(2326.737mil,42.244mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.393mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2818.292mil|Location2.X=2826.865mil|Location1.Y=861.987mil|Location2.Y=869.931mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2818.292mil|Location2.X=2826.865mil|Location1.Y=861.987mil|Location2.Y=869.931mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.393mil &lt; 5.906mil) Between Pad J20-0(2363.78mil,285.039mil) on Multi-Layer And Track (2200.822mil,327.835mil)(2326.737mil,327.835mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.393mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2891.718mil|Location2.X=2899.584mil|Location1.Y=789.004mil|Location2.Y=797.64mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2891.718mil|Location2.X=2899.584mil|Location1.Y=789.004mil|Location2.Y=797.64mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.398mil &lt; 5.906mil) Between Pad J20-0(2363.78mil,285.039mil) on Multi-Layer And Track (2406.78mil,121.844mil)(2406.78mil,248.235mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.398mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2818.292mil|Location2.X=2826.929mil|Location1.Y=582.902mil|Location2.Y=590.768mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2818.292mil|Location2.X=2826.929mil|Location1.Y=582.902mil|Location2.Y=590.768mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.393mil &lt; 5.906mil) Between Pad J20-0(2363.78mil,85.039mil) on Multi-Layer And Track (2200.822mil,42.244mil)(2326.737mil,42.244mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.393mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2891.718mil|Location2.X=2899.661mil|Location1.Y=655.179mil|Location2.Y=663.751mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2891.718mil|Location2.X=2899.661mil|Location1.Y=655.179mil|Location2.Y=663.751mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.398mil &lt; 5.906mil) Between Pad J20-0(2363.78mil,85.039mil) on Multi-Layer And Track (2406.78mil,121.844mil)(2406.78mil,248.235mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.398mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1960.989mil|Location2.X=1968.145mil|Location1.Y=879.03mil|Location2.Y=886.186mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1960.989mil|Location2.X=1968.145mil|Location1.Y=879.03mil|Location2.Y=886.186mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (5.374mil &lt; 5.906mil) Between Pad J4-S1(1513.78mil,279.528mil) on L6 Bottom Layer And Track (1472.441mil,346.457mil)(1472.441mil,362.205mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [5.374mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1695.241mil|Location2.X=1702.397mil|Location1.Y=879.03mil|Location2.Y=886.186mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1695.241mil|Location2.X=1702.397mil|Location1.Y=879.03mil|Location2.Y=886.186mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (5.374mil &lt; 5.906mil) Between Pad J4-S2(1165.354mil,279.528mil) on L6 Bottom Layer And Track (1206.693mil,346.457mil)(1206.693mil,362.205mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [5.374mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1910.989mil|Location2.X=1918.145mil|Location1.Y=2189.851mil|Location2.Y=2197.007mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1910.989mil|Location2.X=1918.145mil|Location1.Y=2189.851mil|Location2.Y=2197.007mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (5.252mil &lt; 5.906mil) Between Pad U1-24(1420.126mil,1681.291mil) on L1 Top Layer And Track (1422.441mil,1586.472mil)(1422.441mil,1645.528mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.252mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1915.564mil|Location2.X=1922.719mil|Location1.Y=2189.851mil|Location2.Y=2197.007mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1915.564mil|Location2.X=1922.719mil|Location1.Y=2189.851mil|Location2.Y=2197.007mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (5.252mil &lt; 5.906mil) Between Pad U1-24(1420.126mil,1681.291mil) on L1 Top Layer And Track (1422.441mil,1645.528mil)(1532.677mil,1645.528mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.252mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1935.249mil|Location2.X=1942.405mil|Location1.Y=2189.851mil|Location2.Y=2197.007mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1935.249mil|Location2.X=1942.405mil|Location1.Y=2189.851mil|Location2.Y=2197.007mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (5.252mil &lt; 5.906mil) Between Pad U1-25(1439.811mil,1681.291mil) on L1 Top Layer And Track (1422.441mil,1645.528mil)(1532.677mil,1645.528mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.252mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1954.934mil|Location2.X=1962.09mil|Location1.Y=2189.851mil|Location2.Y=2197.007mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1954.934mil|Location2.X=1962.09mil|Location1.Y=2189.851mil|Location2.Y=2197.007mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (5.252mil &lt; 5.906mil) Between Pad U1-26(1459.496mil,1681.291mil) on L1 Top Layer And Track (1422.441mil,1645.528mil)(1532.677mil,1645.528mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.252mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1974.619mil|Location2.X=1981.774mil|Location1.Y=2189.851mil|Location2.Y=2197.007mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1974.619mil|Location2.X=1981.774mil|Location1.Y=2189.851mil|Location2.Y=2197.007mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (5.252mil &lt; 5.906mil) Between Pad U1-27(1479.181mil,1681.291mil) on L1 Top Layer And Track (1422.441mil,1645.528mil)(1532.677mil,1645.528mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.252mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1994.304mil|Location2.X=2001.46mil|Location1.Y=2189.851mil|Location2.Y=2197.007mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1994.304mil|Location2.X=2001.46mil|Location1.Y=2189.851mil|Location2.Y=2197.007mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (5.252mil &lt; 5.906mil) Between Pad U1-28(1498.866mil,1681.291mil) on L1 Top Layer And Track (1422.441mil,1645.528mil)(1532.677mil,1645.528mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.252mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2013.989mil|Location2.X=2021.145mil|Location1.Y=2189.851mil|Location2.Y=2197.007mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2013.989mil|Location2.X=2021.145mil|Location1.Y=2189.851mil|Location2.Y=2197.007mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (5.252mil &lt; 5.906mil) Between Pad U1-29(1518.551mil,1681.291mil) on L1 Top Layer And Track (1422.441mil,1645.528mil)(1532.677mil,1645.528mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.252mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2019.895mil|Location2.X=2027.05mil|Location1.Y=2189.851mil|Location2.Y=2197.007mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2019.895mil|Location2.X=2027.05mil|Location1.Y=2189.851mil|Location2.Y=2197.007mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (5.252mil &lt; 5.906mil) Between Pad U1-30(1538.236mil,1681.291mil) on L1 Top Layer And Track (1422.441mil,1645.528mil)(1532.677mil,1645.528mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.252mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2021.226mil|Location2.X=2028.381mil|Location1.Y=2189.851mil|Location2.Y=2197.007mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2021.226mil|Location2.X=2028.381mil|Location1.Y=2189.851mil|Location2.Y=2197.007mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (5.252mil &lt; 5.906mil) Between Pad U1-30(1538.236mil,1681.291mil) on L1 Top Layer And Track (1532.677mil,1586.472mil)(1532.677mil,1645.528mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.252mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1876.123mil|Location2.X=1883.278mil|Location1.Y=1947.733mil|Location2.Y=1954.889mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1876.123mil|Location2.X=1883.278mil|Location1.Y=1947.733mil|Location2.Y=1954.889mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.945mil &lt; 5.906mil) Between Pad Y1-3(1397.575mil,1387mil) on L1 Top Layer And Track (1368.472mil,1415.882mil)(1427.528mil,1415.882mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.945mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
