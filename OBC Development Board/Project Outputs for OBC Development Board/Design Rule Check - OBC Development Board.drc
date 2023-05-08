@@ -1,44 +1,13 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board\OBC Development Board.PcbDoc
-Date     : 2023-05-03
-Time     : 2:44:28 AM
+Date     : 2023-05-08
+Time     : 12:15:30 AM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
-   Violation between Clearance Constraint: (8.361mil < 10mil) Between Pad U13-4(2080.709mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (9.646mil < 10mil) Between Pad U13-4(2080.709mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (8.361mil < 10mil) Between Pad U13-6(2053.15mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (9.646mil < 10mil) Between Pad U13-6(2053.15mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-Rule Violations :4
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=30mil) (InNetClass('50Ohms')),(All)
-   Violation between Clearance Constraint: (26.98mil < 30mil) Between Pad U13-1(2053.15mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (7.518mil < 30mil) Between Pad U13-1(2053.15mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (7.874mil < 30mil) Between Pad U13-1(2053.15mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (9.646mil < 30mil) Between Pad U13-1(2053.15mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (22.809mil < 30mil) Between Pad U13-3(2080.709mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (7.516mil < 30mil) Between Pad U13-3(2080.709mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (7.874mil < 30mil) Between Pad U13-3(2080.709mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (9.646mil < 30mil) Between Pad U13-3(2080.709mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (14.946mil < 30mil) Between Pad U13-5(2066.929mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (14.946mil < 30mil) Between Pad U13-5(2066.929mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (22.441mil < 30mil) Between Pad U13-5(2066.929mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (7.48mil < 30mil) Between Pad U13-5(2066.929mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (27.864mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (1986.167mil,413.332mil)(2021.958mil,413.332mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (15.956mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2021.958mil,413.332mil)(2030.476mil,421.85mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (27.439mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2021.958mil,413.332mil)(2030.476mil,421.85mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (11.085mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2030.476mil,421.85mil)(2052.602mil,421.85mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (12.642mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2030.476mil,421.85mil)(2052.602mil,421.85mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (29.425mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2030.476mil,421.85mil)(2052.602mil,421.85mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (7.874mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2030.476mil,421.85mil)(2052.602mil,421.85mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (10.476mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2066.929mil,460.039mil)(2066.929mil,536.417mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (18.111mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2066.929mil,460.039mil)(2066.929mil,536.417mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (18.111mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2066.929mil,460.039mil)(2066.929mil,536.417mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (25.437mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2066.929mil,460.039mil)(2066.929mil,536.417mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (10.698mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2080.709mil,421.85mil)(2131.299mil,421.85mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (12.642mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2080.709mil,421.85mil)(2131.299mil,421.85mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (25.11mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2080.709mil,421.85mil)(2131.299mil,421.85mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (7.327mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2080.709mil,421.85mil)(2131.299mil,421.85mil) on L1 Top Layer 
-Rule Violations :27
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=30mil) (InNetClass('DIF 100 OHMS')),(All)
 Rule Violations :0
@@ -71,8 +40,6 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=1.5mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=5.906mil) (IsPad),(All)
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad C32-1(1363.189mil,826.772mil) on L6 Bottom Layer And Text "C32" (1441.111mil,773.314mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad C32-2(1418.307mil,826.772mil) on L6 Bottom Layer And Text "C32" (1441.111mil,773.314mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
    Violation between Silk To Solder Mask Clearance Constraint: (3.393mil < 5.906mil) Between Pad J14-0(3180mil,285mil) on Multi-Layer And Track (3137.205mil,122.042mil)(3137.205mil,247.958mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.393mil]
    Violation between Silk To Solder Mask Clearance Constraint: (3.398mil < 5.906mil) Between Pad J14-0(3180mil,285mil) on Multi-Layer And Track (3216.804mil,328mil)(3343.196mil,328mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.398mil]
    Violation between Silk To Solder Mask Clearance Constraint: (3.393mil < 5.906mil) Between Pad J14-0(3180mil,85mil) on Multi-Layer And Track (3137.205mil,122.042mil)(3137.205mil,247.958mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.393mil]
@@ -117,17 +84,7 @@ Processing Rule : Silk To Solder Mask (Clearance=5.906mil) (IsPad),(All)
    Violation between Silk To Solder Mask Clearance Constraint: (3.398mil < 5.906mil) Between Pad J20-0(2363.78mil,85.039mil) on Multi-Layer And Track (2406.78mil,121.844mil)(2406.78mil,248.235mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.398mil]
    Violation between Silk To Solder Mask Clearance Constraint: (5.374mil < 5.906mil) Between Pad J4-S1(1513.78mil,279.528mil) on L6 Bottom Layer And Track (1472.441mil,346.457mil)(1472.441mil,362.205mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [5.374mil]
    Violation between Silk To Solder Mask Clearance Constraint: (5.374mil < 5.906mil) Between Pad J4-S2(1165.354mil,279.528mil) on L6 Bottom Layer And Track (1206.693mil,346.457mil)(1206.693mil,362.205mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [5.374mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (5.252mil < 5.906mil) Between Pad U1-24(1420.126mil,1681.291mil) on L1 Top Layer And Track (1422.441mil,1586.472mil)(1422.441mil,1645.528mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.252mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (5.252mil < 5.906mil) Between Pad U1-24(1420.126mil,1681.291mil) on L1 Top Layer And Track (1422.441mil,1645.528mil)(1532.677mil,1645.528mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.252mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (5.252mil < 5.906mil) Between Pad U1-25(1439.811mil,1681.291mil) on L1 Top Layer And Track (1422.441mil,1645.528mil)(1532.677mil,1645.528mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.252mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (5.252mil < 5.906mil) Between Pad U1-26(1459.496mil,1681.291mil) on L1 Top Layer And Track (1422.441mil,1645.528mil)(1532.677mil,1645.528mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.252mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (5.252mil < 5.906mil) Between Pad U1-27(1479.181mil,1681.291mil) on L1 Top Layer And Track (1422.441mil,1645.528mil)(1532.677mil,1645.528mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.252mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (5.252mil < 5.906mil) Between Pad U1-28(1498.866mil,1681.291mil) on L1 Top Layer And Track (1422.441mil,1645.528mil)(1532.677mil,1645.528mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.252mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (5.252mil < 5.906mil) Between Pad U1-29(1518.551mil,1681.291mil) on L1 Top Layer And Track (1422.441mil,1645.528mil)(1532.677mil,1645.528mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.252mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (5.252mil < 5.906mil) Between Pad U1-30(1538.236mil,1681.291mil) on L1 Top Layer And Track (1422.441mil,1645.528mil)(1532.677mil,1645.528mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.252mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (5.252mil < 5.906mil) Between Pad U1-30(1538.236mil,1681.291mil) on L1 Top Layer And Track (1532.677mil,1586.472mil)(1532.677mil,1645.528mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.252mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (3.945mil < 5.906mil) Between Pad Y1-3(1397.575mil,1387mil) on L1 Top Layer And Track (1368.472mil,1415.882mil)(1427.528mil,1415.882mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.945mil]
-Rule Violations :56
+Rule Violations :44
 
 Processing Rule : Silk to Silk (Clearance=0mil) (Disabled)(All),(All)
 Rule Violations :0
@@ -138,7 +95,44 @@ Rule Violations :0
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
+Waived Violations Of Rule : Clearance Constraint (Gap=10mil) (All),(All)
+   Waived Violation between Clearance Constraint: (8.361mil < 10mil) Between Pad U13-4(2080.709mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (9.646mil < 10mil) Between Pad U13-4(2080.709mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (8.361mil < 10mil) Between Pad U13-6(2053.15mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (9.646mil < 10mil) Between Pad U13-6(2053.15mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+Waived Violations :4
 
-Violations Detected : 87
-Waived Violations : 0
+Waived Violations Of Rule : Clearance Constraint (Gap=30mil) (InNetClass('50Ohms')),(All)
+   Waived Violation between Clearance Constraint: (26.98mil < 30mil) Between Pad U13-1(2053.15mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (7.518mil < 30mil) Between Pad U13-1(2053.15mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (7.874mil < 30mil) Between Pad U13-1(2053.15mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (9.646mil < 30mil) Between Pad U13-1(2053.15mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (22.809mil < 30mil) Between Pad U13-3(2080.709mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (7.516mil < 30mil) Between Pad U13-3(2080.709mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (7.874mil < 30mil) Between Pad U13-3(2080.709mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (9.646mil < 30mil) Between Pad U13-3(2080.709mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (14.946mil < 30mil) Between Pad U13-5(2066.929mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (14.946mil < 30mil) Between Pad U13-5(2066.929mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (22.441mil < 30mil) Between Pad U13-5(2066.929mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (7.48mil < 30mil) Between Pad U13-5(2066.929mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (27.864mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (1986.167mil,413.332mil)(2021.958mil,413.332mil) on L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (15.956mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2021.958mil,413.332mil)(2030.476mil,421.85mil) on L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (27.439mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2021.958mil,413.332mil)(2030.476mil,421.85mil) on L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (11.085mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2030.476mil,421.85mil)(2052.602mil,421.85mil) on L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (12.642mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2030.476mil,421.85mil)(2052.602mil,421.85mil) on L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (29.425mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2030.476mil,421.85mil)(2052.602mil,421.85mil) on L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (7.874mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2030.476mil,421.85mil)(2052.602mil,421.85mil) on L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (10.476mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2066.929mil,460.039mil)(2066.929mil,536.417mil) on L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (18.111mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2066.929mil,460.039mil)(2066.929mil,536.417mil) on L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (18.111mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2066.929mil,460.039mil)(2066.929mil,536.417mil) on L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (25.437mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2066.929mil,460.039mil)(2066.929mil,536.417mil) on L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (10.698mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2080.709mil,421.85mil)(2131.299mil,421.85mil) on L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (12.642mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2080.709mil,421.85mil)(2131.299mil,421.85mil) on L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (25.11mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2080.709mil,421.85mil)(2131.299mil,421.85mil) on L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+   Waived Violation between Clearance Constraint: (7.327mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2080.709mil,421.85mil)(2131.299mil,421.85mil) on L1 Top Layer Waived by James Chen at 2023-05-08 12:12:42 AM
+Waived Violations :27
+
+
+Violations Detected : 44
+Waived Violations : 31
 Time Elapsed        : 00:00:02
