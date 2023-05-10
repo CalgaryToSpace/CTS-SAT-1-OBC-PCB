@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: OBC Development Board.GBR   2023-05-08  12:48:29 AM
+Gerber File Extension Report For: OBC Development Board.GBR   2023-05-08  12:55:45 AM
 ------------------------------------------------------------------------------------------
 
 
@@ -11,6 +11,8 @@ Layer Extension     Layer Description
 .GTS                Top Solder                              
 .GTL                L1 Top Layer                            
 .GP1                L2 GND                                  
+.G1                 L3 Signal                               
+.G2                 L4 Signal                               
 .GP2                L5 GND                                  
 .GBL                L6 Bottom Layer                         
 .GBS                Bottom Solder                           

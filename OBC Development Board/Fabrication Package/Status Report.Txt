@@ -6,6 +6,8 @@ From  : Variant [Build] of PCB Document [OBC Development Board.PcbDoc]
    Generated File[OBC Development Board.GTS]
    Generated File[OBC Development Board.GTL]
    Generated File[OBC Development Board.GP1]
+   Generated File[OBC Development Board.G1]
+   Generated File[OBC Development Board.G2]
    Generated File[OBC Development Board.GP2]
    Generated File[OBC Development Board.GBL]
    Generated File[OBC Development Board.GBS]
@@ -18,7 +20,7 @@ From  : Variant [Build] of PCB Document [OBC Development Board.PcbDoc]
    Generated File[OBC Development Board.REP]
 
 
-Files Generated   : 15
+Files Generated   : 17
 Documents Printed : 0
 
-Finished Output Generation At 12:48:31 AM On 2023-05-08
+Finished Output Generation At 12:55:46 AM On 2023-05-08

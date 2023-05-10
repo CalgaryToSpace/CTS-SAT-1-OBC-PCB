@@ -1,10 +1,10 @@
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [Build] of Project [OBC Development Board.PrjPcb]
-   Generated File[Bill of Materials-OBC Development Board(Build).xlsx]
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [Build] of PCB Document [OBC Development Board.PcbDoc]
+   Generated File[Pick Place for OBC Development Board(Build).csv]
 
 
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 12:48:51 AM On 2023-05-08
+Finished Output Generation At 1:16:24 AM On 2023-05-08
