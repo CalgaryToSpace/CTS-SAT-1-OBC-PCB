@@ -1,15 +1,9 @@
-# OBC_PCB_hardware
-Design files for the onboard computer PCB and supporting boards with full history, keep repo private, to release designs use the hardware_design_releases repository, currently on V1.2.0
-See tags for revisions, the following are avalible:
-rev1.0 (not functional)
-rev1.1 (functional with PCB modification, short)
-rev1.2 (TBD)
+# CalgaryToSpace-Hardware-Designs
 
-All wires should be concidered for outgassing characteristicsm, PTFE insulation has been selected as a standard insulation materal. Part Number 26 AWG: 5853 BK005
-1 amp per conductor should be max. 
+This is the design repository for the onboard computer PCB and its supporting boards. The entire history of the design is kept private, but to release the designs, please use the hardware_design_releases repository, which is currently on version 1.2.0. You can check the tags for the revisions available, which are rev1.0 (not functional), rev1.1 (functional with PCB modification, short), and rev1.2 (TBD).
 
-Space Grade PCB's should be constructed from rogers (low outgassing properties)
+It is important to consider the outgassing characteristics of all wires used, so PTFE insulation has been chosen as the standard insulation material. The recommended part number is 5853 BK005, and the maximum recommended current is 1 amp per conductor.
 
-Pinout stm32cubeIDE file found in pinout directory, copy and move to external directory.
+If constructing Space Grade PCBs, use Rogers material as it has low outgassing properties. You can find the pinout stm32cubeIDE file in the pinout directory, which should be copied and moved to an external directory.
 
-Contact James Chen (Electrical lead) at james.chen3@ucalgary.ca for more info
+For more information, please contact James Chen for any questions or concerns at chen.james2015@gmail.com .
