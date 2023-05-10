@@ -1,5 +1,9 @@
 # OBC_PCB_hardware
 Design files for the onboard computer PCB and supporting boards with full history, keep repo private, to release designs use the hardware_design_releases repository, currently on V1.2.0
+See tags for revisions, the following are avalible:
+rev1.0 (not functional)
+rev1.1 (functional with PCB modification, short)
+rev1.2 (TBD)
 
 All wires should be concidered for outgassing characteristicsm, PTFE insulation has been selected as a standard insulation materal. Part Number 26 AWG: 5853 BK005
 1 amp per conductor should be max. 
