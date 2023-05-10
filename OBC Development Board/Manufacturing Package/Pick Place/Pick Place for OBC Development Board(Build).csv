@@ -4,9 +4,9 @@ C:\Users\James\Documents\Calgary to Space\OBC_PCB_hardware\OBC Development Board
 ========================================================================================================================
 File Design Information:
 
-Date:       08-05-23
-Time:       01:16
-Revision:   e699bc0d80642cf40bb03f83c3923100bb72c7a4
+Date:       10-05-23
+Time:       00:23
+Revision:   6f70ba2fb68342ca3687d6f64e16bca47e64d34c
 Variant:    Build
 Units used: mil
 
@@ -42,7 +42,7 @@ Units used: mil
 "J16","252105","TopLayer","J-252105","2657.000","185.000","90","CONN MCX RCPT STR 50 OHM PCB"
 "J14","252105","TopLayer","J-252105","3280.000","185.000","90","CONN MCX RCPT STR 50 OHM PCB"
 "J9","J-0532610671","BottomLayer","J-0532610671","3056.102","3214.567","0","CONN HEADER SMD R/A 6POS 1.25MM"
-"D7","B540C-13-F","BottomLayer","D-B540C-13-F","3154.528","2116.142","0","DIODE SCHOTTKY 40V 5A SMC"
+"D7","B540C-13-F","BottomLayer","D-B540C-13-F","3154.528","2116.142","180","DIODE SCHOTTKY 40V 5A SMC"
 "C50","4.7uF","TopLayer","CAP_TANT_1206_(A)_TCJ","400.000","3240.000","90","4.7 µF Molded Tantalum Capacitors 20 V 1206 (3216 Metric) 4Ohm"
 "C49","4.7uF","TopLayer","CAP_TANT_1206_(A)_TCJ","720.000","2895.000","270","4.7 µF Molded Tantalum Capacitors 20 V 1206 (3216 Metric) 4Ohm"
 "C48","4.7uF","TopLayer","CAP_TANT_1206_(A)_TCJ","1383.819","2875.000","180","4.7 µF Molded Tantalum Capacitors 20 V 1206 (3216 Metric) 4Ohm"

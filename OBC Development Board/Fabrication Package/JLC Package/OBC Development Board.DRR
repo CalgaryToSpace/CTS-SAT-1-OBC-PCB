@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: OBC Development Board.PcbDoc   2023-05-10  12:22:38 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : L1 Top Layer to L6 Bottom Layer
+ASCII RoundHoles File : OBC Development Board.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      10mil (0.25mm)                                            Round             1126      PTH        106.56inch (2706.65mm)
+T2      20mil (0.5mm)                                             Round             20        PTH        2.42inch (61.40mm)
+T3      30mil (0.762mm)                                           Round             2         PTH        0.36inch (9.23mm)
+T4      40mil (1.02mm)                                            Round             128       PTH        20.20inch (513.14mm)
+T5      47mil (1.2mm)                                             Round             5         PTH        2.48inch (63.00mm)
+T6      67mil (1.7mm)                                             Round             20        PTH        5.11inch (129.90mm)
+T7      125mil (3.18mm)                                           Round             4         PTH        11.30inch (287.11mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              1305
+
+Total Processing Time (hh:mm:ss) : 00:00:00
