@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=3V3 Pin=J15-01
-Removed Pin From Net: NetName=3V3 Pin=J19-01
-Added Pin To Net: NetName=3V3_LORA Pin=J15-01
-Added Pin To Net: NetName=3V3_LORA Pin=J19-01
