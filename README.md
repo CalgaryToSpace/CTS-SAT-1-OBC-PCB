@@ -11,6 +11,6 @@ For more information, please contact James Chen for any questions or concerns at
 ## Todo
 1. Y1 routing
 3. TCXO output is too low for MCU to recognize
-5. Switch R107 and R109 RX and RX pins
+5. Route flipped MPI traces R107 and R109
 6. Repopulate parts
 7. R68 routing
