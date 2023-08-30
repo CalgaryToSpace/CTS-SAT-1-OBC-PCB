@@ -10,8 +10,8 @@ For more information, please contact James Chen for any questions or concerns at
 
 ## Todo
 1. Y1 routing
-2. Remove C52 and change to a 0-ohm resistor
 3. TCXO output is too low for MCU to recognize
 4. R107 and R109 swapped to 0-ohm
 5. Switch R107 and R109 RX and RX pins
 6. Repopulate parts
+7. R68 routing
