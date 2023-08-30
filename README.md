@@ -7,3 +7,10 @@ It is important to consider the outgassing characteristics of all wires used, so
 If constructing Space Grade PCBs, use Rogers material as it has low outgassing properties. You can find the pinout stm32cubeIDE file in the pinout directory, which should be copied and moved to an external directory.
 
 For more information, please contact James Chen for any questions or concerns at chen.james2015@gmail.com .
+
+## Todo
+1. Y1 routing
+3. TCXO output is too low for MCU to recognize
+5. Switch R107 and R109 RX and RX pins
+6. Repopulate parts
+7. R68 routing
