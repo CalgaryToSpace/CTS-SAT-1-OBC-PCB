@@ -1,6 +1,0 @@
-Added Pin To Net: NetName=OSC IN Pin=C36-2
-Added Pin To Net: NetName=OSC IN Pin=Y1-3
-Add Net: Net with name "NRST" already exists
-Add Net: Net with name "SWCLK" already exists
-Add Net: Net with name "SWDIO" already exists
-Add Net: Net with name "SWO" already exists
