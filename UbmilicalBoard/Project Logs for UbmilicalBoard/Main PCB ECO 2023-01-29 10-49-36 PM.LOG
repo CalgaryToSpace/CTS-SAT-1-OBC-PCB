@@ -1,4 +1,0 @@
-Added Pin To Net: NetName=NRST Pin=U1-25
-Added Pin To Net: NetName=SWCLK Pin=U1-109
-Added Pin To Net: NetName=SWO Pin=U1-132
-Add Net: Net with name "SWDIO" already exists
