@@ -25,16 +25,24 @@ NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=1
 AutoCrossReferences=0
+NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
+IsVirtualBomDocumentRemoved=0
 OutputPath=Project Outputs for OBC Development Board
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
+CrossRefSheetStyle=1
+CrossRefLocationStyle=1
+CrossRefPorts=3
+CrossRefCrossSheets=1
+CrossRefSheetEntries=0
+CrossRefFollowFromMainSettings=1
 
 [Preferences]
 PrefsVaultGUID=
@@ -227,271 +235,175 @@ Variation8=Designator=J19|UniqueId=\JSZYYCHL|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Fabrication Package\BOM\Bill of Materials-OBC Development Board(Build).xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=Manufacturing Package\BOM\Bill of Materials-OBC Development Board(Build).xlsx
 DItemRevisionGUID=
 
-[GeneratedDocument3]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for OBC Development Board\Design Rule Check - OBC Development Board.html
 DItemRevisionGUID=
 
-[GeneratedDocument4]
-DocumentPath=.\Fabrication Package\ExportSTEP\OBC Development Board(Build).step
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=.\Manufacturing Package\ExportSTEP\OBC Development Board(Build).step
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Fabrication Package\ExportSTEP\OBC Development Board(Build).step
-DItemRevisionGUID=
-
-[GeneratedDocument7]
+[GeneratedDocument3]
 DocumentPath=Manufacturing Package\ExportSTEP\OBC Development Board(Build).step
 DItemRevisionGUID=
 
-[GeneratedDocument8]
-DocumentPath=.\Fabrication Package\NC Drill\OBC Development Board.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument9]
+[GeneratedDocument4]
 DocumentPath=Fabrication Package\NC Drill\OBC Development Board.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument10]
-DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument11]
+[GeneratedDocument5]
 DocumentPath=Fabrication Package\Gerber\OBC Development Board.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument13]
-DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument14]
+[GeneratedDocument7]
 DocumentPath=Fabrication Package\Gerber\OBC Development Board.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument16]
-DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument17]
+[GeneratedDocument9]
 DocumentPath=Fabrication Package\Gerber\OBC Development Board.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument18]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument19]
-DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument20]
+[GeneratedDocument11]
 DocumentPath=Fabrication Package\Gerber\OBC Development Board.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument21]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument22]
-DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument23]
+[GeneratedDocument13]
 DocumentPath=Fabrication Package\Gerber\OBC Development Board.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument24]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument25]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GD1
 DItemRevisionGUID=
 
-[GeneratedDocument26]
-DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.GG1
-DItemRevisionGUID=
-
-[GeneratedDocument27]
+[GeneratedDocument16]
 DocumentPath=Fabrication Package\Gerber\OBC Development Board.GG1
 DItemRevisionGUID=
 
-[GeneratedDocument28]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GKO
 DItemRevisionGUID=
 
-[GeneratedDocument29]
-DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument30]
+[GeneratedDocument18]
 DocumentPath=Fabrication Package\Gerber\OBC Development Board.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument31]
+[GeneratedDocument19]
 DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument32]
+[GeneratedDocument20]
 DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GM5
 DItemRevisionGUID=
 
-[GeneratedDocument33]
+[GeneratedDocument21]
 DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GM7
 DItemRevisionGUID=
 
-[GeneratedDocument34]
+[GeneratedDocument22]
 DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GM13
 DItemRevisionGUID=
 
-[GeneratedDocument35]
+[GeneratedDocument23]
 DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GM15
 DItemRevisionGUID=
 
-[GeneratedDocument36]
-DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.GP1
-DItemRevisionGUID=
-
-[GeneratedDocument37]
+[GeneratedDocument24]
 DocumentPath=Fabrication Package\Gerber\OBC Development Board.GP1
 DItemRevisionGUID=
 
-[GeneratedDocument38]
+[GeneratedDocument25]
 DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GP1
 DItemRevisionGUID=
 
-[GeneratedDocument39]
-DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.GP2
-DItemRevisionGUID=
-
-[GeneratedDocument40]
+[GeneratedDocument26]
 DocumentPath=Fabrication Package\Gerber\OBC Development Board.GP2
 DItemRevisionGUID=
 
-[GeneratedDocument41]
+[GeneratedDocument27]
 DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GP2
 DItemRevisionGUID=
 
-[GeneratedDocument42]
+[GeneratedDocument28]
 DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GPB
 DItemRevisionGUID=
 
-[GeneratedDocument43]
+[GeneratedDocument29]
 DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GPT
 DItemRevisionGUID=
 
-[GeneratedDocument44]
-DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument45]
+[GeneratedDocument30]
 DocumentPath=Fabrication Package\Gerber\OBC Development Board.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument46]
+[GeneratedDocument31]
 DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument47]
-DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument48]
+[GeneratedDocument32]
 DocumentPath=Fabrication Package\Gerber\OBC Development Board.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument49]
+[GeneratedDocument33]
 DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument50]
-DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument51]
+[GeneratedDocument34]
 DocumentPath=Fabrication Package\Gerber\OBC Development Board.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument52]
+[GeneratedDocument35]
 DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument53]
-DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument54]
+[GeneratedDocument36]
 DocumentPath=Fabrication Package\Gerber\OBC Development Board.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument55]
+[GeneratedDocument37]
 DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument56]
-DocumentPath=.\Fabrication Package\NC Drill\OBC Development Board.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument57]
+[GeneratedDocument38]
 DocumentPath=Fabrication Package\NC Drill\OBC Development Board.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument58]
-DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.REP
-DItemRevisionGUID=
-
-[GeneratedDocument59]
+[GeneratedDocument39]
 DocumentPath=Fabrication Package\Gerber\OBC Development Board.REP
 DItemRevisionGUID=
 
-[GeneratedDocument60]
+[GeneratedDocument40]
 DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.REP
 DItemRevisionGUID=
 
-[GeneratedDocument61]
-DocumentPath=.\Fabrication Package\Gerber\OBC Development Board.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument62]
+[GeneratedDocument41]
 DocumentPath=Fabrication Package\Gerber\OBC Development Board.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument63]
+[GeneratedDocument42]
 DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument64]
-DocumentPath=.\Fabrication Package\NC Drill\OBC Development Board.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument65]
+[GeneratedDocument43]
 DocumentPath=Fabrication Package\NC Drill\OBC Development Board.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument66]
-DocumentPath=.\Fabrication Package\Pick Place\Pick Place for OBC Development Board(Build).csv
-DItemRevisionGUID=
-
-[GeneratedDocument67]
-DocumentPath=Fabrication Package\Pick Place\Pick Place for OBC Development Board(Build).csv
 DItemRevisionGUID=
 
 [Configuration1]
@@ -539,6 +451,8 @@ SCH_ExpandSheetNumber=0
 SCH_ExpandDocumentNumber=0
 SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
+Wir_PrintColor=0
+Ldr_PrintColor=0
 
 [Generic_EDE]
 OutputDir=Project Outputs for OBC Development Board
@@ -648,12 +562,22 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
+OutputType21=XSpiceNetlist
+OutputName21=Mixed Sim Netlist
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Samsung SCX-3400 Series (USB002)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -663,7 +587,7 @@ PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate
 OutputType1=Composite
 OutputName1=Composite Drawing
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType2=PCB 3D Print
@@ -681,7 +605,7 @@ PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType4=PCB Print
 OutputName4=PCB Prints
 OutputDocumentPath4=
-OutputVariantName4=
+OutputVariantName4=[No Variations]
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType5=PCBDrawing
@@ -693,7 +617,7 @@ PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType6=PCBLIB Print
 OutputName6=PCBLIB Prints
 OutputDocumentPath6=
-OutputVariantName6=
+OutputVariantName6=[No Variations]
 OutputDefault6=0
 PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType7=PDF3D
@@ -726,11 +650,23 @@ OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType12=Harness Layout Drawing Print
+OutputName12=Harness Layout Drawing Prints
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType13=Harness Wiring Diagram Print
+OutputName13=Harness Wiring Diagram Prints
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Samsung SCX-3400 Series (USB001)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -756,7 +692,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Samsung SCX-3400 Series (USB001)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=NC Drill
 OutputName1=NC Drill Files
@@ -766,13 +702,13 @@ OutputDefault1=0
 OutputType2=Mask
 OutputName2=Solder/Paste Mask Prints
 OutputDocumentPath2=
-OutputVariantName2=
+OutputVariantName2=[No Variations]
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType3=IPC2581
 OutputName3=IPC-2581 Files
 OutputDocumentPath3=
-OutputVariantName3=
+OutputVariantName3=[No Variations]
 OutputDefault3=0
 OutputType4=Test Points
 OutputName4=Test Point Report
@@ -782,7 +718,7 @@ OutputDefault4=0
 OutputType5=Plane
 OutputName5=Power-Plane Prints
 OutputDocumentPath5=
-OutputVariantName5=
+OutputVariantName5=[No Variations]
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType6=ODB
@@ -793,13 +729,13 @@ OutputDefault6=0
 OutputType7=Drill
 OutputName7=Drill Drawing/Guides
 OutputDocumentPath7=
-OutputVariantName7=
+OutputVariantName7=[No Variations]
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType8=CompositeDrill
 OutputName8=Composite Drill Drawing
 OutputDocumentPath8=
-OutputVariantName8=
+OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType9=Board Stack Report
@@ -811,7 +747,7 @@ PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType10=Gerber X2
 OutputName10=Gerber X2 Files
 OutputDocumentPath10=
-OutputVariantName10=
+OutputVariantName10=[No Variations]
 OutputDefault10=0
 Configuration10_Name1=ForceUpdateSettings
 Configuration10_Item1=False
@@ -895,6 +831,12 @@ OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=Export Project History
+OutputName9=Export Project History
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1108,6 +1050,41 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=Orcad v7 Capture Design
+OutputName15=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD ASCII
+OutputName16=P-CAD ASCII (AutoPCB)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD V16 Schematic Design
+OutputName17=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=SiSoft
+OutputName18=SiSoft (AutoPCB)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1240,6 +1217,7 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
+Type120=1
 
 [Difference Levels]
 Type1=1
@@ -1431,12 +1409,13 @@ Type116=2
 Type117=3
 Type118=3
 Type119=3
-MultiChannelAlternate=2
 AlternateItemFail=3
 Type122=2
 Type123=1
 Type124=1
 Type125=1
+Type126=1
+Type127=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWE
