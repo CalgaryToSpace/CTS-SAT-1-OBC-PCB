@@ -1,4 +1,4 @@
-# CalgaryToSpace-Hardware-Designs
+# CTS-SAT-1-OBC-PCB
 
 This is the design repository for the onboard computer PCB and its supporting boards. The entire history of the design is kept private, but to release the designs, please use the hardware_design_releases repository, which is currently on version 1.2.0. You can check the tags for the revisions available, which are rev1.0 (not functional), rev1.1 (functional with PCB modification, short), and rev1.2 (TBD).
 
