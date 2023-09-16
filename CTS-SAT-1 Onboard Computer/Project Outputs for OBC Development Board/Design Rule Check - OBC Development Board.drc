@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Sixtium\Documents\GitStuff\CTS-SAT-1-OBC-PCB\CTS-SAT-1 Onboard Computer\OBC Development Board.PcbDoc
 Date     : 2023-09-16
-Time     : 1:27:56 PM
+Time     : 1:54:34 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
    Violation between Clearance Constraint: (8.361mil < 10mil) Between Pad U13-4(2080.709mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
@@ -111,4 +111,4 @@ Rule Violations :0
 
 Violations Detected : 57
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
