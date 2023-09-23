@@ -13,7 +13,6 @@ For more information, please contact James Chen for any questions or concerns at
 - Check over MPI UART connections -> label it as what the device (comment it on the schematic), label it MISO/MOSI as microcontroller as Master, check all RX/TX like connections
 - Move boom deployment small components to be ontop
 - Move all small passives ontop if possible
-- Break RX, TX, ground for umbilical into 2.5 headers, move resistors in and put it right next to it
 - Routing
 - Some labelling on the stack header for ease, and all 2.5mm
 - IOC redo
