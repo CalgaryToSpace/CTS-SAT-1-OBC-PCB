@@ -9,8 +9,16 @@ If constructing Space Grade PCBs, use Rogers material as it has low outgassing p
 For more information, please contact James Chen for any questions or concerns at chen.james2015@gmail.com .
 
 ## Todo
-1. Y1 routing
-3. TCXO routing and footprint
-5. Route flipped MPI traces R107 and R109
-6. Repopulate parts
-7. R68 routing
+- Change switch to https://datasheet.lcsc.com/lcsc/2102021636_Analog-Devices-HMC544AETR_C579555.pdf
+- Check over MPI UART connections -> label it as what the device (comment it on the schematic), label it MISO/MOSI as microcontroller as Master, check all RX/TX like connections
+- Move boom deployment small components to be ontop
+- Move all small passives ontop if possible
+- Break RX, TX, ground for umbilical into 2.5 headers, move resistors in and put it right next to it
+- Routing
+- Some labelling on the stack header for ease, and all 2.5mm
+- IOC redo
+
+
+
+
+
