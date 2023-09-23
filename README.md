@@ -10,8 +10,11 @@ For more information, please contact James Chen for any questions or concerns at
 
 ## Todo
 - Change switch to https://datasheet.lcsc.com/lcsc/2102021636_Analog-Devices-HMC544AETR_C579555.pdf
+- Add truth table for switch on schematic as text comment
 - Check over MPI UART connections -> label it as what the device (comment it on the schematic), label it MISO/MOSI as microcontroller as Master, check all RX/TX like connections
 - Move boom deployment small components to be ontop
+- Verify EPS connector
+- Add LCSC Part # to every part
 - Move all small passives ontop if possible
 - Routing
 - Some labelling on the stack header for ease, and all 2.5mm
