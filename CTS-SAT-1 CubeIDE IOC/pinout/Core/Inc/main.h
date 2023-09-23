@@ -100,6 +100,7 @@ void Error_Handler(void);
 #define MPI_RX_NEN_GPIO_Port GPIOG
 #define MPI_TX_EN_Pin GPIO_PIN_5
 #define MPI_TX_EN_GPIO_Port GPIOG
+
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
@@ -109,5 +110,3 @@ void Error_Handler(void);
 #endif
 
 #endif /* __MAIN_H */
-
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
