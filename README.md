@@ -12,11 +12,14 @@ For more information, please contact James Chen for any questions or concerns at
 - Change switch to https://datasheet.lcsc.com/lcsc/2102021636_Analog-Devices-HMC544AETR_C579555.pdf
 - Add truth table for switch on schematic as text comment
 - Check over MPI UART connections -> label it as what the device (comment it on the schematic), label it MISO/MOSI as microcontroller as Master, check all RX/TX like connections
+- On the schematic, please add a comment next to J8 that says "Mates with EPS J7 VD3_OBC[1]"
+- On the schematic, please add a comment next to J4 that says "Mates with EPS J10 VD3_OBC[0]"
 - Move boom deployment small components to be ontop
 - Add LCSC Part # to every part
 - Move all small passives ontop if possible
 - Routing
 - Some labelling on the stack header for ease, and all 2.5mm
+- Please add a silkscreen label to J4 called "MPI Power In"
 - IOC redo
 
 
