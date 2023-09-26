@@ -15,6 +15,7 @@ For more information, please contact James Chen for any questions or concerns at
 - On the schematic, please add a comment next to J8 that says "Mates with EPS J7 VD3_OBC[1]"
 - On the schematic, please add a comment next to J4 that says "Mates with EPS J10 VD3_OBC[0]"
 - Add reset putton -> it'll go between the reset pin and ground, in parallel with a 100nF (0.1 uF) capacitor
+- Change so that J10 pin 2 (MPI connector) is now a 12V MPI connector (so connect J10-Pin1 to J10-Pin2)
 - Move boom deployment small components to be ontop
 - Add LCSC Part # to every part
 - Move all small passives ontop if possible
