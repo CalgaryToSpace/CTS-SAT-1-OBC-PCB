@@ -9,19 +9,23 @@ If constructing Space Grade PCBs, use Rogers material as it has low outgassing p
 For more information, please contact James Chen for any questions or concerns at chen.james2015@gmail.com .
 
 ## Todo
-- Change switch to https://datasheet.lcsc.com/lcsc/2102021636_Analog-Devices-HMC544AETR_C579555.pdf
-- Add truth table for switch on schematic as text comment
+
+### Schematic
 - Check over MPI UART connections -> label it as what the device (comment it on the schematic), label it MISO/MOSI as microcontroller as Master, check all RX/TX like connections
 - On the schematic, please add a comment next to J8 that says "Mates with EPS J7 VD3_OBC[1]"
 - On the schematic, please add a comment next to J4 that says "Mates with EPS J10 VD3_OBC[0]"
-- Add reset putton -> it'll go between the reset pin and ground, in parallel with a 100nF (0.1 uF) capacitor
-- Change so that J10 pin 2 (MPI connector) is now a 12V MPI connector (so connect J10-Pin1 to J10-Pin2)
-- Move boom deployment small components to be ontop
+
+### Parts
 - Add LCSC Part # to every part
+
+### Routing
+- Move boom deployment small components to be ontop
 - Move all small passives ontop if possible
 - Routing
 - Some labelling on the stack header for ease, and all 2.5mm
 - Please add a silkscreen label to J4 called "MPI Power In"
+
+### Others
 - IOC redo
 
 
