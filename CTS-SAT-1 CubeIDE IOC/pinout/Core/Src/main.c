@@ -125,17 +125,28 @@ int main(void)
 
   uint16_t loop_count = 0;
 
+  // set MPI transceiver enables
+  HAL_GPIO_WritePin(MPI_RX_NEN_GPIO_Port, MPI_RX_NEN_Pin, GPIO_PIN_RESET); // RESET to activate MISO
+  HAL_GPIO_WritePin(MPI_TX_EN_GPIO_Port, MPI_TX_EN_Pin, GPIO_PIN_RESET); // SET to activate MOSI
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  char msg[255];
-	  sprintf(msg, "Hello World over Debug%d\n", loop_count++);
-	  HAL_UART_Transmit(&hlpuart1, msg, strlen(msg), 1000);
+	  char msg1[255];
+	  sprintf(msg1, "Hello World over Debug - %d\n", loop_count);
+	  HAL_UART_Transmit(&hlpuart1, msg1, strlen(msg1), 1000);
+
+
+	  char msg2[255];
+	  sprintf(msg2, "Hello World to MPI RS422 - %d\n", loop_count);
+	  HAL_UART_Transmit(&huart1, msg2, strlen(msg2), 1000);
 
 	  HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_2);
+
+	  loop_count++;
 
 	  HAL_Delay(1000);
     /* USER CODE END WHILE */
