@@ -12,8 +12,6 @@ For more information, please contact James Chen for any questions or concerns at
 
 ### Schematic
 - Check over MPI UART connections -> label it as what the device (comment it on the schematic), label it MISO/MOSI as microcontroller as Master, check all RX/TX like connections
-- On the schematic, please add a comment next to J8 that says "Mates with EPS J7 VD3_OBC[1]"
-- On the schematic, please add a comment next to J4 that says "Mates with EPS J10 VD3_OBC[0]"
 
 ### Parts
 - Add LCSC Part # to every part
