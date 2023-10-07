@@ -10,9 +10,6 @@ For more information, please contact James Chen for any questions or concerns at
 
 ## Todo
 
-### Schematic
-- Check over MPI UART connections -> label it as what the device (comment it on the schematic), label it MISO/MOSI as microcontroller as Master, check all RX/TX like connections
-
 ### Parts
 - Add LCSC Part # to every part
 
