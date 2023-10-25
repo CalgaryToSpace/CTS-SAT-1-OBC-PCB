@@ -10,6 +10,10 @@ For more information, please contact James Chen for any questions or concerns at
 
 ## Todo
 
+### Schamatic
+- Change dipole switch to one in the chat
+- Julia and Kyle for schematic review
+
 ### Parts
 - Add LCSC Part # to every part
 
@@ -18,6 +22,7 @@ For more information, please contact James Chen for any questions or concerns at
 - Move all small passives ontop if possible
 - Routing
 - Some labelling on the stack header for ease, and all 2.5mm
+
 - Please add a silkscreen label to J4 called "MPI Power In"
 
 ### Others
