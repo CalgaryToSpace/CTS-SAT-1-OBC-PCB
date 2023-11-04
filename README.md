@@ -11,6 +11,7 @@ For more information, please contact James Chen for any questions or concerns at
 ## Todo
 
 ### Schamatic
+- Update **ALL** UART/UART varients to use MOSI/MISO with STM as M
 - Julia and Kyle for schematic review
 
 ### Parts
