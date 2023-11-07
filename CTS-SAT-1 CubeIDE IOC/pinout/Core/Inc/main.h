@@ -102,7 +102,11 @@ void Error_Handler(void);
 #define MPI_TX_EN_GPIO_Port GPIOG
 
 /* USER CODE BEGIN Private defines */
-
+typedef enum {
+        MPI_TRANSCEIVER_STATE_MISO,
+        MPI_TRANSCEIVER_STATE_MOSI,
+        MPI_TRANSCEIVER_STATE_DISABLE
+    } mpi_transceiver_state_t;
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

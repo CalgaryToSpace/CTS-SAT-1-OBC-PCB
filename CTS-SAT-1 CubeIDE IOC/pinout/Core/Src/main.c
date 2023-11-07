@@ -128,10 +128,29 @@ int main(void)
     uint8_t rx_data[200];
 
 
-    // Note: Can only send or receive at once
-    // set MPI transceiver enables
-    HAL_GPIO_WritePin(MPI_RX_NEN_GPIO_Port, MPI_RX_NEN_Pin, GPIO_PIN_RESET); // RESET to activate MISO
-    HAL_GPIO_WritePin(MPI_TX_EN_GPIO_Port, MPI_TX_EN_Pin, GPIO_PIN_SET); // SET to activate MOSI
+
+    void set_mpi_transceiver_state(mpi_transceiver_state_t new_state) {
+        // Note: Can only send or receive at once
+
+    	if (new_state == MPI_TRANSCEIVER_STATE_MISO) {
+    	    HAL_GPIO_WritePin(MPI_RX_NEN_GPIO_Port, MPI_RX_NEN_Pin, GPIO_PIN_RESET); // RESET to activate MISO
+    	    HAL_GPIO_WritePin(MPI_TX_EN_GPIO_Port, MPI_TX_EN_Pin, GPIO_PIN_RESET); // SET to activate MOSI
+    	}
+    	else if (new_state == MPI_TRANSCEIVER_STATE_MOSI) {
+    	    HAL_GPIO_WritePin(MPI_RX_NEN_GPIO_Port, MPI_RX_NEN_Pin, GPIO_PIN_SET); // RESET to activate MISO
+    	    HAL_GPIO_WritePin(MPI_TX_EN_GPIO_Port, MPI_TX_EN_Pin, GPIO_PIN_SET); // SET to activate MOSI
+    	}
+    	else { // disable
+    	    HAL_GPIO_WritePin(MPI_RX_NEN_GPIO_Port, MPI_RX_NEN_Pin, GPIO_PIN_SET); // RESET to activate MISO
+    	    HAL_GPIO_WritePin(MPI_TX_EN_GPIO_Port, MPI_TX_EN_Pin, GPIO_PIN_RESET); // SET to activate MOSI
+    	}
+    }
+    // Test Instructions:
+    // 1. Load Firmware
+    // 2. List with 2 serial terminals (one for Umbilical, one for MPI RS422 faker), both at 115200 baud
+    // 3. Confirm that both serial terminals receive a Hello World message.
+    // 4. Send text with newline terminator to via the RS422 transmitter
+
 
     /* USER CODE END 2 */
 
@@ -144,14 +163,17 @@ int main(void)
   	  sprintf(msg, "Hello World over Debug%d\n", loop_count);
   	  HAL_UART_Transmit(&hlpuart1, msg, strlen(msg), 1000);
 
+  	  set_mpi_transceiver_state(MPI_TRANSCEIVER_STATE_MOSI);
   	  sprintf(msg, "Hello World to MPI%d\n", loop_count);
   	  HAL_UART_Transmit(&huart1, msg, strlen(msg), 1000);
   	  loop_count++;
 
 
-  	    char received_char;
+  	    uint8_t received_char;
   	    uint16_t index = 0;
 
+
+  	  	set_mpi_transceiver_state(MPI_TRANSCEIVER_STATE_MISO);
   	    // Receive data character by character until newline is encountered or the buffer is full
   	    do {
   	        HAL_UART_Receive(&huart1, &received_char, 1, HAL_MAX_DELAY);
