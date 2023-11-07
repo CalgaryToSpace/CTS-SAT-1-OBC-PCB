@@ -125,17 +125,55 @@ int main(void)
 
   uint16_t loop_count = 0;
 
-  /* USER CODE END 2 */
+    uint8_t rx_data[200];
 
-  /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
-  while (1)
-  {
-	  char msg[255];
-	  sprintf(msg, "Hello World over Debug%d\n", loop_count++);
-	  HAL_UART_Transmit(&hlpuart1, msg, strlen(msg), 1000);
 
-	  HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_2);
+    // Note: Can only send or receive at once
+    // set MPI transceiver enables
+    HAL_GPIO_WritePin(MPI_RX_NEN_GPIO_Port, MPI_RX_NEN_Pin, GPIO_PIN_RESET); // RESET to activate MISO
+    HAL_GPIO_WritePin(MPI_TX_EN_GPIO_Port, MPI_TX_EN_Pin, GPIO_PIN_SET); // SET to activate MOSI
+
+    /* USER CODE END 2 */
+
+    /* Infinite loop */
+    /* USER CODE BEGIN WHILE */
+    while (1)
+    {
+  	  // Listen on UART1 (MPI), transmit on LPART1 (Umbilical)
+  	  char msg[255];
+  	  sprintf(msg, "Hello World over Debug%d\n", loop_count);
+  	  HAL_UART_Transmit(&hlpuart1, msg, strlen(msg), 1000);
+
+  	  sprintf(msg, "Hello World to MPI%d\n", loop_count);
+  	  HAL_UART_Transmit(&huart1, msg, strlen(msg), 1000);
+  	  loop_count++;
+
+
+  	    char received_char;
+  	    uint16_t index = 0;
+
+  	    // Receive data character by character until newline is encountered or the buffer is full
+  	    do {
+  	        HAL_UART_Receive(&huart1, &received_char, 1, HAL_MAX_DELAY);
+
+  	  	    // toggle debugging LED to show code is running
+  	  	    HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_3);
+
+  	        rx_data[index] = received_char;
+  	        index++;
+  	    } while (received_char != '\n' && index < sizeof(rx_data) - 1); // -1 to leave space for null terminator
+
+  	    // Null-terminate the received data
+  	    rx_data[index] = '\0';
+
+  	    // Transmit received data
+  	    HAL_UART_Transmit(&hlpuart1, rx_data, strlen((char*)rx_data), HAL_MAX_DELAY);
+
+  	    // toggle debugging LED to show code is running
+  	    HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_2);
+
+
+
 
 	  HAL_Delay(1000);
     /* USER CODE END WHILE */
