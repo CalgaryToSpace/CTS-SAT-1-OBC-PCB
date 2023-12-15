@@ -151,7 +151,7 @@ GenerateClassCluster=0
 DocumentUniqueId=ELOQPJJS
 
 [Document7]
-DocumentPath=Boom Deployment.SchDoc
+DocumentPath=Boom Control.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
