@@ -1,44 +1,13 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Sixtium\Documents\GitStuff\CTS-SAT-1-OBC-PCB\CTS-SAT-1 Onboard Computer\OBC Development Board.PcbDoc
-Date     : 2023-09-16
-Time     : 1:54:34 PM
+Date     : 2024-02-13
+Time     : 7:47:07 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
-   Violation between Clearance Constraint: (8.361mil < 10mil) Between Pad U13-4(2080.709mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (9.646mil < 10mil) Between Pad U13-4(2080.709mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (8.361mil < 10mil) Between Pad U13-6(2053.15mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (9.646mil < 10mil) Between Pad U13-6(2053.15mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-Rule Violations :4
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=30mil) (InNetClass('50Ohms')),(All)
-   Violation between Clearance Constraint: (26.98mil < 30mil) Between Pad U13-1(2053.15mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (7.518mil < 30mil) Between Pad U13-1(2053.15mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (7.874mil < 30mil) Between Pad U13-1(2053.15mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (9.646mil < 30mil) Between Pad U13-1(2053.15mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (22.809mil < 30mil) Between Pad U13-3(2080.709mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (7.516mil < 30mil) Between Pad U13-3(2080.709mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (7.874mil < 30mil) Between Pad U13-3(2080.709mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (9.646mil < 30mil) Between Pad U13-3(2080.709mil,421.85mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (14.946mil < 30mil) Between Pad U13-5(2066.929mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (14.946mil < 30mil) Between Pad U13-5(2066.929mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (22.441mil < 30mil) Between Pad U13-5(2066.929mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (7.48mil < 30mil) Between Pad U13-5(2066.929mil,460.039mil) on L1 Top Layer And Region (0 hole(s)) L1 Top Layer 
-   Violation between Clearance Constraint: (27.864mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (1986.167mil,413.332mil)(2021.958mil,413.332mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (15.956mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2021.958mil,413.332mil)(2030.476mil,421.85mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (27.439mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2021.958mil,413.332mil)(2030.476mil,421.85mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (11.085mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2030.476mil,421.85mil)(2052.602mil,421.85mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (12.642mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2030.476mil,421.85mil)(2052.602mil,421.85mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (29.425mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2030.476mil,421.85mil)(2052.602mil,421.85mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (7.874mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2030.476mil,421.85mil)(2052.602mil,421.85mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (10.476mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2066.929mil,460.039mil)(2066.929mil,536.417mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (18.111mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2066.929mil,460.039mil)(2066.929mil,536.417mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (18.111mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2066.929mil,460.039mil)(2066.929mil,536.417mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (25.437mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2066.929mil,460.039mil)(2066.929mil,536.417mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (10.698mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2080.709mil,421.85mil)(2131.299mil,421.85mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (12.642mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2080.709mil,421.85mil)(2131.299mil,421.85mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (25.11mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2080.709mil,421.85mil)(2131.299mil,421.85mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (7.327mil < 30mil) Between Region (0 hole(s)) L1 Top Layer And Track (2080.709mil,421.85mil)(2131.299mil,421.85mil) on L1 Top Layer 
-Rule Violations :27
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=30mil) (InNetClass('DIF 100 OHMS')),(All)
 Rule Violations :0
@@ -97,7 +66,12 @@ Rule Violations :0
 Processing Rule : Silk To Solder Mask (Clearance=5.906mil) (IsPad),(All)
    Violation between Silk To Solder Mask Clearance Constraint: (5.374mil < 5.906mil) Between Pad J4-S1(1513.78mil,279.528mil) on L6 Bottom Layer And Track (1472.441mil,346.457mil)(1472.441mil,362.205mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [5.374mil]
    Violation between Silk To Solder Mask Clearance Constraint: (5.374mil < 5.906mil) Between Pad J4-S2(1165.354mil,279.528mil) on L6 Bottom Layer And Track (1206.693mil,346.457mil)(1206.693mil,362.205mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [5.374mil]
-Rule Violations :2
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad R62-1(2801.575mil,1621.063mil) on L6 Bottom Layer And Text "R62" (2879.062mil,1742.049mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad R62-1(2801.575mil,1621.063mil) on L6 Bottom Layer And Track (2757.677mil,1483.661mil)(3212.795mil,1483.661mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad R62-1(2801.575mil,1621.063mil) on L6 Bottom Layer And Track (2757.677mil,1758.465mil)(3212.795mil,1758.465mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad R62-2(3168.898mil,1621.063mil) on L6 Bottom Layer And Track (2757.677mil,1483.661mil)(3212.795mil,1483.661mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad R62-2(3168.898mil,1621.063mil) on L6 Bottom Layer And Track (2757.677mil,1758.465mil)(3212.795mil,1758.465mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
+Rule Violations :7
 
 Processing Rule : Silk to Silk (Clearance=0mil) (Disabled)(All),(All)
 Rule Violations :0
@@ -109,6 +83,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 57
+Violations Detected : 31
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
