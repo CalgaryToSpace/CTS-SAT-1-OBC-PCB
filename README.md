@@ -10,23 +10,10 @@ For more information, please contact James Chen for any questions or concerns at
 
 ## Todo
 
-### Schamatic
-- Update **ALL** UART/UART varients to use MOSI/MISO with STM as M
-- Julia and Kyle for schematic review
-
-### Parts
-- Add LCSC Part # to every part
-
-### Routing
-- Move boom deployment small components to be ontop
-- Move all small passives ontop if possible
-- Routing
-- Some labelling on the stack header for ease, and all 2.5mm
-
-- Please add a silkscreen label to J4 called "MPI Power In"
-
-### Others
-- IOC redo
+- Duplicate antenna connector, move resistors
+- Get structural to confirm the tight connectors on the backside
+- MPI and Antenna
+- Route the remaining additional components
 
 
 
