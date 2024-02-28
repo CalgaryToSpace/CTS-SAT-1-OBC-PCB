@@ -203,25 +203,17 @@ void HAL_I2C_MspInit(I2C_HandleTypeDef* hi2c)
       Error_Handler();
     }
 
-    __HAL_RCC_GPIOB_CLK_ENABLE();
     __HAL_RCC_GPIOD_CLK_ENABLE();
     /**I2C4 GPIO Configuration
-    PB10     ------> I2C4_SCL
+    PD12     ------> I2C4_SCL
     PD13     ------> I2C4_SDA
     */
-    GPIO_InitStruct.Pin = PIN_TEMP_SENSOR_I2C4_SCL_Pin;
-    GPIO_InitStruct.Mode = GPIO_MODE_AF_OD;
-    GPIO_InitStruct.Pull = GPIO_NOPULL;
-    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
-    GPIO_InitStruct.Alternate = GPIO_AF3_I2C4;
-    HAL_GPIO_Init(PIN_TEMP_SENSOR_I2C4_SCL_GPIO_Port, &GPIO_InitStruct);
-
-    GPIO_InitStruct.Pin = PIN_TEMP_SENSOR_I2C4_SDA_Pin;
+    GPIO_InitStruct.Pin = PIN_TEMP_SENSOR_I2C4_SCL_Pin|PIN_TEMP_SENSOR_I2C4_SDA_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_OD;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
     GPIO_InitStruct.Alternate = GPIO_AF4_I2C4;
-    HAL_GPIO_Init(PIN_TEMP_SENSOR_I2C4_SDA_GPIO_Port, &GPIO_InitStruct);
+    HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
 
     /* Peripheral clock enable */
     __HAL_RCC_I2C4_CLK_ENABLE();
@@ -309,7 +301,7 @@ void HAL_I2C_MspDeInit(I2C_HandleTypeDef* hi2c)
     __HAL_RCC_I2C4_CLK_DISABLE();
 
     /**I2C4 GPIO Configuration
-    PB10     ------> I2C4_SCL
+    PD12     ------> I2C4_SCL
     PD13     ------> I2C4_SDA
     */
     HAL_GPIO_DeInit(PIN_TEMP_SENSOR_I2C4_SCL_GPIO_Port, PIN_TEMP_SENSOR_I2C4_SCL_Pin);
