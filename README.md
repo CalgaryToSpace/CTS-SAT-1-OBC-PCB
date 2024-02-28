@@ -10,9 +10,7 @@ For more information, please contact James Chen for any questions or concerns at
 
 ## Todo
 
-- Duplicate antenna connector, move resistors
-- Get structural to confirm the tight connectors on the backside
-- MPI and Antenna
+- Get structural to confirm the tight connectors on the backside -> MPI and Antenna
 - Route the remaining additional components
 
 
