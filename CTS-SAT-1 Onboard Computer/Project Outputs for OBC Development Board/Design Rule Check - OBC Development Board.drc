@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Anush\Documents\GitHub\CTS-SAT-1-OBC-PCB\CTS-SAT-1 Onboard Computer\OBC Development Board.PcbDoc
 Date     : 2024-04-06
-Time     : 10:53:31 AM
+Time     : 11:18:43 AM
 
 WARNING: Design contains shelved or modified (but not repoured) polygons. The result of DRC is not correct. Recommended to restore/repour all polygons and proceed with DRC again
    Polygon named: Bottom GND In net GND On L6 Bottom Layer
@@ -109,16 +109,7 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=1.5mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=5.906mil) (IsPad),(All)
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad J6-35(500mil,2250mil) on Multi-Layer And Text "R58" (472.282mil,2276.245mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (3.664mil < 5.906mil) Between Pad J6-37(500mil,2350mil) on Multi-Layer And Text "R58" (472.282mil,2276.245mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.664mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad R62-1(2801.575mil,1621.063mil) on L6 Bottom Layer And Text "R62" (2879.062mil,1742.049mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad R62-1(2801.575mil,1621.063mil) on L6 Bottom Layer And Track (2757.677mil,1483.661mil)(3212.795mil,1483.661mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad R62-1(2801.575mil,1621.063mil) on L6 Bottom Layer And Track (2757.677mil,1758.465mil)(3212.795mil,1758.465mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad R62-2(3168.898mil,1621.063mil) on L6 Bottom Layer And Track (2757.677mil,1483.661mil)(3212.795mil,1483.661mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad R62-2(3168.898mil,1621.063mil) on L6 Bottom Layer And Track (2757.677mil,1758.465mil)(3212.795mil,1758.465mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (3.155mil < 5.906mil) Between Pad Y1-1(1347.441mil,1437.992mil) on L1 Top Layer And Track (1265.488mil,1458.583mil)(1324.543mil,1458.583mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.155mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (1.244mil < 5.906mil) Between Pad Y1-1(1347.441mil,1437.992mil) on L1 Top Layer And Track (1324.543mil,1348.346mil)(1324.543mil,1458.583mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1.244mil]
-Rule Violations :9
+Rule Violations :0
 
 Processing Rule : Silk to Silk (Clearance=0mil) (Disabled)(All),(All)
 Rule Violations :0
@@ -162,6 +153,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 90
+Violations Detected : 81
 Waived Violations : 0
 Time Elapsed        : 00:00:02
