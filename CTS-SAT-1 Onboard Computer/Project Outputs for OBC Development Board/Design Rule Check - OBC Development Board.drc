@@ -1,18 +1,10 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\Sixtium\Documents\GitStuff\CTS-SAT-1-OBC-PCB\CTS-SAT-1 Onboard Computer\OBC Development Board.PcbDoc
-Date     : 2024-02-27
-Time     : 10:12:12 PM
+PCB File : C:\Users\Anush\Documents\GitHub\CTS-SAT-1-OBC-PCB\CTS-SAT-1 Onboard Computer\OBC Development Board.PcbDoc
+Date     : 2024-04-06
+Time     : 12:51:12 PM
 
-WARNING: Design contains shelved or modified (but not repoured) polygons. The result of DRC is not correct. Recommended to restore/repour all polygons and proceed with DRC again
-   Polygon named: Bottom GND In net GND On L6 Bottom Layer
-   Polygon named: boom_sw In net NetC24_1 On L6 Bottom Layer
-   Polygon named: Boom_out In net BURN_POS On L6 Bottom Layer
-   Polygon named: NONET_L-01_P-001 In net +12_BOOM On L6 Bottom Layer
-   Polygon named: L3 3V3 In net 3V3 On L3 Signal
-   Polygon named: NONET_L-01_P-001 In net 3V3_CAM On L3 Signal
-   Polygon named: NONET_L-01_P-001 In net 3V3_ANT_DEPLOY On L3 Signal
-   Polygon named: L4 5V In net 5V On L4 Signal
-   Polygon named: Top GND In net GND On L1 Top Layer
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=30mil) (InNetClass('50Ohms')),(All)
 Rule Violations :0
@@ -20,48 +12,10 @@ Rule Violations :0
 Processing Rule : Clearance Constraint (Gap=30mil) (InNetClass('DIF 100 OHMS')),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
-   Violation between Clearance Constraint: (3.566mil < 10mil) Between Pad C12-2(1238mil,1546.275mil) on L1 Top Layer And Via (1210.332mil,1571.01mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Pad R91-1(610.236mil,2649.606mil) on L1 Top Layer And Track (500mil,2650mil)(655mil,2650mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Pad R92-2(610.236mil,2551.181mil) on L1 Top Layer And Track (500mil,2550mil)(655mil,2550mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Pad U1-118(893.551mil,2266.921mil) on L1 Top Layer And Track (721.268mil,2266.921mil)(893.551mil,2266.921mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Pad U15-1(888.78mil,2817.98mil) on L1 Top Layer And Track (656.853mil,2561.054mil)(888.78mil,2792.98mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Pad U15-1(888.78mil,2817.98mil) on L1 Top Layer And Track (888.78mil,2792.98mil)(888.78mil,2817.98mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Pad U15-2(914.37mil,2817.98mil) on L1 Top Layer And Track (901.922mil,2861.98mil)(910.37mil,2853.532mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Pad U15-2(914.37mil,2817.98mil) on L1 Top Layer And Track (910.37mil,2821.98mil)(910.37mil,2853.532mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Pad U15-2(914.37mil,2817.98mil) on L1 Top Layer And Track (910.37mil,2821.98mil)(914.37mil,2817.98mil) on L1 Top Layer 
-Rule Violations :9
-
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-   Violation between Short-Circuit Constraint: Between Pad R91-1(610.236mil,2649.606mil) on L1 Top Layer And Track (500mil,2650mil)(655mil,2650mil) on L1 Top Layer Location : [X = 1102.362mil][Y = 3191.338mil]
-   Violation between Short-Circuit Constraint: Between Pad R92-2(610.236mil,2551.181mil) on L1 Top Layer And Track (500mil,2550mil)(655mil,2550mil) on L1 Top Layer Location : [X = 1102.362mil][Y = 3091.338mil]
-   Violation between Short-Circuit Constraint: Between Pad U1-118(893.551mil,2266.921mil) on L1 Top Layer And Track (721.268mil,2266.921mil)(893.551mil,2266.921mil) on L1 Top Layer Location : [X = 1375.4mil][Y = 2808.26mil]
-   Violation between Short-Circuit Constraint: Between Pad U15-1(888.78mil,2817.98mil) on L1 Top Layer And Track (656.853mil,2561.054mil)(888.78mil,2792.98mil) on L1 Top Layer Location : [X = 1378.955mil][Y = 3332.368mil]
-   Violation between Short-Circuit Constraint: Between Pad U15-1(888.78mil,2817.98mil) on L1 Top Layer And Track (888.78mil,2792.98mil)(888.78mil,2817.98mil) on L1 Top Layer Location : [X = 1380.906mil][Y = 3346.819mil]
-   Violation between Short-Circuit Constraint: Between Pad U15-2(914.37mil,2817.98mil) on L1 Top Layer And Track (901.922mil,2861.98mil)(910.37mil,2853.532mil) on L1 Top Layer Location : [X = 1402.391mil][Y = 3391.546mil]
-   Violation between Short-Circuit Constraint: Between Pad U15-2(914.37mil,2817.98mil) on L1 Top Layer And Track (910.37mil,2821.98mil)(910.37mil,2853.532mil) on L1 Top Layer Location : [X = 1402.545mil][Y = 3375.77mil]
-   Violation between Short-Circuit Constraint: Between Pad U15-2(914.37mil,2817.98mil) on L1 Top Layer And Track (910.37mil,2821.98mil)(914.37mil,2817.98mil) on L1 Top Layer Location : [X = 1404.545mil][Y = 3361.319mil]
-Rule Violations :8
+Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net 3V3_ANT_DEPLOY Between Pad J?-6(3922.459mil,367.182mil) on Multi-Layer And Pad J?-1(3922.459mil,613.245mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3_ANT_DEPLOY Between Track (878.866mil,668.863mil)(908.722mil,639.008mil) on L4 Signal And Pad J?-1(3922.459mil,613.245mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net I2C2_SDA Between Pad J13-2(925.598mil,688.22mil) on Multi-Layer And Pad J?-2(3922.459mil,564.033mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad J?-5(3922.459mil,416.395mil) on Multi-Layer And Pad J?-3(3922.459mil,514.82mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Via (3732.874mil,508.661mil) from L1 Top Layer to L6 Bottom Layer And Pad J?-3(3922.459mil,514.82mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net I2C3_SDA Between Pad J13-4(925.598mil,786.646mil) on Multi-Layer And Pad J?-4(3922.459mil,465.608mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad J?-9(3922.459mil,219.545mil) on Multi-Layer And Pad J?-5(3922.459mil,416.395mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net I2C2_SCL Between Pad J13-7(925.598mil,934.283mil) on Multi-Layer And Pad J?-7(3922.459mil,317.97mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net I2C3_SCL Between Pad J13-8(925.598mil,983.496mil) on Multi-Layer And Pad J?-8(3922.459mil,268.757mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad R70-1(696.079mil,3599.442mil) on L1 Top Layer And Pad R71-1(924.438mil,3653.577mil) on L1 Top Layer 
-   Violation between Un-Routed Net Constraint: Net I2C4_SCL Between Pad R70-2(696.079mil,3654.56mil) on L1 Top Layer And Pad U15-2(914.37mil,2817.98mil) on L1 Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Track (885.827mil,3073.819mil)(887.303mil,3072.342mil) on L1 Top Layer And Pad R71-1(924.438mil,3653.577mil) on L1 Top Layer 
-   Violation between Un-Routed Net Constraint: Net I2C4_SDA Between Pad U15-1(888.78mil,2817.98mil) on L1 Top Layer And Pad R71-2(979.556mil,3653.577mil) on L1 Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad R92-2(610.236mil,2551.181mil) on L1 Top Layer And Pad R91-1(610.236mil,2649.606mil) on L1 Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad R92-2(610.236mil,2551.181mil) on L1 Top Layer And Via (895mil,2492mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net NetR57_1 Between Pad U1-124(893.551mil,2148.811mil) on L1 Top Layer [Unplated] And Track (721.268mil,2266.921mil)(893.551mil,2266.921mil) on L1 Top Layer 
-   Violation between Un-Routed Net Constraint: Net I2C4_SDA Between Pad U15-1(888.78mil,2817.98mil) on L1 Top Layer And Pad U1-82(1479.181mil,2517.905mil) on L1 Top Layer [Unplated] 
-   Violation between Un-Routed Net Constraint: Net I2C4_SCL Between Pad U15-2(914.37mil,2817.98mil) on L1 Top Layer And Pad U1-81(1498.866mil,2517.905mil) on L1 Top Layer [Unplated] 
    Violation between Un-Routed Net Constraint: Region (0 hole(s)) L6 Bottom Layer Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Region (0 hole(s)) L6 Bottom Layer Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Region (0 hole(s)) L6 Bottom Layer Dead Copper - Net Not Assigned.
@@ -86,27 +40,41 @@ Processing Rule : Un-Routed Net Constraint ( (All) )
    Violation between Un-Routed Net Constraint: Region (0 hole(s)) L6 Bottom Layer Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Region (0 hole(s)) L6 Bottom Layer Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Region (0 hole(s)) L6 Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Net I2C1_SDA Between Track (501.321mil,2508.032mil)(590mil,2419.353mil) on L4 Signal And Via (610.236mil,2454.764mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net I2C1_SCL Between Via (610.236mil,2748.236mil) from L1 Top Layer to L6 Bottom Layer And Via (655mil,2650mil) from L1 Top Layer to L6 Bottom Layer 
-Rule Violations :44
+Rule Violations :24
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
-   Violation between Modified Polygon: Polygon Shelved  (Boom_out) on L6 Bottom Layer 
-   Violation between Modified Polygon: Polygon Shelved  (boom_sw) on L6 Bottom Layer 
-   Violation between Modified Polygon: Polygon Shelved  (Bottom GND) on L6 Bottom Layer 
-   Violation between Modified Polygon: Polygon Shelved  (L3 3V3) on L3 Signal 
-   Violation between Modified Polygon: Polygon Shelved  (L4 5V) on L4 Signal 
-   Violation between Modified Polygon: Polygon Shelved  (NONET_L-01_P-001) on L3 Signal 
-   Violation between Modified Polygon: Polygon Shelved  (NONET_L-01_P-001) on L3 Signal 
-   Violation between Modified Polygon: Polygon Shelved  (NONET_L-01_P-001) on L6 Bottom Layer 
-   Violation between Modified Polygon: Polygon Shelved  (Top GND) on L1 Top Layer 
-Rule Violations :9
+Rule Violations :0
 
 Processing Rule : Width Constraint (Min=7mil) (Max=10mil) (Preferred=10mil) (InNetClass('50Ohms'))
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=4mil) (Max=50mil) (Preferred=10mil) (All)
 Rule Violations :0
+
+Processing Rule : Routing Layers(All)
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=7.874mil) (MaxHoleWidth=15.748mil) (PreferredHoleWidth=9.842mil) (MinWidth=15.748mil) (MaxWidth=39.37mil) (PreferedWidth=19.685mil) (All)
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=8mil) (Max=10mil) (Prefered=8mil)  and Width Constraints (Min=5.8mil) (Max=5.8mil) (Prefered=5.8mil) (All)
+   Violation between Differential Pairs Routing: Arc (1266.398mil,1143.051mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
+   Violation between Differential Pairs Routing: Arc (1276.059mil,1106.799mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
+   Violation between Differential Pairs Routing: Arc (1420.392mil,1071.83mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
+   Violation between Differential Pairs Routing: Arc (1445.866mil,1100.394mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
+   Violation between Differential Pairs Routing: Arc (1543.709mil,951.446mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
+   Violation between Differential Pairs Routing: Arc (1547.993mil,979.323mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
+   Violation between Differential Pairs Routing: Between Net MOSI_MPI_TX_P And Net MOSI_MPI_TX_N [Uncoupled Length = 585.748mil], [Maximum Uncoupled Length = 500mil]
+   Violation between Differential Pairs Routing: Track (1250mil,1100.543mil)(1250mil,1144.686mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
+   Violation between Differential Pairs Routing: Track (1268.032mil,1159.449mil)(1445.866mil,1159.449mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
+   Violation between Differential Pairs Routing: Track (1282.315mil,1080.74mil)(1282.315mil,1080.74mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
+   Violation between Differential Pairs Routing: Track (1282.315mil,1080.74mil)(1300.565mil,1080.74mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
+   Violation between Differential Pairs Routing: Track (1300.565mil,1130.74mil)(1420.392mil,1130.74mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
+   Violation between Differential Pairs Routing: Track (1445.866mil,1159.449mil)(1445.866mil,1159.449mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
+   Violation between Differential Pairs Routing: Track (1479.303mil,951.446mil)(1479.303mil,1071.83mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
+   Violation between Differential Pairs Routing: Track (1479.303mil,951.446mil)(1479.303mil,951.446mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
+   Violation between Differential Pairs Routing: Track (1504.921mil,983.607mil)(1504.921mil,1100.394mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
+Rule Violations :16
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
 Rule Violations :0
@@ -121,270 +89,18 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=1.5mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=5.906mil) (IsPad),(All)
-   Violation between Silk To Solder Mask Clearance Constraint: (5.374mil < 5.906mil) Between Pad J4-S1(1513.78mil,279.528mil) on L6 Bottom Layer And Track (1472.441mil,346.457mil)(1472.441mil,362.205mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [5.374mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (5.374mil < 5.906mil) Between Pad J4-S2(1165.354mil,279.528mil) on L6 Bottom Layer And Track (1206.693mil,346.457mil)(1206.693mil,362.205mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [5.374mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad R62-1(2801.575mil,1621.063mil) on L6 Bottom Layer And Text "R62" (2879.062mil,1742.049mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad R62-1(2801.575mil,1621.063mil) on L6 Bottom Layer And Track (2757.677mil,1483.661mil)(3212.795mil,1483.661mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad R62-1(2801.575mil,1621.063mil) on L6 Bottom Layer And Track (2757.677mil,1758.465mil)(3212.795mil,1758.465mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad R62-2(3168.898mil,1621.063mil) on L6 Bottom Layer And Track (2757.677mil,1483.661mil)(3212.795mil,1483.661mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad R62-2(3168.898mil,1621.063mil) on L6 Bottom Layer And Track (2757.677mil,1758.465mil)(3212.795mil,1758.465mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (3.155mil < 5.906mil) Between Pad Y1-1(1347.441mil,1437.992mil) on L1 Top Layer And Track (1265.488mil,1458.583mil)(1324.543mil,1458.583mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.155mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (1.244mil < 5.906mil) Between Pad Y1-1(1347.441mil,1437.992mil) on L1 Top Layer And Track (1324.543mil,1348.346mil)(1324.543mil,1458.583mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1.244mil]
-Rule Violations :9
+Rule Violations :0
 
 Processing Rule : Silk to Silk (Clearance=0mil) (Disabled)(All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
-   Violation between Net Antennae: Track (721.268mil,2266.921mil)(893.551mil,2266.921mil) on L1 Top Layer 
-   Violation between Net Antennae: Track (888.78mil,2792.98mil)(888.78mil,2817.98mil) on L1 Top Layer 
-   Violation between Net Antennae: Track (910.37mil,2821.98mil)(910.37mil,2853.532mil) on L1 Top Layer 
-   Violation between Net Antennae: Via (1042.087mil,2586mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (116.142mil,2214.567mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (1182mil,2586mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (1317.906mil,821.095mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (1358.441mil,497.559mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (1397mil,2589mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (1545.653mil,1494.347mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (1843.441mil,2453.441mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (1844.992mil,2687.992mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (1848mil,2239mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (2174.213mil,2990.157mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (2195mil,3225mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (2228.346mil,2804.134mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (2345mil,1867mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (2384.578mil,2987.422mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (2385mil,2833mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (2428mil,3079mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (2432mil,1457mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (3381.835mil,2717.165mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (3382.165mil,2777.165mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (3523.622mil,2592.52mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (3630.506mil,1743.307mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (610.236mil,2454.764mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (610.236mil,2748.236mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (728.346mil,687.008mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (730.627mil,987.433mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (772.055mil,883.457mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (777.441mil,2002.559mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (792.323mil,2171.26mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (887mil,1708mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (895mil,2492mil) from L1 Top Layer to L6 Bottom Layer 
-Rule Violations :34
-
-Processing Rule : Room Memory (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Memory'))
-   Violation between Room Definition: Between Room Memory (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Memory')) And SMT Small Component C22-0.1uF (2429.134mil,2716.535mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Memory (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Memory')) And SMT Small Component C23-0.1uF (2431.102mil,2277.559mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Memory (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Memory')) And SMT Small Component C25-0.1uF (2431.102mil,1838.583mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Memory (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Memory')) And SMT Small Component C26-0.1uF (2428.309mil,3148.839mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Memory (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Memory')) And SMT Small Component C27-0.1uF (2185.039mil,2831.693mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Memory (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Memory')) And SMT Small Component C28-0.1uF (2174.213mil,3075.787mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Memory (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Memory')) And SMT Small Component R117-10K (2421.102mil,2410.551mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Memory (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Memory')) And SMT Small Component R118-10K (2431.102mil,1970.472mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Memory (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Memory')) And SMT Small Component R119-10K (2421.102mil,2520.787mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Memory (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Memory')) And SMT Small Component R120-10K (2431.102mil,2080.709mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Memory (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Memory')) And SMT Small Component R124-10K (2431.102mil,1527.559mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Memory (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Memory')) And SMT Small Component R125-10K (2431.102mil,1637.795mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Memory (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Memory')) And SMT Small Component R126-10K (2428.309mil,2849.627mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Memory (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Memory')) And SMT Small Component R127-10K (2428.309mil,2959.863mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Memory (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Memory')) And SMT Small Component R128-10K (1916.339mil,2715.551mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Memory (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Memory')) And SMT Small Component R129-10K (1908.465mil,2964.567mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Memory (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Memory')) And SOIC Component U2-S70FL01GSAGMFI011 (2720.315mil,2565.866mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Memory (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Memory')) And SOIC Component U3-S70FL01GSAGMFI011 (2723.575mil,2125.252mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Memory (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Memory')) And SOIC Component U5-S70FL01GSAGMFI011 (2723.575mil,1683.409mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Memory (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Memory')) And SOIC Component U6-S70FL01GSAGMFI011 (2720.939mil,3003.32mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Memory (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Memory')) And SOIC Component U7-CY15B108QN-40LPXI (2056.653mil,2762.402mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Memory (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Memory')) And SOIC Component U8-CY15B108QN-40LPXI (2050.472mil,3010.433mil) on L1 Top Layer 
-Rule Violations :22
-
-Processing Rule : Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors'))
-   Violation between Room Definition: Between DIP Component J5-J-ESQ-126-14-G-D (300mil,550mil) on L1 Top Layer And Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) 
-   Violation between Room Definition: Between DIP Component J6-J-ESQ-126-14-G-D (500mil,550mil) on L1 Top Layer And Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SIP Component J10-J-0530471010 (1543.709mil,640.976mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SIP Component J21-J-TSW-106-05-T-S (646.654mil,529.724mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And Small Component *1-PC104 Mounting (270mil,3200mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And Small Component *2-PC104 Mounting (3575.591mil,3347.244mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And Small Component *3-PC104 Mounting (267mil,290mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And Small Component *4-PC104 Mounting (3500mil,260mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT SIP Component J11-J-0532610671 (3669.646mil,1866.339mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT SIP Component J12-J-0532617014 (3669.646mil,2643.858mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT SIP Component J3-J-0532610871 (944.882mil,3251.968mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT SIP Component J4-J-0532610471 (1339.567mil,393.701mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT SIP Component J7-J-0532610671 (1633.858mil,3251.968mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component C11-4.7uF (78.74mil,1692.914mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component C29-0.1uF (1102.764mil,952mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component C30-0.1uF (1067.331mil,676.409mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component C31-1uF (1102.764mil,892.945mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component C32-0.1uF (1390.748mil,826.772mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component C48-4.7uF (1383.819mil,2875mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component C49-4.7uF (720mil,2895mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component C50-4.7uF (400mil,3240mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component D3-D-SML-D12U1WT86 (54.429mil,2326.938mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component D4-D-SML-D12U1WT86 (54.429mil,1329.67mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component D5-D-SML-D12U1WT86 (100mil,2652.48mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component R11-1K (1382.291mil,1062.236mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component R130-100R (1441.347mil,1007.118mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component R131-100R (1185.441mil,1129.165mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component R134-220R (116.447mil,2273.622mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component R135-220R (116.447mil,1316.929mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component R136-10K (100mil,2782.441mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component R32-0R (3451.929mil,2837.165mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component R33-0R (3356.457mil,2246.024mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component R34-0R (3451.929mil,2897.165mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component R35-0R (3356.457mil,2306.024mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component R36-0R (3451.929mil,2957.165mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component R38-0R (3451.929mil,2717.165mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component R4-0R (147.638mil,3415.354mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component R41-0R (3451.929mil,2777.165mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component R42-0R (3451.929mil,2477.165mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component R44-0R (3426.929mil,2537.165mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component R45-0R (3456.89mil,1881.339mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component R47-0R (3456.89mil,1793.307mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component R5-0R (3612.205mil,3169.291mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component R51-0R (3456.89mil,2001.339mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component R52-0R (3456.89mil,1941.339mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component R53-0R (3426.929mil,2597.165mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component R55-0R (3451.929mil,2657.165mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component R7-0R (3595mil,375mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SMT Small Component R8-1K (1382.291mil,952mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SOIC Component U10-MAX3086EESD+T (1193.315mil,1030.74mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room External Connectors (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('External Connectors')) And SOIC Component U9-U-MAX3378EEUD+T (1213mil,707.905mil) on L1 Top Layer 
-Rule Violations :51
-
-Processing Rule : Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32'))
-   Violation between Room Definition: Between Component S1-S-KH-6X6X4.3H-STM (3233.268mil,1555.118mil) on L1 Top Layer And Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) 
-   Violation between Room Definition: Between Component Y1-ECS-TXO-2520-33-250-AN-TR (1383.858mil,1466.535mil) on L1 Top Layer And Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) 
-   Violation between Room Definition: Between Component Y2-TG-3541CE 32.7680KXB3 (1132mil,1501mil) on L1 Top Layer And Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) 
-   Violation between Room Definition: Between LCC Component U1-U-STM32L4R5ZIT6 (1311.858mil,2099.598mil) on L1 Top Layer And Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component C1-0.1uF (1616mil,1613mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component C10-0.1uF (1467mil,2589mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component C12-0.1uF (1238mil,1518.716mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component C13-4.7uF (78.74mil,1901.575mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component C14-0.1uF (1252mil,2586mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component C15-0.1uF (980.441mil,2587mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component C16-0.1uF (795.276mil,2214.567mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component C17-0.1uF (821mil,1975mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component C18-0.1uF (817mil,1708mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component C19-0.1uF (1476.378mil,1608.268mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component C20-0.1uF (1295.016mil,1403.465mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component C21-15 pF (1384.843mil,1552.165mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component C2-1uF (1615.693mil,1553.402mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component C3-0.1uF (1615.693mil,1494.347mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component C4-0.1uF (1030mil,1600mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component C5-0.1uF (1249mil,1614mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component C51-0.1uF (895mil,2561.559mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component C52-0.1uF (3501.968mil,1445.866mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component C54-0.1uF (903.543mil,3073.819mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component C6-0.1uF (1802mil,1821.441mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component C7-0.1uF (1806mil,2022.441mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component C8-0.1uF (1803mil,2211.441mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component C9-0.1uF (1801mil,2481mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component D1-D-SML-D12U1WT86 (810.544mil,1599.339mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component D2-D-SML-D12U1WT86 (810.544mil,1461.543mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component D6-D-SML-D12U1WT86 (810.544mil,1333.591mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R10-22R (1899.504mil,2351.016mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R107-0R (1142.716mil,2683.071mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R109-0R (1074.803mil,2682.087mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R1-220R (810.544mil,1530.441mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R12-22R (1899.504mil,2291.961mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R13-0R (2346.614mil,1553.031mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R14-0R (2346.614mil,1612.086mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R15-0R (2343.86mil,2875.06mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R16-0R (2343.86mil,2934.115mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R17-0R (2346.457mil,1996.063mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R18-22R (1445mil,1810mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R19-4K7 (799.614mil,928.378mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R20-4K7 (799.614mil,688.22mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R21-22R (1505mil,1810mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R22-0R (1883.858mil,3049.213mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R2-220R (810.544mil,1402.488mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R23-22R (758.858mil,2473.425mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R24-0R (1890.748mil,2800.197mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R25-22R (1880.906mil,1616.142mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R26-0R (2336.614mil,2437.008mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R27-0R (2336.614mil,2496.063mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R28-0R (2346.457mil,2055.118mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R29-22R (1880.819mil,1556.543mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R30-0R (1066.929mil,3049.213mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R31-0R (1880.906mil,1497.047mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R3-220R (810.544mil,1274.535mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R37-0R (1880.559mil,1675mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R39-22R (1957.559mil,1831mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R40-22R (758.858mil,2414.37mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R43-0R (1225.795mil,490.386mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R46-0R (1166.701mil,490.386mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R48-22R (1957.819mil,1949.26mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R49-4K7 (799.614mil,786.646mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R50-22R (1957.819mil,1890.205mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R54-4K7 (799.614mil,987.433mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R56-22R (758.858mil,2355.315mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R57-22R (666.339mil,2296.26mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R58-22R (666.339mil,2237.205mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R59-22R (776.575mil,2125.984mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R67-0R (1711.614mil,2608.268mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R70-4K7 (696.079mil,3627.001mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R71-4K7 (951.997mil,3653.577mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R91-4K7 (610.236mil,2677.165mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R9-22R (1899.504mil,2410.071mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R92-4K7 (610.236mil,2523.622mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SOIC Component U15-STDS75DS2F (927.165mil,2907.48mil) on L1 Top Layer 
-Rule Violations :76
-
-Processing Rule : Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa'))
-   Violation between Room Definition: Between Component J14-252105 (3280mil,185mil) on L1 Top Layer And Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) 
-   Violation between Room Definition: Between Component J16-252105 (2657mil,185mil) on L1 Top Layer And Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) 
-   Violation between Room Definition: Between Component J17-252105 (1854.331mil,185.039mil) on L1 Top Layer And Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) 
-   Violation between Room Definition: Between Component J18-252105 (2068.063mil,789.459mil) on L1 Top Layer And Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) 
-   Violation between Room Definition: Between Component J20-252105 (2263.78mil,185.039mil) on L1 Top Layer And Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) 
-   Violation between Room Definition: Between Component U14-SN74LVC1G14DCKR (1490mil,469.795mil) on L1 Top Layer And Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) 
-   Violation between Room Definition: Between LCC Component U11-317990829 (3428mil,889mil) on L1 Top Layer And Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) 
-   Violation between Room Definition: Between LCC Component U12-317990829 (2803mil,889mil) on L1 Top Layer And Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) 
-   Violation between Room Definition: Between Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) And SIP Component J13-J-0530471010 (925.598mil,639.008mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) And SIP Component J15-J-TSW-106-05-T-S (3195.079mil,1317.913mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) And SIP Component J19-J-TSW-106-05-T-S (2479.921mil,1317.913mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) And SMT Small Component C37-0.7 pF (3307.087mil,558.071mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) And SMT Small Component C38-0.7 pF (3307.087mil,388.779mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) And SMT Small Component C39-4.7 µF (3610mil,1210mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) And SMT Small Component C40-0.7 pF (2683.559mil,564mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) And SMT Small Component C41-0.7 pF (2683.559mil,394mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) And SMT Small Component C42-100pF (1885.827mil,407.48mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) And SMT Small Component C43-33 pF (1916.339mil,538.386mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) And SMT Small Component C44-4.7 µF (2930.118mil,1210.63mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) And SMT Small Component C45-100pF (2067.913mil,566.929mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) And SMT Small Component C46-33 pF (2211.614mil,538.386mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) And SMT Small Component C47-100pF (2215.551mil,401.575mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) And SMT Small Component C53-0.1uF (1402mil,470mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) And SMT Small Component R63-0R (3281mil,473.559mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) And SMT Small Component R64-0R (2658mil,479mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) And SMT Small Component R65-10K (1857.283mil,538.386mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) And SMT Small Component R66-10K (2270.669mil,538.386mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room Antenna and LoRa (Bounding Region = (4312.218mil, 596.486mil, 4551.403mil, 1370.146mil) (InComponentClass('Antenna and LoRa')) And SOIC Component U13-U-HMC544AETR (2057.087mil,425.197mil) on L1 Top Layer 
-Rule Violations :28
-
-Processing Rule : Room Boom Control (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Boom Control'))
-   Violation between Room Definition: Between Component U4-ADP2303ARDZ (3476.378mil,2401.575mil) on L6 Bottom Layer And Room Boom Control (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Boom Control')) 
-   Violation between Room Definition: Between Room Boom Control (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Boom Control')) And Small Component TP1-TP (3035mil,2995mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room Boom Control (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Boom Control')) And Small Component TP2-TP (3355mil,3166mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room Boom Control (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Boom Control')) And SMT SIP Component J8-J-0532610871 (2342.52mil,3251.968mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room Boom Control (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Boom Control')) And SMT SIP Component J9-J-0532610671 (3056.102mil,3251.968mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room Boom Control (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Boom Control')) And SMT Small Component C24-0.1uF (3328.74mil,2375mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room Boom Control (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Boom Control')) And SMT Small Component C33-22uF (3393.701mil,2637.795mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room Boom Control (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Boom Control')) And SMT Small Component C34-47 uF (3090.551mil,2905.512mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room Boom Control (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Boom Control')) And SMT Small Component C35-47 uF (2704.724mil,2905.512mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room Boom Control (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Boom Control')) And SMT Small Component C36-47 uF (2724.409mil,2566.929mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room Boom Control (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Boom Control')) And SMT Small Component D7-B540C-13-F (3154.528mil,2116.142mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room Boom Control (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Boom Control')) And SMT Small Component L1-6.8 UH (3081.693mil,2480.508mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room Boom Control (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Boom Control')) And SMT Small Component R60-10K (3551.181mil,2614.173mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room Boom Control (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Boom Control')) And SMT Small Component R61-10K (3645.669mil,2346.457mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room Boom Control (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Boom Control')) And SMT Small Component R62-0.5R (2985.236mil,1621.063mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room Boom Control (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Boom Control')) And SMT Small Component R68-0R (2871.063mil,2151.575mil) on L6 Bottom Layer 
-   Violation between Room Definition: Between Room Boom Control (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Boom Control')) And SMT Small Component R69-0R (2872.047mil,2062.008mil) on L6 Bottom Layer 
-Rule Violations :17
+Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
 
-Violations Detected : 307
+Violations Detected : 40
 Waived Violations : 0
-Time Elapsed        : 00:00:03
+Time Elapsed        : 00:00:02
