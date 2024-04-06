@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\codyd\Documents\GitHub\CTS-SAT-1-OBC-PCB\CTS-SAT-1 Onboard Computer\OBC Development Board.PcbDoc
-Date     : 2024-04-02
-Time     : 8:41:27 PM
+PCB File : C:\Users\Anush\Documents\GitHub\CTS-SAT-1-OBC-PCB\CTS-SAT-1 Onboard Computer\OBC Development Board.PcbDoc
+Date     : 2024-04-05
+Time     : 7:55:29 PM
 
 WARNING: Design contains shelved or modified (but not repoured) polygons. The result of DRC is not correct. Recommended to restore/repour all polygons and proceed with DRC again
    Polygon named: Bottom GND In net GND On L6 Bottom Layer
@@ -22,32 +22,15 @@ Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
    Violation between Clearance Constraint: (3.566mil < 10mil) Between Pad C12-2(1238mil,1546.275mil) on L1 Top Layer And Via (1210.332mil,1571.01mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Pad U1-26(1459.496mil,1681.291mil) on L1 Top Layer And Track (1459.496mil,1681.291mil)(1459.496mil,1720.504mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Pad U1-27(1479.181mil,1681.291mil) on L1 Top Layer And Track (1479.181mil,1681.291mil)(1481.071mil,1683.181mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Pad U1-27(1479.181mil,1681.291mil) on L1 Top Layer And Track (1481.071mil,1683.181mil)(1481.071mil,1721.071mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Pad U1-92(1282.331mil,2517.905mil) on L1 Top Layer And Track (1282.331mil,2412.252mil)(1282.331mil,2517.905mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (Collision < 5mil) Between Pad U1-93(1262.646mil,2517.905mil) on L1 Top Layer And Track (1262.646mil,2426.032mil)(1262.646mil,2517.905mil) on L1 Top Layer 
-   Violation between Clearance Constraint: (Collision < 10mil) Between Track (590mil,2091mil)(590mil,2419.353mil) on L4 Signal And Via (591.535mil,2301.181mil) from L1 Top Layer to L6 Bottom Layer 
    Violation between Clearance Constraint: (7.411mil < 10mil) Between Track (671mil,2143.66mil)(671mil,2279.883mil) on L6 Bottom Layer And Via (657.48mil,2125.984mil) from L1 Top Layer to L6 Bottom Layer 
    Violation between Clearance Constraint: (7.216mil < 10mil) Between Track (671mil,2143.66mil)(682.087mil,2132.573mil) on L6 Bottom Layer And Via (657.48mil,2125.984mil) from L1 Top Layer to L6 Bottom Layer 
    Violation between Clearance Constraint: (9.764mil < 10mil) Between Track (682.087mil,1229.331mil)(682.087mil,2132.573mil) on L6 Bottom Layer And Via (657.48mil,2125.984mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Clearance Constraint: (8.14mil < 10mil) Between Via (565.158mil,2292.323mil) from L1 Top Layer to L6 Bottom Layer And Via (591.535mil,2301.181mil) from L1 Top Layer to L6 Bottom Layer 
-Rule Violations :11
+Rule Violations :4
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-   Violation between Short-Circuit Constraint: Between Pad U1-26(1459.496mil,1681.291mil) on L1 Top Layer And Track (1459.496mil,1681.291mil)(1459.496mil,1720.504mil) on L1 Top Layer Location : [X = 1951.622mil][Y = 2233.368mil]
-   Violation between Short-Circuit Constraint: Between Pad U1-27(1479.181mil,1681.291mil) on L1 Top Layer And Track (1479.181mil,1681.291mil)(1481.071mil,1683.181mil) on L1 Top Layer Location : [X = 1972.203mil][Y = 2223.575mil]
-   Violation between Short-Circuit Constraint: Between Pad U1-27(1479.181mil,1681.291mil) on L1 Top Layer And Track (1481.071mil,1683.181mil)(1481.071mil,1721.071mil) on L1 Top Layer Location : [X = 1973.148mil][Y = 2234.313mil]
-   Violation between Short-Circuit Constraint: Between Pad U1-92(1282.331mil,2517.905mil) on L1 Top Layer And Track (1282.331mil,2412.252mil)(1282.331mil,2517.905mil) on L1 Top Layer Location : [X = 1774.457mil][Y = 3048.506mil]
-   Violation between Short-Circuit Constraint: Between Pad U1-93(1262.646mil,2517.905mil) on L1 Top Layer And Track (1262.646mil,2426.032mil)(1262.646mil,2517.905mil) on L1 Top Layer Location : [X = 1754.772mil][Y = 3048.506mil]
-   Violation between Short-Circuit Constraint: Between Track (590mil,2091mil)(590mil,2419.353mil) on L4 Signal And Via (591.535mil,2301.181mil) from L1 Top Layer to L6 Bottom Layer Location : [X = 1082.126mil][Y = 2842.52mil]
-Rule Violations :6
+Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net NetR21_2 Between Pad U1-92(1282.331mil,2517.905mil) on L1 Top Layer [Unplated] And Pad R21-2(1505mil,1782.441mil) on L6 Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net I2C3_SCL Between Track (1282.331mil,2412.252mil)(1282.331mil,2517.905mil) on L1 Top Layer And Pad U1-26(1459.496mil,1681.291mil) on L1 Top Layer [Unplated] 
-   Violation between Un-Routed Net Constraint: Net I2C3_SDA Between Track (1262.646mil,2426.032mil)(1262.646mil,2517.905mil) on L1 Top Layer And Pad U1-27(1479.181mil,1681.291mil) on L1 Top Layer [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetR18_2 Between Pad U1-93(1262.646mil,2517.905mil) on L1 Top Layer [Unplated] And Track (1445mil,1744.685mil)(1446.102mil,1745.787mil) on L1 Top Layer 
    Violation between Un-Routed Net Constraint: Region (0 hole(s)) L6 Bottom Layer Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Region (0 hole(s)) L6 Bottom Layer Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Region (0 hole(s)) L6 Bottom Layer Dead Copper - Net Not Assigned.
@@ -72,8 +55,7 @@ Processing Rule : Un-Routed Net Constraint ( (All) )
    Violation between Un-Routed Net Constraint: Region (0 hole(s)) L6 Bottom Layer Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Region (0 hole(s)) L6 Bottom Layer Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Region (0 hole(s)) L6 Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Net MOSI_UART2_TX Between Via (591.535mil,2301.181mil) from L1 Top Layer to L6 Bottom Layer And Track (614.842mil,2237.205mil)(616.696mil,2235.352mil) on L6 Bottom Layer 
-Rule Violations :29
+Rule Violations :24
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
    Violation between Modified Polygon: Polygon Shelved  (Boom_out) on L6 Bottom Layer 
@@ -147,11 +129,6 @@ Processing Rule : Silk to Silk (Clearance=0mil) (Disabled)(All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
-   Violation between Net Antennae: Track (1262.646mil,2426.032mil)(1262.646mil,2517.905mil) on L1 Top Layer 
-   Violation between Net Antennae: Track (1282.331mil,2412.252mil)(1282.331mil,2517.905mil) on L1 Top Layer 
-   Violation between Net Antennae: Track (1459.496mil,1681.291mil)(1459.496mil,1720.504mil) on L1 Top Layer 
-   Violation between Net Antennae: Track (1481.071mil,1683.181mil)(1481.071mil,1721.071mil) on L1 Top Layer 
-   Violation between Net Antennae: Track (616.696mil,2215.666mil)(616.696mil,2235.352mil) on L6 Bottom Layer 
    Violation between Net Antennae: Via (1042.087mil,2586mil) from L1 Top Layer to L6 Bottom Layer 
    Violation between Net Antennae: Via (116.142mil,2214.567mil) from L1 Top Layer to L6 Bottom Layer 
    Violation between Net Antennae: Via (1182mil,2586mil) from L1 Top Layer to L6 Bottom Layer 
@@ -176,7 +153,6 @@ Processing Rule : Net Antennae (Tolerance=0mil) (All)
    Violation between Net Antennae: Via (3382.165mil,2777.165mil) from L1 Top Layer to L6 Bottom Layer 
    Violation between Net Antennae: Via (3523.622mil,2592.52mil) from L1 Top Layer to L6 Bottom Layer 
    Violation between Net Antennae: Via (3630.506mil,1743.307mil) from L1 Top Layer to L6 Bottom Layer 
-   Violation between Net Antennae: Via (591.535mil,2301.181mil) from L1 Top Layer to L6 Bottom Layer 
    Violation between Net Antennae: Via (610.236mil,2454.764mil) from L1 Top Layer to L6 Bottom Layer 
    Violation between Net Antennae: Via (610.236mil,2748.236mil) from L1 Top Layer to L6 Bottom Layer 
    Violation between Net Antennae: Via (728.346mil,687.008mil) from L1 Top Layer to L6 Bottom Layer 
@@ -185,7 +161,7 @@ Processing Rule : Net Antennae (Tolerance=0mil) (All)
    Violation between Net Antennae: Via (777.441mil,2002.559mil) from L1 Top Layer to L6 Bottom Layer 
    Violation between Net Antennae: Via (887mil,1708mil) from L1 Top Layer to L6 Bottom Layer 
    Violation between Net Antennae: Via (895mil,2492mil) from L1 Top Layer to L6 Bottom Layer 
-Rule Violations :38
+Rule Violations :32
 
 Processing Rule : Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32'))
    Violation between Room Definition: Between Component S1-S-KH-6X6X4.3H-STM (3233.268mil,1555.118mil) on L1 Top Layer And Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) 
@@ -228,10 +204,10 @@ Processing Rule : Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (
    Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R15-0R (2343.86mil,2875.06mil) on L1 Top Layer 
    Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R16-0R (2343.86mil,2934.115mil) on L1 Top Layer 
    Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R17-0R (2346.457mil,1996.063mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R18-22R (1445mil,1810mil) on L6 Bottom Layer 
+   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R18-22R (1443.898mil,1856.299mil) on L6 Bottom Layer 
    Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R19-4K7 (799.614mil,928.378mil) on L1 Top Layer 
    Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R20-4K7 (799.614mil,688.22mil) on L1 Top Layer 
-   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R21-22R (1505mil,1810mil) on L6 Bottom Layer 
+   Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R21-22R (1525.591mil,1842.52mil) on L6 Bottom Layer 
    Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R22-0R (1883.858mil,3049.213mil) on L1 Top Layer 
    Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R2-220R (810.544mil,1402.488mil) on L1 Top Layer 
    Violation between Room Definition: Between Room STM32 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('STM32')) And SMT Small Component R23-22R (758.858mil,2473.425mil) on L1 Top Layer 
@@ -400,6 +376,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 313
+Violations Detected : 289
 Waived Violations : 0
-Time Elapsed        : 00:00:03
+Time Elapsed        : 00:00:02
