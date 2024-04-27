@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\Anush\Documents\GitHub\CTS-SAT-1-OBC-PCB\CTS-SAT-1 Onboard Computer\OBC Development Board.PcbDoc
-Date     : 2024-04-06
-Time     : 12:51:12 PM
+PCB File : C:\Users\codyd\Documents\GitHub\CTS-SAT-1-OBC-PCB\CTS-SAT-1 Onboard Computer\OBC Development Board.PcbDoc
+Date     : 2024-04-27
+Time     : 12:36:00 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -89,7 +89,11 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=1.5mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=5.906mil) (IsPad),(All)
-Rule Violations :0
+   Violation between Silk To Solder Mask Clearance Constraint: (3.827mil < 5.906mil) Between Arc (1333.858mil,1411.417mil) on Top Overlay And Pad Y1-1(1347.441mil,1437.992mil) on L1 Top Layer [Top Overlay] to [Top Solder] clearance [3.827mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Arc (3628mil,1209mil) on Top Overlay And Pad C39-1(3637.559mil,1210mil) on L1 Top Layer [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad D2-A(778.064mil,1461.543mil) on L1 Top Layer And Text "LED3" (665.512mil,1419.449mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad R2-1(782.985mil,1402.488mil) on L1 Top Layer And Text "LED3" (665.512mil,1419.449mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+Rule Violations :4
 
 Processing Rule : Silk to Silk (Clearance=0mil) (Disabled)(All),(All)
 Rule Violations :0
@@ -101,6 +105,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 40
+Violations Detected : 44
 Waived Violations : 0
 Time Elapsed        : 00:00:02
