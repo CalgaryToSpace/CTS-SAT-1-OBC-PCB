@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\Anush\Documents\GitHub\CTS-SAT-1-OBC-PCB\CTS-SAT-1 Onboard Computer\OBC Development Board.PcbDoc
-Date     : 2024-04-06
-Time     : 12:51:12 PM
+PCB File : C:\Users\codyd\Documents\GitHub\CTS-SAT-1-OBC-PCB\CTS-SAT-1 Onboard Computer\OBC Development Board.PcbDoc
+Date     : 2024-04-27
+Time     : 2:11:02 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -58,23 +58,8 @@ Processing Rule : Routing Via (MinHoleWidth=7.874mil) (MaxHoleWidth=15.748mil) (
 Rule Violations :0
 
 Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=8mil) (Max=10mil) (Prefered=8mil)  and Width Constraints (Min=5.8mil) (Max=5.8mil) (Prefered=5.8mil) (All)
-   Violation between Differential Pairs Routing: Arc (1266.398mil,1143.051mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
-   Violation between Differential Pairs Routing: Arc (1276.059mil,1106.799mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
-   Violation between Differential Pairs Routing: Arc (1420.392mil,1071.83mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
-   Violation between Differential Pairs Routing: Arc (1445.866mil,1100.394mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
-   Violation between Differential Pairs Routing: Arc (1543.709mil,951.446mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
-   Violation between Differential Pairs Routing: Arc (1547.993mil,979.323mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
    Violation between Differential Pairs Routing: Between Net MOSI_MPI_TX_P And Net MOSI_MPI_TX_N [Uncoupled Length = 585.748mil], [Maximum Uncoupled Length = 500mil]
-   Violation between Differential Pairs Routing: Track (1250mil,1100.543mil)(1250mil,1144.686mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
-   Violation between Differential Pairs Routing: Track (1268.032mil,1159.449mil)(1445.866mil,1159.449mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
-   Violation between Differential Pairs Routing: Track (1282.315mil,1080.74mil)(1282.315mil,1080.74mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
-   Violation between Differential Pairs Routing: Track (1282.315mil,1080.74mil)(1300.565mil,1080.74mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
-   Violation between Differential Pairs Routing: Track (1300.565mil,1130.74mil)(1420.392mil,1130.74mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
-   Violation between Differential Pairs Routing: Track (1445.866mil,1159.449mil)(1445.866mil,1159.449mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
-   Violation between Differential Pairs Routing: Track (1479.303mil,951.446mil)(1479.303mil,1071.83mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
-   Violation between Differential Pairs Routing: Track (1479.303mil,951.446mil)(1479.303mil,951.446mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
-   Violation between Differential Pairs Routing: Track (1504.921mil,983.607mil)(1504.921mil,1100.394mil) on L6 Bottom Layer Actual Width = 10mil, Target Width = 5.8mil
-Rule Violations :16
+Rule Violations :1
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
 Rule Violations :0
@@ -101,6 +86,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 40
+Violations Detected : 25
 Waived Violations : 0
 Time Elapsed        : 00:00:02
