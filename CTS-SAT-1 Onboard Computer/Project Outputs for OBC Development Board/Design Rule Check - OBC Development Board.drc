@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Anush\Documents\GitHub\CTS-SAT-1-OBC-PCB\CTS-SAT-1 Onboard Computer\OBC Development Board.PcbDoc
 Date     : 2024-06-18
-Time     : 5:26:05 PM
+Time     : 8:00:12 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -40,8 +40,7 @@ Processing Rule : Un-Routed Net Constraint ( (All) )
    Violation between Un-Routed Net Constraint: Region (0 hole(s)) L6 Bottom Layer Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Region (0 hole(s)) L6 Bottom Layer Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Region (0 hole(s)) L6 Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (1297.066mil,1573.066mil) from L1 Top Layer to L6 Bottom Layer And Via (1545.653mil,1494.347mil) from L1 Top Layer to L6 Bottom Layer 
-Rule Violations :25
+Rule Violations :24
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -56,8 +55,7 @@ Processing Rule : Routing Layers(All)
 Rule Violations :0
 
 Processing Rule : Routing Via (MinHoleWidth=7.874mil) (MaxHoleWidth=15.748mil) (PreferredHoleWidth=9.842mil) (MinWidth=15.748mil) (MaxWidth=39.37mil) (PreferedWidth=19.685mil) (All)
-   Violation between Routing Via Style: Via (3197.674mil,1320.509mil) from L1 Top Layer to L6 Bottom Layer Actual Size : 50mil Actual Hole Size : 28mil
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=8mil) (Max=10mil) (Prefered=8mil)  and Width Constraints (Min=5.8mil) (Max=5.8mil) (Prefered=5.8mil) (All)
    Violation between Differential Pairs Routing: Between Net MOSI_MPI_TX_P And Net MOSI_MPI_TX_N [Uncoupled Length = 585.748mil], [Maximum Uncoupled Length = 500mil]
@@ -76,8 +74,7 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=1.5mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=5.906mil) (IsPad),(All)
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad J14-S2(3690.945mil,1517.717mil) on L1 Top Layer And Text "C52" (3485.874mil,1519.661mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Silk to Silk (Clearance=0mil) (Disabled)(All),(All)
 Rule Violations :0
@@ -89,6 +86,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 28
+Violations Detected : 25
 Waived Violations : 0
 Time Elapsed        : 00:00:02
