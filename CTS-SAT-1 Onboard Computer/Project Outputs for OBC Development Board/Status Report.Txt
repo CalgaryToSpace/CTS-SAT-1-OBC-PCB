@@ -1,31 +1,10 @@
-Output: Gerber Files
-Type  : Gerber
-From  : Variant [[No Variations]] of Project [OBC Development Board.PrjPcb]
-   Generated File[OBC Development Board.GTO]
-   Generated File[OBC Development Board.GTP]
-   Generated File[OBC Development Board.GTS]
-   Generated File[OBC Development Board.GTL]
-   Generated File[OBC Development Board.GP1]
-   Generated File[OBC Development Board.GP2]
-   Generated File[OBC Development Board.GBL]
-   Generated File[OBC Development Board.GBS]
-   Generated File[OBC Development Board.GBP]
-   Generated File[OBC Development Board.GBO]
-   Generated File[OBC Development Board.GM1]
-   Generated File[OBC Development Board.GM5]
-   Generated File[OBC Development Board.GM7]
-   Generated File[OBC Development Board.GM13]
-   Generated File[OBC Development Board.GM15]
-   Generated File[OBC Development Board.GKO]
-   Generated File[OBC Development Board.GPT]
-   Generated File[OBC Development Board.GPB]
-   Generated File[OBC Development Board.GD1]
-   Generated File[OBC Development Board.RUL]
-   Generated File[OBC Development Board.EXTREP]
-   Generated File[OBC Development Board.REP]
+Output: MultiWire
+Type  : MultiWire
+From  : Project [OBC Development Board.PrjPcb]
+   Generated File[OBC Development Board.NET]
 
 
-Files Generated   : 22
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 2:53:30 PM On 2022-05-22
+Finished Output Generation At 11:08:21 AM On 2023-12-09

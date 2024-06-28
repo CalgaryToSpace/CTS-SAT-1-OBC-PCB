@@ -1,4 +1,4 @@
-# CalgaryToSpace-Hardware-Designs
+# CTS-SAT-1-OBC-PCB
 
 This is the design repository for the onboard computer PCB and its supporting boards. The entire history of the design is kept private, but to release the designs, please use the hardware_design_releases repository, which is currently on version 1.2.0. You can check the tags for the revisions available, which are rev1.0 (not functional), rev1.1 (functional with PCB modification, short), and rev1.2 (TBD).
 
@@ -9,8 +9,11 @@ If constructing Space Grade PCBs, use Rogers material as it has low outgassing p
 For more information, please contact James Chen for any questions or concerns at chen.james2015@gmail.com .
 
 ## Todo
-1. Y1 routing
-3. TCXO output is too low for MCU to recognize
-5. Switch R107 and R109 RX and RX pins
-6. Repopulate parts
-7. R68 routing
+
+- Get structural to confirm the tight connectors on the backside -> MPI and Antenna
+- Route the remaining additional components
+
+
+
+
+
