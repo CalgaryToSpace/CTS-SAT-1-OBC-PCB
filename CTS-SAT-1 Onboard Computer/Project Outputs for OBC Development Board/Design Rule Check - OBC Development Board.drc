@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Anush\Documents\GitHub\CTS-SAT-1-OBC-PCB\CTS-SAT-1 Onboard Computer\OBC Development Board.PcbDoc
-Date     : 2024-07-09
-Time     : 11:31:19 AM
+Date     : 2024-07-12
+Time     : 11:02:58 AM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -16,6 +16,9 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net BURN_POS Between Pad C35-1(2514.764mil,2063.976mil) on L6 Bottom Layer And Pad C34-1(2578.74mil,1858.268mil) on L6 Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net BURN_POS Between Pad R68-1(2522.638mil,1665.354mil) on L6 Bottom Layer And Pad C34-1(2578.74mil,1858.268mil) on L6 Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetR61_1 Between Pad R68-2(2577.756mil,1665.354mil) on L6 Bottom Layer And Via (3066.929mil,2682.087mil) from L1 Top Layer to L6 Bottom Layer 
    Violation between Un-Routed Net Constraint: Region (0 hole(s)) L6 Bottom Layer Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Region (0 hole(s)) L6 Bottom Layer Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Region (0 hole(s)) L6 Bottom Layer Dead Copper - Net Not Assigned.
@@ -40,7 +43,7 @@ Processing Rule : Un-Routed Net Constraint ( (All) )
    Violation between Un-Routed Net Constraint: Region (0 hole(s)) L6 Bottom Layer Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Region (0 hole(s)) L6 Bottom Layer Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Region (0 hole(s)) L6 Bottom Layer Dead Copper - Net Not Assigned.
-Rule Violations :24
+Rule Violations :27
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -74,9 +77,21 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=1.5mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=5.906mil) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad C33-1(3506.89mil,3093.504mil) on L6 Bottom Layer And Text "C33" (3519.994mil,3081.86mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad C33-2(3506.89mil,2991.142mil) on L6 Bottom Layer And Text "C33" (3519.994mil,3081.86mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
    Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad J13-10(925.598mil,1081.921mil) on Multi-Layer And Track (784.449mil,1086.122mil)(957.677mil,1086.122mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
    Violation between Silk To Solder Mask Clearance Constraint: (1.373mil < 5.906mil) Between Pad J13-10(925.598mil,1081.921mil) on Multi-Layer And Track (948.327mil,1086.122mil)(957.677mil,1086.122mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1.373mil]
-Rule Violations :2
+   Violation between Silk To Solder Mask Clearance Constraint: (1.398mil < 5.906mil) Between Pad J8-S2(3356.299mil,3274.606mil) on L6 Bottom Layer And Track (3404.036mil,3255.906mil)(3450.295mil,3255.906mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [1.398mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (4.351mil < 5.906mil) Between Pad J8-S2(3356.299mil,3274.606mil) on L6 Bottom Layer And Track (3406.988mil,3253.937mil)(3431.595mil,3229.331mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [4.351mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (4.351mil < 5.906mil) Between Pad J8-S2(3356.299mil,3274.606mil) on L6 Bottom Layer And Track (3406.988mil,3253.937mil)(3432.579mil,3279.528mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [4.351mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad R62-1(2975mil,2938.977mil) on L6 Bottom Layer And Track (2895.866mil,3074.41mil)(2907.677mil,3094.095mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad R62-1(2975mil,2938.977mil) on L6 Bottom Layer And Track (2895.866mil,3074.41mil)(2919.488mil,3074.41mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad R62-1(2975mil,2938.977mil) on L6 Bottom Layer And Track (2907.677mil,3094.095mil)(2919.488mil,3074.41mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad TP1-1(2368.095mil,2113.189mil) on Multi-Layer And Text "R120" (2242.03mil,2111.896mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad TP1-1(2368.095mil,2113.189mil) on Multi-Layer And Track (2289.37mil,2082.677mil)(2399.606mil,2082.677mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad TP1-1(2368.095mil,2113.189mil) on Multi-Layer And Track (2401.575mil,2025.59mil)(2401.575mil,2135.827mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad U3-15(2900.74mil,2250.252mil) on L1 Top Layer And Text "R125" (2766.637mil,2222.133mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+Rule Violations :14
 
 Processing Rule : Silk to Silk (Clearance=0mil) (Disabled)(All),(All)
 Rule Violations :0
@@ -88,6 +103,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 27
+Violations Detected : 42
 Waived Violations : 0
 Time Elapsed        : 00:00:02
