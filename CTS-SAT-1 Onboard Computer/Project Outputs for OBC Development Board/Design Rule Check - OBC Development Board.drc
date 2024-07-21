@@ -1,10 +1,11 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Anush\Documents\GitHub\CTS-SAT-1-OBC-PCB\CTS-SAT-1 Onboard Computer\OBC Development Board.PcbDoc
 Date     : 2024-07-20
-Time     : 10:55:42 AM
+Time     : 9:28:08 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
-Rule Violations :0
+   Violation between Clearance Constraint: (7.122mil < 10mil) Between Track (2026.886mil,1949.26mil)(2026.886mil,2215.114mil) on L6 Bottom Layer And Via (2004.921mil,2118.11mil) from L1 Top Layer to L6 Bottom Layer 
+Rule Violations :1
 
 Processing Rule : Clearance Constraint (Gap=30mil) (InNetClass('50Ohms')),(All)
 Rule Violations :0
@@ -87,6 +88,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 26
+Violations Detected : 27
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
