@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Anush\Documents\GitHub\CTS-SAT-1-OBC-PCB\CTS-SAT-1 Onboard Computer\OBC Development Board.PcbDoc
-Date     : 2024-07-22
-Time     : 5:37:12 PM
+Date     : 2024-07-23
+Time     : 12:02:08 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -57,9 +57,8 @@ Rule Violations :0
 Processing Rule : Routing Via (MinHoleWidth=7.874mil) (MaxHoleWidth=15.748mil) (PreferredHoleWidth=9.842mil) (MinWidth=15.748mil) (MaxWidth=39.37mil) (PreferedWidth=19.685mil) (All)
 Rule Violations :0
 
-Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=8mil) (Max=10mil) (Prefered=8mil)  and Width Constraints (Min=5.8mil) (Max=5.8mil) (Prefered=5.8mil) (All)
-   Violation between Differential Pairs Routing: Between Net MOSI_MPI_TX_P And Net MOSI_MPI_TX_N [Uncoupled Length = 585.748mil], [Maximum Uncoupled Length = 500mil]
-Rule Violations :1
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=8mil) (Max=10mil) (Prefered=10mil)  and Width Constraints (Min=5.8mil) (Max=6.06mil) (Prefered=6.06mil) (All)
+Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
 Rule Violations :0
@@ -74,8 +73,7 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=1.5mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=5.906mil) (IsPad),(All)
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad TP2-1(2661.417mil,2752.953mil) on Multi-Layer And Track (2588.583mil,2769.685mil)(2856.299mil,2769.685mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Silk to Silk (Clearance=0mil) (Disabled)(All),(All)
 Rule Violations :0
@@ -87,6 +85,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 26
+Violations Detected : 24
 Waived Violations : 0
-Time Elapsed        : 00:00:03
+Time Elapsed        : 00:00:02
