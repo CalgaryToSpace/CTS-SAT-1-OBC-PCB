@@ -5,7 +5,7 @@ C:\Users\Anush\Documents\GitHub\CTS-SAT-1-OBC-PCB\CTS-SAT-1 Onboard Computer\Pro
 File Design Information:
 
 Date:       10-08-24
-Time:       11:12
+Time:       13:13
 Revision:   a4ae6e80b5d4151abfbdd2bb553655be3ec44192
 Variant:    No variations
 Units used: mm
