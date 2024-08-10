@@ -1,0 +1,22 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: OBC Development Board.GBR   2024-08-10  11:12:25 AM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                L1 Top Layer                            
+.GP1                L2 GND                                  
+.G1                 L3 Signal                               
+.G2                 L4 Signal                               
+.GP2                L5 GND                                  
+.GBL                L6 Bottom Layer                         
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM                 Profile                                 
+------------------------------------------------------------------------------------------

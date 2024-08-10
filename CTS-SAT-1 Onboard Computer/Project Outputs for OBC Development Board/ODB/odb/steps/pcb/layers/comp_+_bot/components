@@ -1,0 +1,783 @@
+UNITS=MM
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+
+# CMP 0
+CMP 1 32.02500326 13.25000144 180 N R88 22R ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://www.vishay.com/docs/20035/dcrcwe3.pdf'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://www.vishay.com/'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'RR08Q22DCT-ND'
+PRP Manufacturer 'Susumu'
+PRP Manufacturer_Part_# 'RR0816Q-220-D'
+PRP Part_Description '22 Ohms ±0.5% 0.063W, 1/16W Chip Resistor 0603 (1608 Metric) - Thin Film'
+PRP Value '22R'
+TOP 0 31.32500212 13.25000144 90 N 3 0 1
+TOP 1 32.72500186 13.25000144 90 N 36 0 2
+#
+# CMP 1
+CMP 1 28.97500174 13.27500012 180 N R87 0R ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'RMCF0603ZT0R00CT-ND'
+PRP Manufacturer 'Stackpole Electronics Inc'
+PRP Manufacturer_Part_# 'RMCF0603ZT0R00'
+PRP Part_Description '0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film'
+PRP Value '0R'
+TOP 0 28.2750006 13.27500012 90 N 38 0 1
+TOP 1 29.67500034 13.27500012 90 N 4 0 2
+#
+# CMP 2
+CMP 1 61.17500084 24.32500088 180 N R86 0R ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'RMCF0603ZT0R00CT-ND'
+PRP Manufacturer 'Stackpole Electronics Inc'
+PRP Manufacturer_Part_# 'RMCF0603ZT0R00'
+PRP Part_Description '0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film'
+PRP Value '0R'
+TOP 0 60.4749997 24.32500088 90 N 30 0 1
+TOP 1 61.87499944 24.32500088 90 N 5 0 2
+#
+# CMP 3
+CMP 1 61.17500084 26.05000124 0 N R85 22R ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://www.vishay.com/docs/20035/dcrcwe3.pdf'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://www.vishay.com/'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'RR08Q22DCT-ND'
+PRP Manufacturer 'Susumu'
+PRP Manufacturer_Part_# 'RR0816Q-220-D'
+PRP Part_Description '22 Ohms ±0.5% 0.063W, 1/16W Chip Resistor 0603 (1608 Metric) - Thin Film'
+PRP Value '22R'
+TOP 0 61.87500198 26.05000124 270 N 6 0 1
+TOP 1 60.47500224 26.05000124 270 N 29 0 2
+#
+# CMP 4
+CMP 1 19.75000114 60.80000286 180 N R84 1K ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://www.vishay.com/docs/20035/dcrcwe3.pdf'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://www.vishay.com/'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'A102226CT-ND'
+PRP Manufacturer 'TE Connectivity Passive Product'
+PRP Manufacturer_Part_# 'CPF0603F1K0C1'
+PRP Part_Description 'RES SMD 1K OHM 1% 1/16W 0603'
+PRP Value '1K'
+TOP 0 19.05 60.80000286 90 N 158 35 1
+TOP 1 20.44999974 60.80000286 90 N 7 0 2
+#
+# CMP 5
+CMP 1 19.75000114 62.57500312 0 N R83 10K ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://www.vishay.com/docs/20035/dcrcwe3.pdf'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://www.vishay.com/'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'RNCP0603FTD10K0CT-ND'
+PRP Manufacturer 'Stackpole Electronics Inc'
+PRP Manufacturer_Part_# 'RNCP0603FTD10K0'
+PRP Part_Description 'RES 10K OHM 1% 1/8W 0603'
+PRP Value '10K'
+TOP 0 20.45000228 62.57500312 270 N 7 1 1
+TOP 1 19.05000254 62.57500312 270 N 109 0 2
+#
+# CMP 6
+CMP 1 86.17500164 36.55000056 90 N R82 4K7 ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://www.vishay.com/docs/20035/dcrcwe3.pdf'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://www.vishay.com/'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'CR0603-FX-4701ELFCT-ND'
+PRP Manufacturer 'Bourns Inc.'
+PRP Manufacturer_Part_# 'CR0603-FX-4701ELF'
+PRP Part_Description 'RES SMD 4.7K OHM 1% 1/10W 0603'
+PRP Value '4K7'
+TOP 0 86.17500164 37.2500017 180 N 158 34 1
+TOP 1 86.17500164 35.85000196 180 N 8 1 2
+#
+# CMP 7
+CMP 1 80.6500038 36.52499934 90 N R81 4K7 ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://www.vishay.com/docs/20035/dcrcwe3.pdf'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://www.vishay.com/'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'CR0603-FX-4701ELFCT-ND'
+PRP Manufacturer 'Bourns Inc.'
+PRP Manufacturer_Part_# 'CR0603-FX-4701ELF'
+PRP Part_Description 'RES SMD 4.7K OHM 1% 1/10W 0603'
+PRP Value '4K7'
+TOP 0 80.6500038 37.22500048 180 N 158 33 1
+TOP 1 80.6500038 35.82500074 180 N 9 1 2
+#
+# CMP 8
+CMP 1 88.20000394 36.57500178 270 N R80 4K7 ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://www.vishay.com/docs/20035/dcrcwe3.pdf'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://www.vishay.com/'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'CR0603-FX-4701ELFCT-ND'
+PRP Manufacturer 'Bourns Inc.'
+PRP Manufacturer_Part_# 'CR0603-FX-4701ELF'
+PRP Part_Description 'RES SMD 4.7K OHM 1% 1/10W 0603'
+PRP Value '4K7'
+TOP 0 88.20000394 35.87500064 0 N 8 0 1
+TOP 1 88.20000394 37.27500038 0 N 161 3 2
+#
+# CMP 9
+CMP 1 82.75000214 36.55000056 270 N R79 4K7 ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://www.vishay.com/docs/20035/dcrcwe3.pdf'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://www.vishay.com/'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'CR0603-FX-4701ELFCT-ND'
+PRP Manufacturer 'Bourns Inc.'
+PRP Manufacturer_Part_# 'CR0603-FX-4701ELF'
+PRP Part_Description 'RES SMD 4.7K OHM 1% 1/10W 0603'
+PRP Value '4K7'
+TOP 0 82.75000214 35.84999942 0 N 9 0 1
+TOP 1 82.75000214 37.24999916 0 N 161 2 2
+#
+# CMP 10
+CMP 1 53.3250013 72.2250016 90 N R62 22R ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://www.vishay.com/docs/20035/dcrcwe3.pdf'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://www.vishay.com/'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'RR08Q22DCT-ND'
+PRP Manufacturer 'Susumu'
+PRP Manufacturer_Part_# 'RR0816Q-220-D'
+PRP Part_Description '22 Ohms ±0.5% 0.063W, 1/16W Chip Resistor 0603 (1608 Metric) - Thin Film'
+PRP Value '22R'
+TOP 0 53.3250013 72.92500274 180 N 121 1 1
+TOP 1 53.3250013 71.525003 180 N 14 0 2
+#
+# CMP 11
+CMP 1 53.25000272 78.0750026 270 N R48 22R ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://www.vishay.com/docs/20035/dcrcwe3.pdf'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://www.vishay.com/'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'RR08Q22DCT-ND'
+PRP Manufacturer 'Susumu'
+PRP Manufacturer_Part_# 'RR0816Q-220-D'
+PRP Part_Description '22 Ohms ±0.5% 0.063W, 1/16W Chip Resistor 0603 (1608 Metric) - Thin Film'
+PRP Value '22R'
+TOP 0 53.25000272 77.37500146 0 N 121 2 1
+TOP 1 53.25000272 78.7750012 0 N 15 0 2
+#
+# CMP 12
+CMP 1 70.40000144 50.07500272 90 N R13 22R ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://www.vishay.com/docs/20035/dcrcwe3.pdf'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://www.vishay.com/'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'RR08Q22DCT-ND'
+PRP Manufacturer 'Susumu'
+PRP Manufacturer_Part_# 'RR0816Q-220-D'
+PRP Part_Description '22 Ohms ±0.5% 0.063W, 1/16W Chip Resistor 0603 (1608 Metric) - Thin Film'
+PRP Value '22R'
+TOP 0 70.40000144 50.77500386 180 N 121 0 1
+TOP 1 70.40000144 49.37500412 180 N 19 0 2
+#
+# CMP 13
+CMP 2 85.09999998 73.12499726 180 N R33 0R33 ;0=1,1=0.0000
+PRP Distributer 'Digikey'
+PRP Distributer_# '4423-VMS-R330-1.0-UCT-ND'
+PRP Manufacturer 'Isabellenhuette USA'
+PRP Manufacturer_Part_# 'VMS-R330-1.0-U'
+PRP Part_Description '330 mOhms ±1% 4W Chip Resistor 2512 (6432 Metric) Automotive AEC-Q200, Current Sense, Moisture Resistant, Pulse Withstanding Metal Foil'
+PRP Supplier_1 'Digikey'
+PRP Supplier_Part_Number_1 '4423-VMS-R330-1.0-UCT-ND'
+PRP Value '0R33'
+TOP 0 82.18600022 73.12499726 0 N 158 41 1
+TOP 1 88.01399974 73.12499726 0 N 77 5 2
+#
+# CMP 14
+CMP 1 74.15000156 77.5750036 180 N R69 0R ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'RMCF0603ZT0R00CT-ND'
+PRP Manufacturer 'Stackpole Electronics Inc'
+PRP Manufacturer_Part_# 'RMCF0603ZT0R00'
+PRP Part_Description '0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film'
+PRP Value '0R'
+TOP 0 73.45000042 77.5750036 90 N 53 1 1
+TOP 1 74.85000016 77.5750036 90 N 158 19 2
+#
+# CMP 15
+CMP 1 79.72500184 67.97500248 270 N R68 0R ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'RMCF0603ZT0R00CT-ND'
+PRP Manufacturer 'Stackpole Electronics Inc'
+PRP Manufacturer_Part_# 'RMCF0603ZT0R00'
+PRP Part_Description '0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film'
+PRP Value '0R'
+TOP 0 79.72500184 67.27500134 0 N 76 1 1
+TOP 1 79.72500184 68.67500108 0 N 53 2 2
+#
+# CMP 16
+CMP 11 34.02499926 10.00000032 0 N J4 J-0532610471 ;0=1,1=0.0000
+PRP Distributor 'Digi-Key'
+PRP Distributor_Part_# 'WM7622CT-ND'
+PRP Manfacturer 'Molex'
+PRP Manfacturer_Part_# '0532610471'
+TOP 0 35.89999932 10.00000032 90 N 80 0 1
+TOP 1 34.64999928 10.00000032 270 N 80 1 2
+TOP 2 33.39999924 10.00000032 90 N 158 24 3
+TOP 3 32.1499992 10.00000032 90 N 158 23 4
+TOP 4 38.4499993 7.10000104 270 N 158 22 S1
+TOP 5 29.59999922 7.10000104 270 N 158 21 S2
+#
+# CMP 17
+CMP 15 72.22990126 62.87499744 0 N L1 6.8_UH ;0=1,1=0.0000
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# '541-1303-1-ND'
+PRP Manufacturer 'Vishay Dale'
+PRP Manufacturer_Part_# 'IHLP4040DZER6R8M01'
+PRP Value '6.8 uH'
+TOP 0 76.50980126 62.87499744 270 N 76 5 1
+TOP 1 67.95000126 62.87499744 270 N 75 3 2
+#
+# CMP 18
+CMP 22 87.9500019 79.20000162 0 N TP2 TP ;0=2,1=0.7000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X'
+TOP 0 87.9500019 79.17460162 180 N 77 6 1
+#
+# CMP 19
+CMP 22 79.82540296 64.77500126 270 N TP1 TP ;0=2,1=0.7000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X'
+TOP 0 79.80000296 64.77500126 270 N 76 9 1
+#
+# CMP 20
+CMP 1 70.22500306 78.15000372 270 N R61 10K ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://www.vishay.com/docs/20035/dcrcwe3.pdf'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://www.vishay.com/'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'RNCP0603FTD10K0CT-ND'
+PRP Manufacturer 'Stackpole Electronics Inc'
+PRP Manufacturer_Part_# 'RNCP0603FTD10K0'
+PRP Part_Description 'RES 10K OHM 1% 1/8W 0603'
+PRP Value '10K'
+TOP 0 70.22500306 77.45000258 0 N 53 3 1
+TOP 1 70.22500306 78.85000232 0 N 77 4 2
+#
+# CMP 21
+CMP 1 65.85000292 77.6250035 0 N R60 10K ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://www.vishay.com/docs/20035/dcrcwe3.pdf'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://www.vishay.com/'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'RNCP0603FTD10K0CT-ND'
+PRP Manufacturer 'Stackpole Electronics Inc'
+PRP Manufacturer_Part_# 'RNCP0603FTD10K0'
+PRP Part_Description 'RES 10K OHM 1% 1/8W 0603'
+PRP Value '10K'
+TOP 0 66.55000406 77.6250035 270 N 161 1 1
+TOP 1 65.15000432 77.6250035 270 N 78 1 2
+#
+# CMP 22
+CMP 8 93.32500258 66.82499716 90 N J9 J-0532610671 ;0=1,1=0.0000
+PRP Distributor 'Digi-Key'
+PRP Distributor_Part_# 'WM7624CT-ND'
+PRP Manfacturer 'Molex'
+PRP Manfacturer_Part_# '0532610671'
+TOP 0 90.9250023 69.94999726 90 N 77 1 1
+TOP 1 90.9250023 68.69999722 90 N 77 2 2
+TOP 2 90.9250023 67.44999718 90 N 77 3 3
+TOP 3 90.9250023 66.19999714 90 N 76 2 4
+TOP 4 90.9250023 64.9499971 90 N 76 3 5
+TOP 5 90.9250023 63.69999706 90 N 76 4 6
+TOP 6 93.82500158 72.49999724 90 N 158 26 S1
+TOP 7 93.82500158 61.14999708 90 N 158 25 S2
+#
+# CMP 23
+CMP 4 76.32500356 73.20000346 0 N D7 B540C-13-F ;0=1,1=0.7000
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'B540C-FDICT-ND'
+PRP Manufacturer 'Diodes Incorporated'
+PRP Manufacturer_Part_# 'B540C-13-F'
+TOP 0 72.96000394 73.20000346 180 N 75 4 A
+TOP 1 79.69000318 73.20000346 180 N 158 40 C
+#
+# CMP 24
+CMP 6 80.40000176 61.17499576 90 N C36 47uF ;0=1,1=0.0000
+PRP Capacitance '47uF'
+PRP Case_Code_(Imperial) '1210'
+PRP Case_Code_(Metric) '3225'
+PRP Case/Package '1210'
+PRP Construction 'Flat'
+PRP Depth '2.5mm'
+PRP Dielectric 'X5R'
+PRP Dielectric_Material 'Ceramic'
+PRP Height '2.5mm'
+PRP Insulation_Resistance '10.6MR'
+PRP Lead_Free 'Lead Free'
+PRP Length '3.2mm'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'No SVHC'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'GRM'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.106inch'
+PRP Tolerance '10%'
+PRP Voltage '6.3V'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Weight '0.000564oz'
+PRP Width '2.5mm'
+TOP 0 80.40000176 62.824995 90 N 76 8 1
+TOP 1 80.40000176 59.52499652 90 N 158 39 2
+#
+# CMP 25
+CMP 6 84.27500036 61.22499566 90 N C35 47uF ;0=1,1=0.0000
+PRP Capacitance '47uF'
+PRP Case_Code_(Imperial) '1210'
+PRP Case_Code_(Metric) '3225'
+PRP Case/Package '1210'
+PRP Construction 'Flat'
+PRP Depth '2.5mm'
+PRP Dielectric 'X5R'
+PRP Dielectric_Material 'Ceramic'
+PRP Height '2.5mm'
+PRP Insulation_Resistance '10.6MR'
+PRP Lead_Free 'Lead Free'
+PRP Length '3.2mm'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'No SVHC'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'GRM'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.106inch'
+PRP Tolerance '10%'
+PRP Voltage '6.3V'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Weight '0.000564oz'
+PRP Width '2.5mm'
+TOP 0 84.27500036 62.8749949 90 N 76 7 1
+TOP 1 84.27500036 59.57499642 90 N 158 38 2
+#
+# CMP 26
+CMP 6 88.17500018 61.14999708 90 N C34 47uF ;0=1,1=0.0000
+PRP Capacitance '47uF'
+PRP Case_Code_(Imperial) '1210'
+PRP Case_Code_(Metric) '3225'
+PRP Case/Package '1210'
+PRP Construction 'Flat'
+PRP Depth '2.5mm'
+PRP Dielectric 'X5R'
+PRP Dielectric_Material 'Ceramic'
+PRP Height '2.5mm'
+PRP Insulation_Resistance '10.6MR'
+PRP Lead_Free 'Lead Free'
+PRP Length '3.2mm'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'No SVHC'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'GRM'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.106inch'
+PRP Tolerance '10%'
+PRP Voltage '6.3V'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Weight '0.000564oz'
+PRP Width '2.5mm'
+TOP 0 88.17500018 62.79999632 90 N 76 6 1
+TOP 1 88.17500018 59.49999784 90 N 158 37 2
+#
+# CMP 27
+CMP 3 61.80000086 71.79999864 90 N C33 22uF ;0=1,1=1.8000
+PRP Capacitance '22uF'
+PRP Case_Code_(Imperial) '2312'
+PRP Case_Code_(Metric) '6032'
+PRP Case/Package '2412'
+PRP Construction 'Flat'
+PRP Depth '3.2mm'
+PRP Dielectric_Material 'Tantalum'
+PRP Dissipation_Factor '6%'
+PRP ESR_(Equivalent_Series_Resistance) '1.4R'
+PRP Features 'General Purpose'
+PRP Height '2.6mm'
+PRP Height_-_Seated_(Max) '0.11inch'
+PRP Lead_Free 'Lead Free'
+PRP Leakage_Current '5.5uA'
+PRP Length '6mm'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Number_of_Pins '2'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Polarity 'Polar'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'No SVHC'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'TAJ'
+PRP Termination 'SMD/SMT'
+PRP Tolerance '10%'
+PRP Voltage '25V'
+PRP Voltage_Rating '25V'
+PRP Voltage_Rating_(DC) '25V'
+PRP Width '3.2mm'
+TOP 0 61.80000086 73.09999604 90 N 84 4 1
+TOP 1 61.80000086 70.4999987 90 N 158 36 2
+#
+# CMP 28
+CMP 7 23.5102019 16.23079812 90 N J13 J-0530471010 ;0=2,1=0.0000
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'WM1739-ND'
+PRP Manufacturer 'Molex'
+PRP Manufacturer_Part_# '0530471010'
+TOP 0 23.5102019 16.23079812 90 N 83 3 1
+TOP 1 23.5102019 17.48079816 90 N 153 0 2
+TOP 2 23.5102019 18.7307982 90 N 158 61 3
+TOP 3 23.5102019 19.98079824 90 N 151 0 4
+TOP 4 23.5102019 21.23079828 90 N 158 60 5
+TOP 5 23.5102019 22.48079832 90 N 83 2 6
+TOP 6 23.5102019 23.73079836 90 N 154 0 7
+TOP 7 23.5102019 24.9807984 90 N 152 0 8
+TOP 8 23.5102019 26.23079844 90 N 158 59 9
+TOP 9 23.5102019 27.48079848 90 N 0 119 10
+#
+# CMP 29
+CMP 1 46.625002 46.85000028 180 N R30 0R ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'RMCF0603ZT0R00CT-ND'
+PRP Manufacturer 'Stackpole Electronics Inc'
+PRP Manufacturer_Part_# 'RMCF0603ZT0R00'
+PRP Part_Description '0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film'
+PRP Value '0R'
+TOP 0 45.92500086 46.85000028 90 N 99 0 1
+TOP 1 47.3250006 46.85000028 90 N 157 1 2
+#
+# CMP 30
+CMP 1 33.42500046 67.10000296 90 N R21 22R ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://www.vishay.com/docs/20035/dcrcwe3.pdf'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://www.vishay.com/'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'RR08Q22DCT-ND'
+PRP Manufacturer 'Susumu'
+PRP Manufacturer_Part_# 'RR0816Q-220-D'
+PRP Part_Description '22 Ohms ±0.5% 0.063W, 1/16W Chip Resistor 0603 (1608 Metric) - Thin Film'
+PRP Value '22R'
+TOP 0 33.42500046 67.8000041 180 N 37 0 1
+TOP 1 33.42500046 66.40000436 180 N 60 0 2
+#
+# CMP 31
+CMP 1 31.75 67.07500174 90 N R18 22R ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://www.vishay.com/docs/20035/dcrcwe3.pdf'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://www.vishay.com/'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'RR08Q22DCT-ND'
+PRP Manufacturer 'Susumu'
+PRP Manufacturer_Part_# 'RR0816Q-220-D'
+PRP Part_Description '22 Ohms ±0.5% 0.063W, 1/16W Chip Resistor 0603 (1608 Metric) - Thin Film'
+PRP Value '22R'
+TOP 0 31.75 67.77500288 180 N 39 0 1
+TOP 1 31.75 66.37500314 180 N 61 0 2
+#
+# CMP 32
+CMP 1 46.625002 48.60000186 180 N R16 22R ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://www.vishay.com/docs/20035/dcrcwe3.pdf'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://www.vishay.com/'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'RR08Q22DCT-ND'
+PRP Manufacturer 'Susumu'
+PRP Manufacturer_Part_# 'RR0816Q-220-D'
+PRP Part_Description '22 Ohms ±0.5% 0.063W, 1/16W Chip Resistor 0603 (1608 Metric) - Thin Film'
+PRP Value '22R'
+TOP 0 45.92500086 48.60000186 90 N 63 0 1
+TOP 1 47.3250006 48.60000186 90 N 116 0 2
+#
+# CMP 33
+CMP 1 46.5250022 51.77500186 180 N R15 22R ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://www.vishay.com/docs/20035/dcrcwe3.pdf'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://www.vishay.com/'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'RR08Q22DCT-ND'
+PRP Manufacturer 'Susumu'
+PRP Manufacturer_Part_# 'RR0816Q-220-D'
+PRP Part_Description '22 Ohms ±0.5% 0.063W, 1/16W Chip Resistor 0603 (1608 Metric) - Thin Film'
+PRP Value '22R'
+TOP 0 45.82500106 51.77500186 90 N 64 0 1
+TOP 1 47.2250008 51.77500186 90 N 115 0 2
+#
+# CMP 34
+CMP 1 35.11020156 26.98079694 90 N R11 1K ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://www.vishay.com/docs/20035/dcrcwe3.pdf'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://www.vishay.com/'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'A102226CT-ND'
+PRP Manufacturer 'TE Connectivity Passive Product'
+PRP Manufacturer_Part_# 'CPF0603F1K0C1'
+PRP Part_Description 'RES SMD 1K OHM 1% 1/16W 0603'
+PRP Value '1K'
+TOP 0 35.11020156 27.68079808 180 N 158 18 1
+TOP 1 35.11020156 26.28079834 180 N 149 0 2
+#
+# CMP 35
+CMP 1 35.11020156 24.18079746 90 N R8 1K ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://www.vishay.com/docs/20035/dcrcwe3.pdf'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://www.vishay.com/'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'A102226CT-ND'
+PRP Manufacturer 'TE Connectivity Passive Product'
+PRP Manufacturer_Part_# 'CPF0603F1K0C1'
+PRP Part_Description 'RES SMD 1K OHM 1% 1/16W 0603'
+PRP Value '1K'
+TOP 0 35.11020156 24.8807986 180 N 148 0 1
+TOP 1 35.11020156 23.48079886 180 N 160 1 2
+#
+# CMP 36
+CMP 12 24.00000026 82.5999999 180 N J3 J-0532610871 ;0=1,1=0.0000
+PRP Distributor 'Digi-Key'
+PRP Distributor_Part_# 'WM7626CT-ND'
+PRP Manfacturer 'Molex'
+PRP Manfacturer_Part_# '0532610871'
+TOP 0 19.62500012 80.19999962 0 N 0 25 1
+TOP 1 20.87500016 80.19999962 0 N 0 26 2
+TOP 2 22.1250002 80.19999962 0 N 104 0 3
+TOP 3 23.37500024 80.19999962 0 N 103 0 4
+TOP 4 24.62500028 80.19999962 0 N 0 27 5
+TOP 5 25.87500032 80.19999962 0 N 0 28 6
+TOP 6 27.12500036 80.19999962 0 N 157 0 7
+TOP 7 28.3750004 80.19999962 0 N 0 29 8
+TOP 8 17.07500014 83.0999989 0 N 158 17 S1
+TOP 9 30.92500038 83.0999989 0 N 158 16 S2
+#
+# CMP 37
+CMP 7 39.21020352 16.28079802 90 N J10 J-0530471010 ;0=2,1=0.0000
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'WM1739-ND'
+PRP Manufacturer 'Molex'
+PRP Manufacturer_Part_# '0530471010'
+TOP 0 39.21020352 16.28079802 90 N 80 2 1
+TOP 1 39.21020352 17.53079806 90 N 80 3 2
+TOP 2 39.21020352 18.7807981 90 N 158 65 3
+TOP 3 39.21020352 20.03079814 90 N 35 1 4
+TOP 4 39.21020352 21.28079818 90 N 158 66 5
+TOP 5 39.21020352 22.53079822 90 N 33 1 6
+TOP 6 39.21020352 23.78079826 90 N 34 1 7
+TOP 7 39.21020352 25.0307983 90 N 148 3 8
+TOP 8 39.21020352 26.28079834 90 N 149 3 9
+TOP 9 39.21020352 27.53079838 90 N 0 122 10
+#
+# CMP 38
+CMP 27 30.31020354 26.18079854 180 N U10 MAX3086EESD+T ;0=1,1=0.0000
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'MAX3086EESD+TCT-ND'
+PRP LCSC_Part_# 'C2671104'
+PRP Manufacturer 'Maxim Integrated Products'
+PRP Manufacturer_Part_# 'MAX3086EESD+T'
+PRP Type 'DEV'
+TOP 0 27.58605354 22.37079854 0 N 0 30 1
+TOP 1 27.58605354 23.64079854 0 N 125 0 2
+TOP 2 27.58605354 24.91079854 0 N 126 0 3
+TOP 3 27.58605354 26.18079854 0 N 127 0 4
+TOP 4 27.58605354 27.45079854 0 N 128 0 5
+TOP 5 27.58605354 28.72079854 0 N 129 0 6
+TOP 6 27.58605354 29.99079854 0 N 129 1 7
+TOP 7 33.03435354 29.99079854 0 N 0 31 8
+TOP 8 33.03435354 28.72079854 0 N 33 0 9
+TOP 9 33.03435354 27.45079854 0 N 34 0 10
+TOP 10 33.03435354 26.18079854 0 N 149 1 11
+TOP 11 33.03435354 24.91079854 0 N 148 1 12
+TOP 12 33.03435354 23.64079854 0 N 0 32 13
+TOP 13 33.03435354 22.37079854 0 N 160 2 14
+#
+# CMP 39
+CMP 23 67.05000052 73.74999982 180 N U4 ADP2303ARDZ ;0=1,1=0.0000
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# '505-ADP2303ARDZ-ND'
+PRP Manufacturer 'Analog Devices Inc.'
+PRP Manufacturer_Part_# 'ADP2303ARDZ'
+TOP 0 64.57500166 71.84499982 0 N 74 0 1
+TOP 1 64.57500166 73.11499982 0 N 84 1 2
+TOP 2 64.57500166 74.38499982 0 N 79 0 3
+TOP 3 64.57500166 75.65499982 0 N 78 0 4
+TOP 4 69.52499938 75.65499982 0 N 53 0 5
+TOP 5 69.52499938 74.38499982 0 N 158 10 6
+TOP 6 69.52499938 73.11499982 0 N 158 11 7
+TOP 7 69.52499938 71.84499982 0 N 75 1 8
+TOP 8 67.05000052 73.74999982 0 N 158 12 9
+#
+# CMP 40
+CMP 1 36.6102011 25.5807972 90 N R130 100R ;0=1,1=0.0000
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'RR08P100DCT-ND'
+PRP Manufacturer 'Susumu'
+PRP Manufacturer_Part_# 'RR08P100DCT-ND'
+PRP Part_Description 'RES SMD 100 OHM 0.5% 1/16W 0603'
+PRP Value '100R'
+TOP 0 36.6102011 26.28079834 180 N 149 2 1
+TOP 1 36.6102011 24.8807986 180 N 148 2 2
+#
+# CMP 41
+CMP 1 38.25000224 67.12500164 270 N R46 0R ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'RMCF0603ZT0R00CT-ND'
+PRP Manufacturer 'Stackpole Electronics Inc'
+PRP Manufacturer_Part_# 'RMCF0603ZT0R00'
+PRP Part_Description '0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film'
+PRP Value '0R'
+TOP 0 38.25000224 66.4250005 0 N 131 0 1
+TOP 1 38.25000224 67.82500024 0 N 150 0 2
+#
+# CMP 42
+CMP 1 39.95000138 67.10000296 270 N R43 0R ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X'
+PRP Distributor 'Digikey'
+PRP Distributor_Part_# 'RMCF0603ZT0R00CT-ND'
+PRP Manufacturer 'Stackpole Electronics Inc'
+PRP Manufacturer_Part_# 'RMCF0603ZT0R00'
+PRP Part_Description '0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film'
+PRP Value '0R'
+TOP 0 39.95000138 66.40000182 0 N 132 0 1
+TOP 1 39.95000138 67.80000156 0 N 147 0 2
+#
+# CMP 43
+CMP 12 59.50000038 82.59999736 180 N J8 J-0532610871 ;0=1,1=0.0000
+PRP Distributor 'Digi-Key'
+PRP Distributor_Part_# 'WM7626CT-ND'
+PRP Manfacturer 'Molex'
+PRP Manfacturer_Part_# '0532610871'
+TOP 0 55.12500024 80.19999708 0 N 0 33 1
+TOP 1 56.37500028 80.19999708 0 N 158 28 2
+TOP 2 57.62500032 80.19999708 0 N 0 34 3
+TOP 3 58.87500036 80.19999708 0 N 158 29 4
+TOP 4 60.1250004 80.19999708 0 N 158 30 5
+TOP 5 61.37500044 80.19999708 0 N 158 31 6
+TOP 6 62.62500048 80.19999708 0 N 84 2 7
+TOP 7 63.87500052 80.19999708 0 N 84 3 8
+TOP 8 52.57500026 83.09999636 0 N 158 32 S1
+TOP 9 66.4250005 83.09999636 0 N 158 27 S2
+#
+# CMP 44
+CMP 8 41.50000082 82.5999999 180 N J7 J-0532610671 ;0=1,1=0.0000
+PRP Distributor 'Digi-Key'
+PRP Distributor_Part_# 'WM7624CT-ND'
+PRP Manfacturer 'Molex'
+PRP Manfacturer_Part_# '0532610671'
+TOP 0 38.37500072 80.19999962 0 N 82 1 1
+TOP 1 39.62500076 80.19999962 0 N 102 0 2
+TOP 2 40.8750008 80.19999962 0 N 96 0 3
+TOP 3 42.12500084 80.19999962 0 N 97 0 4
+TOP 4 43.37500088 80.19999962 0 N 0 24 5
+TOP 5 44.62500092 80.19999962 0 N 158 14 6
+TOP 6 35.82500074 83.0999989 0 N 158 13 S1
+TOP 7 47.1750009 83.0999989 0 N 158 15 S2
+#
+# CMP 45
+CMP 1 35.3249992 21.00000118 180 N C32 0.1uF ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=TMK105BJ104KV-F%20%20&u=M'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://www.yuden.co.jp/or/'
+PRP Distributor 'LCSC'
+PRP Distributor_Part_# 'C354391'
+PRP Highest_Rated_Operating_Temperature '125'
+PRP Lowest_Rated_Operating_Temperature '-55'
+PRP Manufacturer 'Murata Electronics'
+PRP Manufacturer_Part_# 'GCJ188R71E104KA12D'
+PRP Max_Exposed_Voltage '6'
+PRP Part_Description '25V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS'
+PRP Rated_Voltage '25'
+PRP Value '0.1uF'
+TOP 0 34.62499806 21.00000118 90 N 160 3 1
+TOP 1 36.0249978 21.00000118 90 N 158 20 2
+#
+# CMP 46
+CMP 1 67.00000062 69.87499868 0 N C24 0.1uF ;0=1,1=0.0000
+PRP ComponentLink1description 'Datasheet'
+PRP ComponentLink1URL 'https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=TMK105BJ104KV-F%20%20&u=M'
+PRP ComponentLink2description 'Manufacturer Website'
+PRP ComponentLink2URL 'https://www.yuden.co.jp/or/'
+PRP Distributor 'LCSC'
+PRP Distributor_Part_# 'C354391'
+PRP Highest_Rated_Operating_Temperature '125'
+PRP Lowest_Rated_Operating_Temperature '-55'
+PRP Manufacturer 'Murata Electronics'
+PRP Manufacturer_Part_# 'GCJ188R71E104KA12D'
+PRP Max_Exposed_Voltage '6'
+PRP Part_Description '25V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS'
+PRP Rated_Voltage '25'
+PRP Value '0.1uF'
+TOP 0 67.70000176 69.87499868 270 N 75 2 1
+TOP 1 66.30000202 69.87499868 270 N 74 1 2
+#

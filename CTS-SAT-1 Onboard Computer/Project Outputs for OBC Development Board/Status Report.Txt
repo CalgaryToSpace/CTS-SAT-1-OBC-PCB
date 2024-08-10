@@ -1,10 +1,10 @@
-Output: MultiWire
-Type  : MultiWire
-From  : Project [OBC Development Board.PrjPcb]
-   Generated File[OBC Development Board.NET]
+Output: Export STEP
+Type  : ExportSTEP
+From  : PCB Document [OBC Development Board.PcbDoc]
+   Generated File[OBC Development Board.step]
 
 
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 11:08:21 AM On 2023-12-09
+Finished Output Generation At 11:12:50 AM On 2024-08-10
