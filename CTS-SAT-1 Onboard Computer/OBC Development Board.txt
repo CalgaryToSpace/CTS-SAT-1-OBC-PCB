@@ -1,7 +1,7 @@
 Board Information Report
 Filename     : C:\Users\Anush\Documents\GitHub\CTS-SAT-1-OBC-PCB\CTS-SAT-1 Onboard Computer\OBC Development Board.PcbDoc
 Date         : 2024-08-10
-Time         : 11:22:02 AM
+Time         : 2:16:09 PM
 Time Elapsed : 00:00:01
 
 General
