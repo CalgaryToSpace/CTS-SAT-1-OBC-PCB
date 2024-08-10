@@ -6,7 +6,9 @@ This OBC is host to an STM32 and several flash chips, and interfaces with all ot
 
 ## PCB Stackup
 
-This PCB uses the JLCPCB `JLC0616H-2116A` stackup. It is a 6-layer, impedance-controlled PCB.
+This PCB uses the [JLCPCB `JLC04161H-2116A` stackup](https://jlcpcb.com/impedance). It is a 6-layer, impedance-controlled PCB.
+
+![JLC04161H-2116A Layer Stackup Table Screenshot](docs/assets/jlcpcb_JLC04161H-2116A-stackup.png)
 
 ## Electrical Wire Comments
 
