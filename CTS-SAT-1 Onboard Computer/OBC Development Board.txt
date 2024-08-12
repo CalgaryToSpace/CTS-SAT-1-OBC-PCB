@@ -1,8 +1,8 @@
 Board Information Report
 Filename     : C:\Users\Anush\Documents\GitHub\CTS-SAT-1-OBC-PCB\CTS-SAT-1 Onboard Computer\OBC Development Board.PcbDoc
-Date         : 2024-08-10
-Time         : 2:16:09 PM
-Time Elapsed : 00:00:01
+Date         : 2024-08-12
+Time         : 1:37:40 PM
+Time Elapsed : 00:00:02
 
 General
     Board Size, 3775.591milsx3550mils

@@ -68,7 +68,13 @@ Configuration2_Item3=Comment=True|Footprint=True
 Configuration2_Name4=SortOrder
 Configuration2_Item4=Designator=Up|Comment=Up|Footprint=Up
 Configuration2_Name5=VisibleOrder
-Configuration2_Item5=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
+Configuration2_Item5=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120|Manufacturer Part #=100|Manfacturer Part #=100
+Configuration2_Name6=VisibleOrder_Base
+Configuration2_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120|Manufacturer Part #=100|Manfacturer Part #=100
+Configuration2_Name7=VisibleOrder_Consolidated
+Configuration2_Item7=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=99|Manufacturer Part Number 1=166|Manufacturer Lifecycle 1=142|Supplier 1=72|Supplier Part Number 1=138|Supplier Unit Price 1=122|Supplier Subtotal 1=116|Quantity@Build=100|Price@Build=100
+Configuration2_Name8=VisibleOrder_Flat
+Configuration2_Item8=Line #=100|Comment=100|Description=100|Designator=100|Manufacturer 1=99|Manufacturer Part Number 1=166|Manufacturer Lifecycle 1=142|Supplier 1=72|Supplier Part Number 1=138|Supplier Unit Price 1=122|Supplier Subtotal 1=116
 OutputType3=Board Stack Report
 OutputName3=Report Board Stack
 OutputCategory3=Fabrication
