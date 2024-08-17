@@ -2,3 +2,5 @@
 **/__Previews/
 **/Project Logs for*/
 **/Project Outputs*/
+*.txt
+*.html
