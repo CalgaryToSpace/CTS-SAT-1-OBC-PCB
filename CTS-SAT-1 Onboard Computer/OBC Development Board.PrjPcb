@@ -253,23 +253,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OSXBBWWA
 
-[Document13]
-DocumentPath=Job1.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
 [ProjectVariant1]
 UniqueID=75CCA10C-F0E7-4652-A099-8AD565C6ADB5
 Description=Build
@@ -291,206 +274,350 @@ DocumentPath=Manufacturing Package\BOM\Bill of Materials-OBC Development Board(B
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for OBC Development Board\BOM\Bill of Materials-OBC Development Board.xlsx
+DocumentPath=Project Outputs for Free Documents\BOM\Bill of Materials-OBC Development Board.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for OBC Development Board\Design Rule Check - OBC Development Board.html
+DocumentPath=Project Outputs for OBC Development Board\BOM\Bill of Materials-OBC Development Board.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Manufacturing Package\ExportSTEP\OBC Development Board(Build).step
+DocumentPath=Project Outputs for OBC Development Board\Design Rule Check - OBC Development Board.html
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Fabrication Package\NC Drill\OBC Development Board.DRR
+DocumentPath=Manufacturing Package\ExportSTEP\OBC Development Board(Build).step
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for OBC Development Board\NC Drill\OBC Development Board.DRR
+DocumentPath=Project Outputs for OBC Development Board\NC Drill\OBC Development Board.DRL
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Fabrication Package\Gerber\OBC Development Board.EXTREP
+DocumentPath=Fabrication Package\NC Drill\OBC Development Board.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.EXTREP
+DocumentPath=Project Outputs for Free Documents\NC Drill\OBC Development Board.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.EXTREP
+DocumentPath=Project Outputs for OBC Development Board\NC Drill\OBC Development Board.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Fabrication Package\Gerber\OBC Development Board.GBL
+DocumentPath=Fabrication Package\Gerber\OBC Development Board.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GBL
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Fabrication Package\Gerber\OBC Development Board.GBO
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GBO
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.G1
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Fabrication Package\Gerber\OBC Development Board.GBP
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.G2
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GBP
+DocumentPath=Fabrication Package\Gerber\OBC Development Board.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Fabrication Package\Gerber\OBC Development Board.GBS
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GBS
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GD1
+DocumentPath=Fabrication Package\Gerber\OBC Development Board.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Fabrication Package\Gerber\OBC Development Board.GG1
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GKO
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Fabrication Package\Gerber\OBC Development Board.GM1
+DocumentPath=Fabrication Package\Gerber\OBC Development Board.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GM1
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GM5
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GM7
+DocumentPath=Fabrication Package\Gerber\OBC Development Board.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GM13
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GM15
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Fabrication Package\Gerber\OBC Development Board.GP1
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GP1
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=Fabrication Package\Gerber\OBC Development Board.GP2
+DocumentPath=Fabrication Package\Gerber\OBC Development Board.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GP2
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GPB
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GPT
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.GM
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=Fabrication Package\Gerber\OBC Development Board.GTL
+DocumentPath=Fabrication Package\Gerber\OBC Development Board.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GTL
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=Fabrication Package\Gerber\OBC Development Board.GTO
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GTO
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.GM5
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=Fabrication Package\Gerber\OBC Development Board.GTP
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GM5
 DItemRevisionGUID=
 
 [GeneratedDocument38]
-DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GTP
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GM7
 DItemRevisionGUID=
 
 [GeneratedDocument39]
-DocumentPath=Fabrication Package\Gerber\OBC Development Board.GTS
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument40]
-DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GTS
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument41]
-DocumentPath=Fabrication Package\NC Drill\OBC Development Board.LDP
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument42]
-DocumentPath=Project Outputs for OBC Development Board\NC Drill\OBC Development Board.LDP
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument43]
-DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.NET
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.GM20
 DItemRevisionGUID=
 
 [GeneratedDocument44]
-DocumentPath=Fabrication Package\Gerber\OBC Development Board.REP
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.GM21
 DItemRevisionGUID=
 
 [GeneratedDocument45]
-DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.REP
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.GM23
 DItemRevisionGUID=
 
 [GeneratedDocument46]
-DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.REP
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.GM24
 DItemRevisionGUID=
 
 [GeneratedDocument47]
-DocumentPath=Fabrication Package\Gerber\OBC Development Board.RUL
+DocumentPath=Fabrication Package\Gerber\OBC Development Board.GP1
 DItemRevisionGUID=
 
 [GeneratedDocument48]
-DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.RUL
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.GP1
 DItemRevisionGUID=
 
 [GeneratedDocument49]
-DocumentPath=Fabrication Package\NC Drill\OBC Development Board.TXT
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GP1
 DItemRevisionGUID=
 
 [GeneratedDocument50]
-DocumentPath=Project Outputs for OBC Development Board\NC Drill\OBC Development Board.TXT
+DocumentPath=Fabrication Package\Gerber\OBC Development Board.GP2
 DItemRevisionGUID=
 
 [GeneratedDocument51]
-DocumentPath=Project Outputs for OBC Development Board\Report Board Stack\OBC Development Board.xls
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.GP2
 DItemRevisionGUID=
 
 [GeneratedDocument52]
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GP2
+DItemRevisionGUID=
+
+[GeneratedDocument53]
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument54]
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument55]
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument56]
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument57]
+DocumentPath=Fabrication Package\Gerber\OBC Development Board.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument58]
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument59]
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument60]
+DocumentPath=Fabrication Package\Gerber\OBC Development Board.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument61]
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument62]
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument63]
+DocumentPath=Fabrication Package\Gerber\OBC Development Board.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument64]
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument65]
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument66]
+DocumentPath=Fabrication Package\Gerber\OBC Development Board.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument67]
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument68]
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument69]
+DocumentPath=Fabrication Package\NC Drill\OBC Development Board.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument70]
+DocumentPath=Project Outputs for Free Documents\NC Drill\OBC Development Board.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument71]
+DocumentPath=Project Outputs for OBC Development Board\NC Drill\OBC Development Board.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument72]
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.NET
+DItemRevisionGUID=
+
+[GeneratedDocument73]
+DocumentPath=Fabrication Package\Gerber\OBC Development Board.REP
+DItemRevisionGUID=
+
+[GeneratedDocument74]
+DocumentPath=Project Outputs for OBC Development Board\Gerber\OBC Development Board.REP
+DItemRevisionGUID=
+
+[GeneratedDocument75]
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.REP
+DItemRevisionGUID=
+
+[GeneratedDocument76]
+DocumentPath=Fabrication Package\Gerber\OBC Development Board.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument77]
+DocumentPath=Project Outputs for OBC Development Board\OBC Development Board.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument78]
+DocumentPath=Project Outputs for Free Documents\ExportSTEP\OBC Development Board.step
+DItemRevisionGUID=
+
+[GeneratedDocument79]
+DocumentPath=Project Outputs for OBC Development Board\ExportSTEP\OBC Development Board.step
+DItemRevisionGUID=
+
+[GeneratedDocument80]
+DocumentPath=Fabrication Package\NC Drill\OBC Development Board.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument81]
+DocumentPath=Project Outputs for Free Documents\NC Drill\OBC Development Board.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument82]
+DocumentPath=Project Outputs for OBC Development Board\NC Drill\OBC Development Board.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument83]
+DocumentPath=Project Outputs for Free Documents\Report Board Stack\OBC Development Board.xls
+DItemRevisionGUID=
+
+[GeneratedDocument84]
+DocumentPath=Project Outputs for OBC Development Board\Report Board Stack\OBC Development Board.xls
+DItemRevisionGUID=
+
+[GeneratedDocument85]
+DocumentPath=Project Outputs for Free Documents\Pick Place\Pick Place for OBC Development Board.csv
+DItemRevisionGUID=
+
+[GeneratedDocument86]
+DocumentPath=Project Outputs for OBC Development Board\Pick Place\Pick Place for OBC Development Board.csv
+DItemRevisionGUID=
+
+[GeneratedDocument87]
+DocumentPath=Project Outputs for Free Documents\Pick Place\Pick Place for OBC Development Board.txt
+DItemRevisionGUID=
+
+[GeneratedDocument88]
 DocumentPath=Project Outputs for OBC Development Board\Pick Place\Pick Place for OBC Development Board.txt
 DItemRevisionGUID=
 
